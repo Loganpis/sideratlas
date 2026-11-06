@@ -32,7 +32,7 @@ python scripts/smoke_test.py
 python scripts/render.py
 ```
 
-The permitted 580 MB [cached-input archive](https://github.com/Loganpis/sideratlas-no005-stellar-merger/releases/download/v1.0.0/render-inputs.zip) remains at its stable original URL. It omits two surface archives whose redistribution rights were not confirmed. Their hashes and derivation are preserved in [data/input-manifest.json](data/input-manifest.json) and [METHODS.md](METHODS.md). **A public clone alone cannot render the complete image.** MESA/StarSmasher are unnecessary for the cached workflow. Original portability and clean-wheel tests passed at three epochs; the full movie was not rerendered for consolidation. See [validation.json](validation.json), [MIT license](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md).
+The permitted 580 MB [cached-input archive](https://github.com/Loganpis/sideratlas/releases/download/no005-v1.0.0/render-inputs.zip) is attached to the selected unified release. It omits two surface archives whose redistribution rights were not confirmed. Their hashes and derivation are preserved in [data/input-manifest.json](data/input-manifest.json) and [METHODS.md](METHODS.md). **A public clone alone cannot render the complete image.** MESA/StarSmasher are unnecessary for the cached workflow. Original portability and clean-wheel tests passed at three epochs; the full movie was not rerendered for consolidation. See [validation.json](validation.json), [MIT license](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md).
 
 ## References
 

@@ -7,7 +7,6 @@
     "original_filename": "sideratlas-kerr-newman-reel.mp4",
     "sha256": "582a11becc92758149c37a38ad45c8962be70ba0863947352e2686ec0840256e",
     "bytes": 45028512,
-    "legacy_url": "https://github.com/Loganpis/sideratlas-black-hole/releases/download/v1.2.1/sideratlas-kerr-newman-reel.mp4",
     "validated_format": {
       "width": 1080,
       "height": 1920,
@@ -19,7 +18,8 @@
     "path": "episodes/001-black-hole",
     "title": "THE BLACK HOLE",
     "tag": "no001-v1.0.0",
-    "url": "https://github.com/Loganpis/sideratlas/releases/download/no001-v1.0.0/sideratlas-kerr-newman-reel.mp4"
+    "url": "https://github.com/Loganpis/sideratlas/releases/download/no001-v1.0.0/sideratlas-kerr-newman-reel.mp4",
+    "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
   },
   {
     "number": "002",
@@ -29,7 +29,6 @@
     "original_filename": "sideratlas-002-pulsar-reel.mp4",
     "sha256": "9cdbbd13f3fb267c28a83bb58e45f4815b07e936983a4223ebf818bbf9d630bd",
     "bytes": 55432220,
-    "legacy_url": "https://github.com/Loganpis/sideratlas-pulsar/releases/download/photon-v1.1.0/sideratlas-002-pulsar-reel.mp4",
     "validated_format": {
       "width": 1080,
       "height": 1920,
@@ -41,7 +40,8 @@
     "path": "episodes/002-pulsar",
     "title": "THE PULSAR",
     "tag": "no002-v1.0.0",
-    "url": "https://github.com/Loganpis/sideratlas/releases/download/no002-v1.0.0/sideratlas-002-pulsar-reel.mp4"
+    "url": "https://github.com/Loganpis/sideratlas/releases/download/no002-v1.0.0/sideratlas-002-pulsar-reel.mp4",
+    "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
   },
   {
     "number": "003",
@@ -51,7 +51,6 @@
     "original_filename": "sideratlas-no003-the-white-dwarf-32s.mp4",
     "sha256": "b290cd5c8632dc8632507cab8ba4f8653e647a4af7575ddf16c9298c0235a017",
     "bytes": 24614188,
-    "legacy_url": "https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.2.0/sideratlas-no003-the-white-dwarf-32s.mp4",
     "validated_format": {
       "width": 1080,
       "height": 1920,
@@ -63,7 +62,8 @@
     "path": "episodes/003-white-dwarf",
     "title": "THE WHITE DWARF",
     "tag": "no003-v1.0.0",
-    "url": "https://github.com/Loganpis/sideratlas/releases/download/no003-v1.0.0/sideratlas-no003-the-white-dwarf-32s.mp4"
+    "url": "https://github.com/Loganpis/sideratlas/releases/download/no003-v1.0.0/sideratlas-no003-the-white-dwarf-32s.mp4",
+    "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
   },
   {
     "number": "004",
@@ -73,7 +73,6 @@
     "original_filename": "sideratlas-no004-golden-orbit-32s.mp4",
     "sha256": "ac01415be0eea40d72d410541e16a3b52d12a1bae85bb1ed7a1fed38fb8484c4",
     "bytes": 81831077,
-    "legacy_url": "https://github.com/Loganpis/sideratlas-main-sequence-star/releases/download/v3.1.0/sideratlas-no004-golden-orbit-32s.mp4",
     "validated_format": {
       "width": 1080,
       "height": 1920,
@@ -85,7 +84,8 @@
     "path": "episodes/004-main-sequence-star",
     "title": "THE MAIN-SEQUENCE STAR",
     "tag": "no004-v1.0.0",
-    "url": "https://github.com/Loganpis/sideratlas/releases/download/no004-v1.0.0/sideratlas-no004-golden-orbit-32s.mp4"
+    "url": "https://github.com/Loganpis/sideratlas/releases/download/no004-v1.0.0/sideratlas-no004-golden-orbit-32s.mp4",
+    "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
   },
   {
     "number": "005",
@@ -95,7 +95,6 @@
     "original_filename": "sideratlas-no005-the-stellar-merger-1080x1920.mp4",
     "sha256": "6db42a007498ac97b1081bd3f0027ab7ac7fa1b4a0b87e740cf5f03ff87319d5",
     "bytes": 89526067,
-    "legacy_url": "https://github.com/Loganpis/sideratlas-no005-stellar-merger/releases/download/v1.0.0/sideratlas-no005-the-stellar-merger-1080x1920.mp4",
     "validated_format": {
       "width": 1080,
       "height": 1920,
@@ -107,7 +106,8 @@
     "path": "episodes/005-stellar-merger",
     "title": "THE STELLAR MERGER",
     "tag": "no005-v1.0.0",
-    "url": "https://github.com/Loganpis/sideratlas/releases/download/no005-v1.0.0/sideratlas-no005-the-stellar-merger-1080x1920.mp4"
+    "url": "https://github.com/Loganpis/sideratlas/releases/download/no005-v1.0.0/sideratlas-no005-the-stellar-merger-1080x1920.mp4",
+    "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
   },
   {
     "number": "006",

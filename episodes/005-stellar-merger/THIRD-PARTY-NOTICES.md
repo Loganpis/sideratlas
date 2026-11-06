@@ -4,7 +4,7 @@ The MIT [LICENSE](LICENSE) covers original software, documentation and author-ge
 
 ## SiderAtlas No.004 code
 
-Generic spherical sampling, grading, optical imaging and export algorithms are adapted from [SiderAtlas No.004](https://github.com/Loganpis/sideratlas-main-sequence-star). Its original MIT copyright and license are retained in [licenses/No004-MIT.txt](licenses/No004-MIT.txt). Changes are import/path portability, selected-scene assembly and stellar-merger use; solar thermodynamics are not transplanted as giant-star physics.
+Generic spherical sampling, grading, optical imaging and export algorithms are adapted from [SiderAtlas No.004](https://github.com/Loganpis/sideratlas/tree/main/episodes/004-main-sequence-star). Its original MIT copyright and license are retained in [licenses/No004-MIT.txt](licenses/No004-MIT.txt). Changes are import/path portability, selected-scene assembly and stellar-merger use; solar thermodynamics are not transplanted as giant-star physics.
 
 ## Latin Modern fonts
 

@@ -20,7 +20,7 @@ Excitation amplitudes, m values and phases are prescribed; no validated nonadiab
 
 ## Reproduction
 
-Python 3.12 and FFmpeg/libx264/zscale are required. From the repository root, obtain the author-generated cellular catalog and the separately hosted atmosphere inputs:
+Python 3.12 and FFmpeg/libx264/zscale are required. From the repository root, obtain the author-generated cellular catalog and the original calculated radiation caches:
 
 ```sh
 python tools/fetch_inputs.py 003
@@ -31,7 +31,7 @@ python v220/render_reel.py --workers 2
 python v220/validate_reel.py
 ```
 
-[inputs.json](inputs.json) pins each archive and extracted file. Atmosphere tables and integration caches are not newly redistributed here because provider rights are distinct from the MIT code license. Their existing source URLs and hashes are retained. Rendering uses saved eigenvalues/atmospheres; GYRE is not needed. A bounded saved-input frame and numerical checks were tested; the complete native movie was not rerendered for consolidation. Source, statistical and original export checks are in [validation.json](validation.json).
+[inputs.json](inputs.json) pins each archive and extracted file. The two original integrated radiation caches are central release assets. A small fixed-model atmospheric-sample cache supplies exactly the original 65 PSF inputs, so raw SVO/CDS tables are unnecessary for final rendering. All original Optics and LuminousRenderer callable bodies are unchanged; their import/data interface is qualified against the original image. Raw provider tables remain external and are needed only to rebuild the integrations. Provider attribution and hashes are retained; no new license to the raw atmosphere library is granted. Rendering uses saved eigenvalues/atmospheres; GYRE is not needed. A bounded saved-input frame and numerical checks were tested; the complete native movie was not rerendered for consolidation. Source, statistical and original export checks are in [validation.json](validation.json).
 
 ## References
 

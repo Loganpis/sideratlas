@@ -16,10 +16,10 @@ RENDER=None
 
 def input_fingerprint():
     files=[BASE/'config.json',BASE/'render_previews.py',BASE/'final_export.py',
-      BASE/'src/white_dwarf.py',BASE/'src/visualization.py',BASE/'src/mode_model.py',
+      BASE/'src/white_dwarf.py',BASE/'src/visualization.py',BASE/'src/mode_model.py',BASE/'src/atmosphere_runtime.py',
       BASE/'luminous/src/luminous_render.py',ROOT/'src/final_renderer.py',ROOT/'src/surface_optics.py',ROOT/'config.json',Path(__file__),
       BASE/'calculations/finer/summary.h5']
-    files += [p for p in (BASE/'data').iterdir() if p.is_file() and p.name!='convective-response.npz']
+    files += [p for p in (BASE/'data').iterdir() if p.is_file() and p.name!='convective-response.npz' and not p.name.startswith(('koester-','claret-'))]
     files += list((BASE/'fonts').glob('*.otf'))
     files += [ROOT/'validation/surface-decision.json',ROOT/'src/cellular_convection.py']
     files += [p for p in (ROOT/'data').iterdir() if p.is_file()]

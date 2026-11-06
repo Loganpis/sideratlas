@@ -6,7 +6,6 @@
   "original_filename": "sideratlas-no005-the-stellar-merger-1080x1920.mp4",
   "sha256": "6db42a007498ac97b1081bd3f0027ab7ac7fa1b4a0b87e740cf5f03ff87319d5",
   "bytes": 89526067,
-  "legacy_url": "https://github.com/Loganpis/sideratlas-no005-stellar-merger/releases/download/v1.0.0/sideratlas-no005-the-stellar-merger-1080x1920.mp4",
   "validated_format": {
     "width": 1080,
     "height": 1920,
@@ -256,7 +255,7 @@
       "path": "scripts/fetch_inputs.py",
       "source_path": "scripts/fetch_inputs.py",
       "source_sha256": "288fb9eea935e4b0ba32e90c2456bb32f595c3157bfadc17cf87b66d1a8c16c6",
-      "sha256": "288fb9eea935e4b0ba32e90c2456bb32f595c3157bfadc17cf87b66d1a8c16c6"
+      "sha256": "bbe8e8ecccffd960637ac199f400d875c839061fad9896f32ef9fa45e54fedfe"
     },
     {
       "path": "scripts/integrate_model.py",
@@ -358,7 +357,7 @@
       "path": "THIRD-PARTY-NOTICES.md",
       "source_path": "THIRD-PARTY-NOTICES.md",
       "source_sha256": "20146830b00bb061f7808e3930c727feb9fbf11e568b69f6dc96c2e49b6563b4",
-      "sha256": "161cf37e920869f3ba4e9279b71a2beccdff1fac35499e857c3e1b325245798d"
+      "sha256": "6d13517a979b40d41ad5cb03c2973a76d3e076fce5fc6c3ad16c4b20cea4888c"
     },
     {
       "path": "requirements.txt",
@@ -382,7 +381,7 @@
       "path": "data/release-assets.json",
       "source_path": "data/release-assets.json",
       "source_sha256": "47952f6a6fdf231f3e68e40c1c6e972a96b4b33d482376088dfc5ba51fc328a4",
-      "sha256": "47952f6a6fdf231f3e68e40c1c6e972a96b4b33d482376088dfc5ba51fc328a4"
+      "sha256": "80c25e25a29764ede296c3351cd0cd575ecd91b4beeb60b701c8cc88a73a7b82"
     },
     {
       "path": "data/quality-surface/ATTRIBUTION.md",
@@ -403,5 +402,6 @@
       "sha256": "2df01ec62df42007435eba21cb43841a2b178ccaf04ac845c9276ddedd673506"
     }
   ],
-  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders",
+  "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
 }

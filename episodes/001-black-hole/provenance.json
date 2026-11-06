@@ -6,7 +6,6 @@
   "original_filename": "sideratlas-kerr-newman-reel.mp4",
   "sha256": "582a11becc92758149c37a38ad45c8962be70ba0863947352e2686ec0840256e",
   "bytes": 45028512,
-  "legacy_url": "https://github.com/Loganpis/sideratlas-black-hole/releases/download/v1.2.1/sideratlas-kerr-newman-reel.mp4",
   "validated_format": {
     "width": 1080,
     "height": 1920,
@@ -148,7 +147,7 @@
       "path": "verify_kn_accretion.py",
       "source_path": "verify_kn_accretion.py",
       "source_sha256": "c6dd93b309a55c948de21284621b3daa0cc7de73f6c6e731818de65ff835a2dd",
-      "sha256": "c6dd93b309a55c948de21284621b3daa0cc7de73f6c6e731818de65ff835a2dd"
+      "sha256": "d33673e713e7100b79748bc3630e30826a19bab23f60b58c8d2adfbfce01c983"
     },
     {
       "path": "verify_kn_accretion_trace.py",
@@ -232,7 +231,7 @@
       "path": "MODEL.md",
       "source_path": "MODEL.md",
       "source_sha256": "03849147a5b2f0b094338d40351ab9d44d2e477619d5eceb308dd2c381b9bb53",
-      "sha256": "6a299d6cfcdfac2ae6210947c11085638e6b2f10c0f7cdbb7bd737ec0653338e"
+      "sha256": "1b331f5b13233d9e66d78cc2b8ed81b9c826c960ca6533a5eb92702df4daa2ad"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -292,8 +291,9 @@
       "path": "caption-kerr-newman.text",
       "source_path": "caption-kerr-newman.text",
       "source_sha256": "0db545c93339267f4414b4fd19dd05add4e131c839c553940fa16e80cbdb5563",
-      "sha256": "0db545c93339267f4414b4fd19dd05add4e131c839c553940fa16e80cbdb5563"
+      "sha256": "4a073fd507e5f04f133ba241e9bbb618a5f98ded5c8e87ba010efee41ae1cada"
     }
   ],
-  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders",
+  "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
 }

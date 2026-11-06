@@ -6,7 +6,6 @@
   "original_filename": "sideratlas-no004-golden-orbit-32s.mp4",
   "sha256": "ac01415be0eea40d72d410541e16a3b52d12a1bae85bb1ed7a1fed38fb8484c4",
   "bytes": 81831077,
-  "legacy_url": "https://github.com/Loganpis/sideratlas-main-sequence-star/releases/download/v3.1.0/sideratlas-no004-golden-orbit-32s.mp4",
   "validated_format": {
     "width": 1080,
     "height": 1920,
@@ -235,5 +234,6 @@
       "sha256": "a82654850af1e06ec8bd33be71f5746c89ab2c00e731efc82c827b3cf85d02f9"
     }
   ],
-  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders",
+  "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
 }

@@ -23,6 +23,6 @@ def main():
             if row['distribution']!='external-surface-input':continue
             source=a.local_surface_source/row['path'];assert sha(source)==row['sha256'],row['path'];dest=ROOT/row['path'];dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,dest)
     missing=verify(required=False)
-    if missing:print('Permitted inputs restored. Externally supplied surface maps still required:\n'+'\n'.join(missing)+'\nSee docs/reproduction.md')
+    if missing:print('Permitted inputs restored. Externally supplied surface maps still required:\n'+'\n'.join(missing)+'\nSee METHODS.md')
     else:print('All rendering inputs restored and verified')
 if __name__=='__main__':main()

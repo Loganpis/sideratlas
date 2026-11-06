@@ -14,8 +14,9 @@ its code is not incorporated into the MIT episode implementations.
 
 003-white-dwarf: original code is MIT, with separate GYRE GPLv3/WDEC notices
 for supplied equilibrium inputs and separate data/font terms. See the episode
-LICENSE, licenses/ and METHODS.md. Atmosphere tables/integration caches remain
-external; this collection grants no new rights to those inputs.
+LICENSE, licenses/ and METHODS.md. Raw atmosphere tables remain external; selected calculated integrations and
+fixed-model optical inputs are supplied with attribution. This collection
+grants no new rights to the providers’ raw atmosphere libraries.
 
 004-main-sequence-star, 005-stellar-merger, 006-planetary-nebula:
 original code/documentation and author-generated numerical outputs retain

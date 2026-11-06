@@ -37,7 +37,7 @@ cd episodes/002-pulsar
 python physics/build_native_release.py curl-radiative --prepare-only
 ```
 
-The separately supplied GPL upstream source plus four pinned patches preserve the selected calculation; compilation additionally needs CMake, MPI and parallel HDF5. Large field snapshots and trace chunks remain in the [original release](https://github.com/Loganpis/sideratlas-pulsar/releases/tag/photon-v1.1.0), and are unnecessary for the saved-scene workflow. See [inputs.json](inputs.json), [validation.json](validation.json), [GPL license](LICENSE) and [NOTICE](NOTICE).
+The separately supplied GPL upstream source plus four pinned patches preserve the selected calculation; compilation additionally needs CMake, MPI and parallel HDF5. The exact selected 97³ field is a checksum-pinned asset of the unified release. It is unnecessary for saved-scene rendering. Large original particle trace chunks were not distributed; rerunning that optional stage requires the preserved numerical calculation. See [inputs.json](inputs.json), [validation.json](validation.json), [GPL license](LICENSE) and [NOTICE](NOTICE).
 
 ## References
 

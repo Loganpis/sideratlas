@@ -3245,5 +3245,14 @@
       "rights": "GPL-2.0 upstream source with unchanged notices; see physics/third_party/COFFEE-LICENSE"
     }
   ],
-  "note": "Saved photons in scene/ render without these native sources. Corresponding source and patch chain remain available separately. Optional Fermi catalogue/field data are retained in the original release; not needed for saved-scene rendering."
+  "note": "Saved photon rendering needs no field solve. The selected numerical field and exact GPL source/patches are central release inputs. Large original particle trace chunks were not distributed and are unnecessary for saved-scene rendering; reproducing that stage requires rerunning the preserved particle calculation.",
+  "files": [
+    {
+      "path": "physics/inputs/snapshot-001020.npz",
+      "url": "https://github.com/Loganpis/sideratlas/releases/download/no002-v1.0.0/snapshot-001020.npz",
+      "bytes": 20243296,
+      "sha256": "fea546506dad0c969559c198a36bd7e7fddc0003b66d7b268d5971aa8616d215",
+      "role": "Exact selected 97^3 field; optional for saved photon-scene rendering"
+    }
+  ]
 }

@@ -6,7 +6,7 @@ The exact accepted movies are authoritative artifacts. Consolidation preserves t
 |---|---|
 | 001 | Source/configuration and numerical checks included; a full new ray trace and C++ build are required for the film; full regeneration not repeated here |
 | 002 | Saved photon scene renders without a field solve; 63 software/numerical checks pass; optional GPL native source is a separate release asset |
-| 003 | Saved modes and cellular model; atmosphere tables/caches obtained separately under provider terms; bounded frame parity and statistical checks tested; no fresh GYRE solve |
+| 003 | Saved modes and cellular model; original calculated radiation caches supplied separately; raw provider tables not needed for final rendering; bounded frame parity and statistical checks tested; no fresh GYRE solve |
 | 004 | Source/configuration preserved; large external MHD inputs must be reconstructed; full transfer and native film not repeated here |
 | 005 | Cached gas workflow tested originally; two Bifrost-derived surface inputs remain unredistributed; public clone alone cannot render the complete scene |
 | 006 | Frozen radial/photon histories are separate assets; external MIST/rate/No.004 inputs required; rebuilt Metal projector passed a bounded CPU comparison; full movie not rerendered here |
@@ -39,4 +39,8 @@ A fresh local Git clone passed the complete static audit and all 63 pulsar tests
 
 Each episode README provides its own rendering procedure. The input restorer never launches a physical solver. It refuses changed existing inputs, validates archive and individual-file hashes, and extracts only listed members. No.006 also refuses automatic replacement of a missing selected ionization history.
 
-Original donor/SPH experiments and rejected visual candidates remain in local development storage, outside this repository. Existing public repositories and release URLs remain intact pending an approved migration; a normal deletion commit would not remove historical blobs.
+Original donor/SPH experiments and rejected visual candidates remain in local development storage, outside this repository. The individual repositories are superseded after verification of selected final inputs in this unified repository. Only the accepted numerical inputs were migrated; no repository backups or historical archives were created for deletion. Normal commits do not purge older Git blobs; original source tags remain historical freezes, and current reproduction instructions use main.
+
+## Permanent-cleanup qualification
+
+The exact selected pulsar field, original calculated white-dwarf integration caches and permitted stellar-merger input asset are hosted by the corresponding unified releases. No active input URL depends on an individual SiderAtlas repository. Original provider attributions and unresolved external surface-data limits remain explicit. Scientific callable bodies are preserved; the white-dwarf fixed-atmosphere data interface is checked against original pixels without access to raw model tables.

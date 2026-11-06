@@ -6,7 +6,6 @@
   "original_filename": "sideratlas-002-pulsar-reel.mp4",
   "sha256": "9cdbbd13f3fb267c28a83bb58e45f4815b07e936983a4223ebf818bbf9d630bd",
   "bytes": 55432220,
-  "legacy_url": "https://github.com/Loganpis/sideratlas-pulsar/releases/download/photon-v1.1.0/sideratlas-002-pulsar-reel.mp4",
   "validated_format": {
     "width": 1080,
     "height": 1920,
@@ -378,5 +377,6 @@
     "scene_public_sha256": "16e39932a9c78156aa7ca363bab5542959cf71178c50610178751e815cde4e16",
     "scope": "Removed the unused machine-local prefix in scene metadata and text records; all numerical arrays byte-identical"
   },
-  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders",
+  "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas"
 }

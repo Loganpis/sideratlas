@@ -328,7 +328,7 @@ def metadata_checks(output):
           len(caption.encode("utf-16-le"))//2 <= 2200
           and caption == (ROOT/"caption-kerr-newman.txt").read_text(), characters=len(caption))
     check(result, "caption_includes_requested_code_sentence_and_model_disclosure",
-          "The code for this simulation is to be found at https://github.com/loganpis/sideratlas-black-hole" in caption
+          "The code for this simulation is to be found at https://github.com/Loganpis/sideratlas" in caption
           and "not GRMHD" in caption and "hypothetical" in caption)
     check(result, "caption_uses_requested_headings",
           '\nASSUMPTIONS\n' in caption and '\nSOURCES\n' in caption

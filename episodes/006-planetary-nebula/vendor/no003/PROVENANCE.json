@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/Loganpis/sideratlas-white-dwarf",
+  "repository": "https://github.com/Loganpis/sideratlas",
   "commit": "5c27cd5d36fb07252d697a708d802e94245e5d9d",
   "local_original_source_directory_found": false,
   "note": "Authoritative published original code; unmodified bodies. No stellar modes/DA atmosphere inputs vendored for automatic use.",
@@ -7,7 +7,7 @@
     {
       "path": "LICENSE",
       "expected_git_blob_sha1": "5dea8a6f5929e754634667b7ae8049c717b86bd8",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/LICENSE",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/LICENSE",
       "sha256": "63572bfed5e2f68a8e26785559ab070703a39b9cbd84f2872faf111a3747c484",
       "bytes": 1346,
       "git_blob_verified": true
@@ -15,7 +15,7 @@
     {
       "path": "DATA-CREDITS.md",
       "expected_git_blob_sha1": "f3a6ce8cc8ff58c595c5b77da23518dc2bbfaf19",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/DATA-CREDITS.md",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/DATA-CREDITS.md",
       "sha256": "f95a2f5cd9befafd127ea2f4ec7ae3d7a7853e473c3651544e64b20c0cafcb25",
       "bytes": 3447,
       "git_blob_verified": true
@@ -23,7 +23,7 @@
     {
       "path": "src/white_dwarf.py",
       "expected_git_blob_sha1": "8c1d376b700f9ff349429b2c2022016e0ce2a886",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/src/white_dwarf.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/src/white_dwarf.py",
       "sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5",
       "bytes": 11742,
       "git_blob_verified": true
@@ -31,7 +31,7 @@
     {
       "path": "src/visualization.py",
       "expected_git_blob_sha1": "c2eec7fa030867613dee0f66da81535a2316f4c4",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/src/visualization.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/src/visualization.py",
       "sha256": "992697d88ec02f5f9d8efe1505f22f3def36f7d63f1c6f5b70a959ebf298c5ce",
       "bytes": 12178,
       "git_blob_verified": true
@@ -39,7 +39,7 @@
     {
       "path": "src/mode_model.py",
       "expected_git_blob_sha1": "8046d18eaec42cb31a3ccd98ccabb53c50342911",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/src/mode_model.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/src/mode_model.py",
       "sha256": "6cd483d13ff98dacf7cd95040f7fe1a906e210c84a779496f00bacb993fb2290",
       "bytes": 5408,
       "git_blob_verified": true
@@ -47,7 +47,7 @@
     {
       "path": "src/convective_response.py",
       "expected_git_blob_sha1": "88d07d0700bec97f499a8711bbfbe0e38f1570fb",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/src/convective_response.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/src/convective_response.py",
       "sha256": "1f1384492b757dfd8449e4b0984a5dfacc88d6cc51c5cd59efcf3e36d08990b6",
       "bytes": 3860,
       "git_blob_verified": true
@@ -55,7 +55,7 @@
     {
       "path": "render_previews.py",
       "expected_git_blob_sha1": "d5d3f86d9c280a4c4acf6928bc5556c2ae12be49",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/render_previews.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/render_previews.py",
       "sha256": "9e842ec1311ef6dceb46c20c3139eac028b8a097356594e615815856b543f453",
       "bytes": 3526,
       "git_blob_verified": true
@@ -63,7 +63,7 @@
     {
       "path": "luminous/src/luminous_render.py",
       "expected_git_blob_sha1": "27cdf0381a4ef641eb7067cae6e6f6ba7910cf95",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/luminous/src/luminous_render.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/luminous/src/luminous_render.py",
       "sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1",
       "bytes": 9557,
       "git_blob_verified": true
@@ -71,7 +71,7 @@
     {
       "path": "v220/src/surface_optics.py",
       "expected_git_blob_sha1": "f859e66a57214ab02ade83b15a8d9062d906b7df",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/v220/src/surface_optics.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/v220/src/surface_optics.py",
       "sha256": "ed98bbe1e4a6c3f0b0f77b35a0fd1c3175f5c8a4073bf6f46040db44a4089b42",
       "bytes": 3798,
       "git_blob_verified": true
@@ -79,7 +79,7 @@
     {
       "path": "v220/src/final_renderer.py",
       "expected_git_blob_sha1": "b412dc67267436eb18bf70f19e75acf57e992276",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/v220/src/final_renderer.py",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/v220/src/final_renderer.py",
       "sha256": "e56dcaf9431ec433d4580776058d24f0ea3ecc3a072e883e99e461e7ba0bbb91",
       "bytes": 3210,
       "git_blob_verified": true
@@ -87,7 +87,7 @@
     {
       "path": "v220/config.json",
       "expected_git_blob_sha1": "392fd71d2ef0ec5141e7de61eb833fbc163f42a4",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/v220/config.json",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/v220/config.json",
       "sha256": "b67470f24398b3effabbba78f379d4c5f84b62a4c07b8cffa0d112dbaaf2f368",
       "bytes": 1615,
       "git_blob_verified": true
@@ -95,7 +95,7 @@
     {
       "path": "v220/docs/MODEL.md",
       "expected_git_blob_sha1": "0958cb4465f55881c8af5482d0bf95a788756fce",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/v220/docs/MODEL.md",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/v220/docs/MODEL.md",
       "sha256": "0a20d22242d3b8a067989c7b149d67088a25151aa59a30950abde1feffeef814",
       "bytes": 4142,
       "git_blob_verified": true
@@ -103,11 +103,13 @@
     {
       "path": "v220/docs/DISPLAY.md",
       "expected_git_blob_sha1": "028916ef62fd8dd80e56c8d77753723f3e0dcd0e",
-      "original_url": "https://github.com/Loganpis/sideratlas-white-dwarf/blob/5c27cd5d36fb07252d697a708d802e94245e5d9d/v220/docs/DISPLAY.md",
+      "original_url": "https://github.com/Loganpis/sideratlas/blob/no006-v1.0.0/episodes/006-planetary-nebula/vendor/no003/v220/docs/DISPLAY.md",
       "sha256": "3aad5d720fa86790942a4df660d9cd07fef3994e0f73e4a9656a676d1b528db0",
       "bytes": 3521,
       "git_blob_verified": true
     }
   ],
-  "local_evidence_note": "Machine-local audit references omitted from public metadata; no numerical input or source-file fingerprint changed"
+  "local_evidence_note": "Machine-local audit references omitted from public metadata; no numerical input or source-file fingerprint changed",
+  "original_repository_identifier": "Loganpis/sideratlas-white-dwarf",
+  "canonical_source_note": "The exact applicable frozen files are available in the unified No.006 source tag; original commit and source-file hashes remain unchanged"
 }

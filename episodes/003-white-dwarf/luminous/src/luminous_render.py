@@ -16,7 +16,8 @@ sys.path.insert(0,str(BASE))
 sys.path.insert(0,str(BASE/'src'))
 from render_previews import make_renderer
 from visualization import camera_direction,linear_to_srgb,srgb_to_linear
-from mode_model import ResearchAtmosphere,InteriorModes
+from mode_model import InteriorModes
+from atmosphere_runtime import ResearchAtmosphere
 
 # Luminance row of the inverse of the XYZ->linear-sRGB matrix used in B.
 YROW=np.linalg.inv(np.array([[3.24096994,-1.53738318,-.49861076],

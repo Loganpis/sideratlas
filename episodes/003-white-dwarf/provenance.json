@@ -6,7 +6,6 @@
   "original_filename": "sideratlas-no003-the-white-dwarf-32s.mp4",
   "sha256": "b290cd5c8632dc8632507cab8ba4f8653e647a4af7575ddf16c9298c0235a017",
   "bytes": 24614188,
-  "legacy_url": "https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.2.0/sideratlas-no003-the-white-dwarf-32s.mp4",
   "validated_format": {
     "width": 1080,
     "height": 1920,
@@ -58,7 +57,7 @@
       "path": "v220/render_reel.py",
       "source_path": "v220/render_reel.py",
       "source_sha256": "82470b9966d0134afe0885d63ebc7799b0a85bab7f78516cccd7072987fe173c",
-      "sha256": "82470b9966d0134afe0885d63ebc7799b0a85bab7f78516cccd7072987fe173c"
+      "sha256": "cb1f97d821178c2bf41b8d02bd27b7bd5dbbaf106c02e63992cce6b4d5391268"
     },
     {
       "path": "v220/validate_cells.py",
@@ -106,7 +105,7 @@
       "path": "luminous/src/luminous_render.py",
       "source_path": "luminous/src/luminous_render.py",
       "source_sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1",
-      "sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1"
+      "sha256": "0dfc1fb2db0cbce77141e380102c1aa101304694ca694b9068b2f6906feba9ce"
     },
     {
       "path": "v220/src/cellular_convection.py",
@@ -178,7 +177,7 @@
       "path": "data/research-provenance.json",
       "source_path": "data/research-provenance.json",
       "source_sha256": "bb6ff1de22198dcb29600eb6bc295403eff6dc4cd07d3f03db08dc92ab80d81c",
-      "sha256": "bb6ff1de22198dcb29600eb6bc295403eff6dc4cd07d3f03db08dc92ab80d81c"
+      "sha256": "c52f30079181e823713971c19fde5f964434dd85a6bff5cabc141bc641a078d9"
     },
     {
       "path": "data/colour-cache.json",
@@ -263,7 +262,21 @@
       "source_path": "v220/validation/physics-preservation.json",
       "source_sha256": "422dce4d42f3b594ae6f68ccc7bf037a25bb0497dfd5e8074132a0cdaae33806",
       "sha256": "422dce4d42f3b594ae6f68ccc7bf037a25bb0497dfd5e8074132a0cdaae33806"
+    },
+    {
+      "path": "src/atmosphere_runtime.py",
+      "source_path": "Selected cached-atmosphere data interface added during dependency cleanup",
+      "source_sha256": null,
+      "sha256": "fe5e5af434668f1cd8bb32fe5f6fab097bb1efc17ff6fa774173dedcf8808c8d"
+    },
+    {
+      "path": "data/final-optics-input.json",
+      "source_path": "Selected cached-atmosphere data interface added during dependency cleanup",
+      "source_sha256": null,
+      "sha256": "2fea003ec34ff2a871865fd988ae91749004dd7bfe3c3dfe6f8ad8132717a3c3"
     }
   ],
-  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders",
+  "legacy_repository_status": "Superseded; final material and current reproduction dependencies are maintained in Loganpis/sideratlas",
+  "cleanup_data_interface": "Original integrated radiation and fixed 65-node PSF input values replace runtime raw-grid downloads; Optics/LuminousRenderer callable bodies unchanged; exact bounded image parity required"
 }

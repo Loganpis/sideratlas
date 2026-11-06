@@ -6,7 +6,7 @@ Version 1.2.0 extends the original **Kerr–Newman visualization with $a_*=+0.9$
 
 ## Delivery
 
-The [current release](https://github.com/Loganpis/sideratlas-black-hole/releases/tag/v1.2.1) supplies the 32-second orange Reel, its monochrome companion, eight-second originals, description and complete project archive. Current media and reports are in `output-sideratlas-kn-v120/`. The video names remain `sideratlas-kerr-newman-reel.mp4`, `sideratlas-kerr-newman-intensity.mp4`, and their corresponding `-loop.mp4` files.
+The [selected unified release](https://github.com/Loganpis/sideratlas/releases/tag/no001-v1.0.0) supplies the accepted 32-second orange Reel and caption. Current source, configuration and scientific evidence are maintained in this episode; generated radiance caches are not tracked.
 
 Each 32-second movie repeats the same encoded eight-second cycle four times. A cycle contains a full virtual viewpoint revolution and 800 $t_g$ of periodically driven source evolution. It is not 32 seconds of distinct physical evolution. The final assembly centers the title horizontally. The only on-screen words are **@sideratlas**, **NO.001**, and **THE BLACK HOLE**, over the simulation. Explanations, caveats, source credits and the repository link are supplied in [caption-kerr-newman.text](MODEL.md); post that description with the video.
 

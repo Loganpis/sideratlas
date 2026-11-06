@@ -105,5 +105,43 @@
     "white_dwarf_external_inputs_restored_and_hash_checked": true,
     "environment": "Existing Python 3.12 numerical environment; fresh Git checkout, not six newly built dependency environments",
     "full_six_movies_rerendered": false
+  },
+  "permanent_cleanup": {
+    "cached_atmosphere": {
+      "passed": true,
+      "raw_provider_files_access_blocked": true,
+      "physical_Optics_and_LuminousRenderer_callable_bodies_unchanged": true,
+      "source_frame": 181,
+      "width": 144,
+      "height": 256,
+      "RGB16_max_difference": 0,
+      "sha256": "d7c01248bd96c78af42172461b05dc5134e3060f3aa8a8ebcf277d05ef6da34d",
+      "scope": "Cached atmosphere data-interface qualification; no new stellar/flow calculation; bounded image parity, not a native full-film rerender"
+    },
+    "selected_input_migrations": [
+      {
+        "name": "snapshot-001020.npz",
+        "bytes": 20243296,
+        "sha256": "fea546506dad0c969559c198a36bd7e7fddc0003b66d7b268d5971aa8616d215"
+      },
+      {
+        "name": "colour-cache.npz",
+        "bytes": 242092,
+        "sha256": "b37ca577187d6fc4fb8ed44dbf651dfd8f48eae0e374444fd0ffabdf10f8679f"
+      },
+      {
+        "name": "research-colour-cache.npz",
+        "bytes": 382743,
+        "sha256": "8ceb7c7af55d5b4e939e35062dc5b9fbc52392a98cdf2a8672f5b0dde5c9c2f4"
+      },
+      {
+        "name": "render-inputs.zip",
+        "bytes": 579991466,
+        "sha256": "288ed536638cf4e823993dc0bd1df3563e208ba3cf0c69270ba5ac295858bffa"
+      }
+    ],
+    "physical_implementations_unchanged": true,
+    "no_new_full_movie_render": true,
+    "no_repository_backups_created": true
   }
 }

@@ -182,7 +182,7 @@ Earlier development investigated stellar initialization and SPH donor stability.
 - **Cheung et al. (2019; online 2018), [A comprehensive three-dimensional radiative magnetohydrodynamic simulation of a solar flare](https://doi.org/10.1038/s41550-018-0629-3)**, [Stanford dataset](https://purl.stanford.edu/dv883vb9686), CC BY 3.0. Supplies the normalized illustrative active-region intensity template, not calculated donor magnetism. **Provided by the Stanford University Libraries.** Full credit and modification details: [third-party notices](LICENSE).
 - **CIE (2019), [CIE 1931 2° standard observer](https://doi.org/10.25039/CIE.DS.xvudnb9b)**, CC BY-SA 4.0. Unmodified spectral response table; [metadata](data/input-manifest.json).
 - **[Latin Modern / GUST](https://www.gust.org.pl/projects/e-foundry/latin-modern)**. Fonts under the retained [GUST Font License](LICENSE).
-- **[SiderAtlas No.004](https://github.com/Loganpis/sideratlas-main-sequence-star)**. Reused spherical sampling, spectral grading, optical imaging and export infrastructure under its retained [MIT notice](LICENSE).
+- **[SiderAtlas No.004](https://github.com/Loganpis/sideratlas/tree/main/episodes/004-main-sequence-star)**. Reused spherical sampling, spectral grading, optical imaging and export infrastructure under its retained [MIT notice](LICENSE).
 
 No cited study's merger footage or numerical merger snapshots are substituted for calculated trajectories. Citations do not imply author endorsement.
 
@@ -202,8 +202,8 @@ The large **render-inputs.zip** asset contains permitted numerical inputs, outsi
 The original tested environment is Python 3.12.2, NumPy 1.26.4, SciPy 1.13.1, Numba 0.59.1 and Pillow 10.3.0. FFmpeg and FFprobe must provide libx264 and zscale; the original export used FFmpeg 8.0.
 
 ```sh
-git clone https://github.com/Loganpis/sideratlas-no005-stellar-merger.git
-cd sideratlas-no005-stellar-merger
+git clone https://github.com/Loganpis/sideratlas.git
+cd sideratlas/episodes/005-stellar-merger
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -233,7 +233,7 @@ python scripts/derive_surface_inputs.py --source /path/to/no004-working-tree
 python scripts/verify_inputs.py
 ```
 
-Upstream atmosphere data are published through the [Oslo Bifrost archive](https://sdc.uio.no/vol/simulations/en024048_hion/atmos/), described by [Carlsson et al.](https://doi.org/10.1051/0004-6361/201527226). No.004's [public source-reproduction workflow](https://github.com/Loganpis/sideratlas-main-sequence-star/blob/main/reproduce_sources.py) describes its continuum calculation. Its release movie/source ZIP alone does **not** contain all required calculated maps. Obtaining those original intensities and their applicable reuse rights is an additional requirement.
+Upstream atmosphere data are published through the [Oslo Bifrost archive](https://sdc.uio.no/vol/simulations/en024048_hion/atmos/), described by [Carlsson et al.](https://doi.org/10.1051/0004-6361/201527226). No.004's [public source-reproduction workflow](https://github.com/Loganpis/sideratlas/blob/main/episodes/004-main-sequence-star/reproduce_sources.py) describes its continuum calculation. Its release movie/source ZIP alone does **not** contain all required calculated maps. Obtaining those original intensities and their applicable reuse rights is an additional requirement.
 
 **This raw-data regeneration route was not rerun or validated for No.005's publication.** The exact two maps are not available as a complete new public download here. Regenerating equivalent arrays does not guarantee byte-identical compressed archives; the supplied manifest identifies the actual selected inputs. Accordingly, this release does not claim complete public, from-scratch or one-command image reproducibility.
 

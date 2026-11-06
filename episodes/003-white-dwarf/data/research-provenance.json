@@ -7,7 +7,7 @@
   "model_sha256": "9ec40e17400781d0adc0c2741b264dafb0928f96ee54aae63654d75d7f10a0f0",
   "new_structure_evolution_run": false,
   "solver_source_modified": false,
-  "original_B_release": "https://github.com/Loganpis/sideratlas-white-dwarf/releases/tag/v1.0.0",
+  "original_B_release": "sideratlas-white-dwarf v1.0.0 (historical identifier; not a dependency)",
   "original_B_unchanged": true,
   "sdk_pkg_md5_verified": "2e72f36face25328bfc5d8c11cfdd662",
   "sdk_source": "https://zenodo.org/records/20598224",
