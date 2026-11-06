@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-11-04T10:36:09.979082+00:00",
+  "stellar_track": {
+    "source_url": "https://mist.science/data/tarballs_v1.2/MIST_v1.2_feh_p0.00_afe_p0.0_vvcrit0.0_EEPS.txz",
+    "member": "MIST_v1.2_feh_p0.00_afe_p0.0_vvcrit0.0_EEPS/00100M.track.eep",
+    "MIST_version": "1.2",
+    "MESA_revision": 7503,
+    "initial_mass_msun": 1.0,
+    "metallicity_Z": 0.0142857,
+    "Y": 0.2703,
+    "rotation": 0.0,
+    "role": "Actual numeric age/mass/luminosity/temperature/radius/abundances"
+  },
+  "post_AGB_comparison": {
+    "source": "Miller Bertolami 2016",
+    "numeric_file_download": "Timed out; not used; no track splicing"
+  },
+  "files": [
+    {
+      "path": "data/evolution/MIST-solar-nonrotating.txz",
+      "bytes": 100050704,
+      "sha256": "a445d926c1765e951eb1bf6811dbfb14635725efcf63aaaa883d02f36cc58741"
+    },
+    {
+      "path": "data/evolution/00100M.track.eep",
+      "bytes": 4222480,
+      "sha256": "a962600501741588e17ac133d60040ca686c62a2e5f07100f9eeeec3be1bc4f3"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "bytes": 24021,
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+    },
+    {
+      "path": "src/video_export.py",
+      "bytes": 2092,
+      "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "number": "002",
+  "repo": "sideratlas-pulsar",
+  "legacy_tag": "photon-v1.1.0",
+  "legacy_commit": "bdcf4541cb8467b0c6c91faae64bcc6834c6b144",
+  "original_filename": "sideratlas-002-pulsar-reel.mp4",
+  "sha256": "9cdbbd13f3fb267c28a83bb58e45f4815b07e936983a4223ebf818bbf9d630bd",
+  "bytes": 55432220,
+  "legacy_url": "https://github.com/Loganpis/sideratlas-pulsar/releases/download/photon-v1.1.0/sideratlas-002-pulsar-reel.mp4",
+  "validated_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "seconds": 32
+  },
+  "complete_decode_passed": true,
+  "central_tag": "no002-v1.0.0",
+  "video_url": "https://github.com/Loganpis/sideratlas/releases/download/no002-v1.0.0/sideratlas-002-pulsar-reel.mp4",
+  "source_files": [
+    {
+      "path": "render_photon_reel.py",
+      "source_path": "render_photon_reel.py",
+      "source_sha256": "94e2402d18b4c2060049eaf76fe412b6f95c157e37b340dcb9f2bbcd12987a3f",
+      "sha256": "94e2402d18b4c2060049eaf76fe412b6f95c157e37b340dcb9f2bbcd12987a3f"
+    },
+    {
+      "path": "reel_export.py",
+      "source_path": "reel_export.py",
+      "source_sha256": "ac92e7c87543a3deea101ee051efa8204422fdb9e76c2b4ae01e099eb413a930",
+      "sha256": "ac92e7c87543a3deea101ee051efa8204422fdb9e76c2b4ae01e099eb413a930"
+    },
+    {
+      "path": "verify_reel.py",
+      "source_path": "verify_reel.py",
+      "source_sha256": "16168720a2c1877f5af6012af3baaf4d938a443c02fd1e9a8af327d2920562d8",
+      "sha256": "16168720a2c1877f5af6012af3baaf4d938a443c02fd1e9a8af327d2920562d8"
+    },
+    {
+      "path": "prepare_photon_scene.py",
+      "source_path": "prepare_photon_scene.py",
+      "source_sha256": "f732b6d6142cd7b0b3730e60e31985182636446dcea36fbf13cbe9a762049e2d",
+      "sha256": "f732b6d6142cd7b0b3730e60e31985182636446dcea36fbf13cbe9a762049e2d"
+    },
+    {
+      "path": "pyproject.toml",
+      "source_path": "pyproject.toml",
+      "source_sha256": "031a50f37a9258f22e7e07c6f6257e8919a942a1b4a5d6538f1ba05abc2ddda5",
+      "sha256": "031a50f37a9258f22e7e07c6f6257e8919a942a1b4a5d6538f1ba05abc2ddda5"
+    },
+    {
+      "path": "requirements.txt",
+      "source_path": "requirements.txt",
+      "source_sha256": "c135535b946ed0036fa6c23863628915ec2772c0f8ed1cbffdf27c1fd58e967b",
+      "sha256": "c135535b946ed0036fa6c23863628915ec2772c0f8ed1cbffdf27c1fd58e967b"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "NOTICE",
+      "source_path": "NOTICE",
+      "source_sha256": "36ddf2e7173604e1445fd057d39793116a8a75d7e085064cd40ad7714b0578d2",
+      "sha256": "e3c7680b099db4bab49ce90b2c5a524088f365e588c1cee0f0575392f8d5f5ed"
+    },
+    {
+      "path": "instagram-description.text",
+      "source_path": "instagram-description.text",
+      "source_sha256": "52efa629182d0fd80d6163bc4842041554484a416aa85e3409724e671cc1e3eb",
+      "sha256": "c910d9c68f6ca82b79541ec6a6e978f405b6753c33b4a071419cc144971740c2"
+    },
+    {
+      "path": "src/pulsar/__init__.py",
+      "source_path": "src/pulsar/__init__.py",
+      "source_sha256": "d27eb3eabac50f98c60400fcefd353c0746bd6c6104e558ecb6d7a7e45bafd2b",
+      "sha256": "d27eb3eabac50f98c60400fcefd353c0746bd6c6104e558ecb6d7a7e45bafd2b"
+    },
+    {
+      "path": "src/pulsar/emission_quadrature.py",
+      "source_path": "src/pulsar/emission_quadrature.py",
+      "source_sha256": "a36e3d0bf171f5300bf6fa679b08f775ed8e9031977e0a000197bf0c30079bd6",
+      "sha256": "a36e3d0bf171f5300bf6fa679b08f775ed8e9031977e0a000197bf0c30079bd6"
+    },
+    {
+      "path": "src/pulsar/field_injection.py",
+      "source_path": "src/pulsar/field_injection.py",
+      "source_sha256": "8fee1e68927c5c007eb2b0e3fcd1c1d5fab867354d4ff61b67987f0c68dd36f7",
+      "sha256": "8fee1e68927c5c007eb2b0e3fcd1c1d5fab867354d4ff61b67987f0c68dd36f7"
+    },
+    {
+      "path": "src/pulsar/model.py",
+      "source_path": "src/pulsar/model.py",
+      "source_sha256": "b12f313f39482f869f9492de040885ed8c2b12168de46181aca8da2fb1342cc4",
+      "sha256": "b12f313f39482f869f9492de040885ed8c2b12168de46181aca8da2fb1342cc4"
+    },
+    {
+      "path": "src/pulsar/multiband.py",
+      "source_path": "src/pulsar/multiband.py",
+      "source_sha256": "1603bc153a6775496911f50206c12f25773f01ebd0abbdb98c9f1f399c805766",
+      "sha256": "1603bc153a6775496911f50206c12f25773f01ebd0abbdb98c9f1f399c805766"
+    },
+    {
+      "path": "src/pulsar/observations.py",
+      "source_path": "src/pulsar/observations.py",
+      "source_sha256": "26f79c4123deafd9d887482501cd4370bc698bb1ab1fd8a75d5082da716420f6",
+      "sha256": "26f79c4123deafd9d887482501cd4370bc698bb1ab1fd8a75d5082da716420f6"
+    },
+    {
+      "path": "src/pulsar/outer_transport.py",
+      "source_path": "src/pulsar/outer_transport.py",
+      "source_sha256": "5201d67cebdb6b82dc7488703d4608b1ed1135b74a67367db53024cea80ea732",
+      "sha256": "5201d67cebdb6b82dc7488703d4608b1ed1135b74a67367db53024cea80ea732"
+    },
+    {
+      "path": "src/pulsar/photon_scene.py",
+      "source_path": "src/pulsar/photon_scene.py",
+      "source_sha256": "8688d49b4500b2c6bb70e488976ebaf9f9b4e2a8da03fa546c3997340a04b391",
+      "sha256": "8688d49b4500b2c6bb70e488976ebaf9f9b4e2a8da03fa546c3997340a04b391"
+    },
+    {
+      "path": "src/pulsar/published_acceleration.py",
+      "source_path": "src/pulsar/published_acceleration.py",
+      "source_sha256": "dea3e8710af12894d4d3967ece8a8f3fbbdfb41af2db68d6cc4c1c0576590517",
+      "sha256": "dea3e8710af12894d4d3967ece8a8f3fbbdfb41af2db68d6cc4c1c0576590517"
+    },
+    {
+      "path": "src/pulsar/radiation.py",
+      "source_path": "src/pulsar/radiation.py",
+      "source_sha256": "e6e2f95a018705eb38dddcef471ae81ea5026cdf7f7e16ff5271e721e730a8dc",
+      "sha256": "e6e2f95a018705eb38dddcef471ae81ea5026cdf7f7e16ff5271e721e730a8dc"
+    },
+    {
+      "path": "src/pulsar/snapshot_fields.py",
+      "source_path": "src/pulsar/snapshot_fields.py",
+      "source_sha256": "e2c58d26d0e178984cf1e38eeaca9987ecb2b0ec1afb9aca3dab8e0e944a0d7e",
+      "sha256": "e2c58d26d0e178984cf1e38eeaca9987ecb2b0ec1afb9aca3dab8e0e944a0d7e"
+    },
+    {
+      "path": "src/pulsar/spectral_observations.py",
+      "source_path": "src/pulsar/spectral_observations.py",
+      "source_sha256": "015e215e880fd6db3db7e6553987bc8437926ebf188ea4597c27637fd0c4113a",
+      "sha256": "015e215e880fd6db3db7e6553987bc8437926ebf188ea4597c27637fd0c4113a"
+    },
+    {
+      "path": "src/pulsar/trajectories.py",
+      "source_path": "src/pulsar/trajectories.py",
+      "source_sha256": "3406a7235a0780a9b340ecdf2545a8803c266e9be7ad090726fbc49bb20ffd89",
+      "sha256": "3406a7235a0780a9b340ecdf2545a8803c266e9be7ad090726fbc49bb20ffd89"
+    },
+    {
+      "path": "tests/test_emission_quadrature.py",
+      "source_path": "tests/test_emission_quadrature.py",
+      "source_sha256": "b0c20fcc28d2ed63fdc09058a088e77e351c36deb7a57135d3b17ffce34f93ce",
+      "sha256": "b0c20fcc28d2ed63fdc09058a088e77e351c36deb7a57135d3b17ffce34f93ce"
+    },
+    {
+      "path": "tests/test_outer_transport.py",
+      "source_path": "tests/test_outer_transport.py",
+      "source_sha256": "24d40624c08f525b65e176b939d312a453a9fce054dc74e73f98ebb73efd4998",
+      "sha256": "24d40624c08f525b65e176b939d312a453a9fce054dc74e73f98ebb73efd4998"
+    },
+    {
+      "path": "tests/test_photon_scene.py",
+      "source_path": "tests/test_photon_scene.py",
+      "source_sha256": "4747a8d49384864c7fe24e20c7bad45623e09d28b62e23a75f3150294e46a512",
+      "sha256": "4747a8d49384864c7fe24e20c7bad45623e09d28b62e23a75f3150294e46a512"
+    },
+    {
+      "path": "tests/test_radiation.py",
+      "source_path": "tests/test_radiation.py",
+      "source_sha256": "29b3a77836a11767137a4f6d7548c2e862f1fd734f5c6ac427903e10de4237db",
+      "sha256": "29b3a77836a11767137a4f6d7548c2e862f1fd734f5c6ac427903e10de4237db"
+    },
+    {
+      "path": "scene/calculation-verification.json",
+      "source_path": "scene/calculation-verification.json",
+      "source_sha256": "a58975021e7ab5377f5b0a9f037cbe89bc3b8c5b0fc6971d56a3f3b453568144",
+      "sha256": "a58975021e7ab5377f5b0a9f037cbe89bc3b8c5b0fc6971d56a3f3b453568144"
+    },
+    {
+      "path": "scene/photons.npz",
+      "source_path": "scene/photons.npz",
+      "source_sha256": "451bd98ea72d892b7cf1a981f58436345a1611e1b5f1de366181700d98a0d222",
+      "sha256": "16e39932a9c78156aa7ca363bab5542959cf71178c50610178751e815cde4e16"
+    },
+    {
+      "path": "scene/scene.json",
+      "source_path": "scene/scene.json",
+      "source_sha256": "b016e64452488726da0ff087fac06b2aa0c914b3ded8e083c9efc8a9c136ee14",
+      "sha256": "0d1308e22ef97f54237ebeee65b2b466f6ad7e719844188dda47b341963d9899"
+    },
+    {
+      "path": "physics/audit_curl_source_independent.py",
+      "source_path": "physics/audit_curl_source_independent.py",
+      "source_sha256": "12d82bdda314192213f038b38fd6c53acff495693221a33d9ec561084e1936a3",
+      "sha256": "12d82bdda314192213f038b38fd6c53acff495693221a33d9ec561084e1936a3"
+    },
+    {
+      "path": "physics/build_native_release.py",
+      "source_path": "physics/build_native_release.py",
+      "source_sha256": "3947dffe9ccc528caf92d805067bddf837a34f1cec15448af7eb7a0a03b4b04b",
+      "sha256": "3947dffe9ccc528caf92d805067bddf837a34f1cec15448af7eb7a0a03b4b04b"
+    },
+    {
+      "path": "physics/run_coffee.py",
+      "source_path": "physics/run_coffee.py",
+      "source_sha256": "010b2013177538543ce464de38538417f3d4d786e5372c73989b0f25f8fa8465",
+      "sha256": "010b2013177538543ce464de38538417f3d4d786e5372c73989b0f25f8fa8465"
+    },
+    {
+      "path": "physics/run_coffee_assessment.py",
+      "source_path": "physics/run_coffee_assessment.py",
+      "source_sha256": "59b494e36a513710816aaf72faa24996b316db429fca5cb693186b70bed57e9b",
+      "sha256": "59b494e36a513710816aaf72faa24996b316db429fca5cb693186b70bed57e9b"
+    },
+    {
+      "path": "physics/run_coffee_curl_audit.py",
+      "source_path": "physics/run_coffee_curl_audit.py",
+      "source_sha256": "b495dbf187021fcf687ca10d38caaf41dd5c8b0e5b48ebf39e5426bd3e90cb0c",
+      "sha256": "b495dbf187021fcf687ca10d38caaf41dd5c8b0e5b48ebf39e5426bd3e90cb0c"
+    },
+    {
+      "path": "physics/run_coffee_divergence_audit.py",
+      "source_path": "physics/run_coffee_divergence_audit.py",
+      "source_sha256": "43c3307505832586e53efa46b504736c8f8088c18be0f712f13339884ae7966c",
+      "sha256": "43c3307505832586e53efa46b504736c8f8088c18be0f712f13339884ae7966c"
+    },
+    {
+      "path": "physics/run_emission_quadrature.py",
+      "source_path": "physics/run_emission_quadrature.py",
+      "source_sha256": "933b6c46dfb1b3cbf9fb6a69838f8e3b088af4c5be02278862c5f9ec350fbb9a",
+      "sha256": "933b6c46dfb1b3cbf9fb6a69838f8e3b088af4c5be02278862c5f9ec350fbb9a"
+    },
+    {
+      "path": "physics/run_selected_field.py",
+      "source_path": "physics/run_selected_field.py",
+      "source_sha256": "b935b547e7dea747dcc11412bb2fb53d1ad68954eac71516b9161a84e93f4789",
+      "sha256": "b935b547e7dea747dcc11412bb2fb53d1ad68954eac71516b9161a84e93f4789"
+    },
+    {
+      "path": "physics/inputs/config.toml",
+      "source_path": "physics/inputs/config.toml",
+      "source_sha256": "7632681a807b4e7f18f2c1d86296b2328eb2cba39242d50224c3025e09011010",
+      "sha256": "7632681a807b4e7f18f2c1d86296b2328eb2cba39242d50224c3025e09011010"
+    },
+    {
+      "path": "physics/inputs/curl-audit.json",
+      "source_path": "physics/inputs/curl-audit.json",
+      "source_sha256": "105df62722373c2a51c3632ab0a794e38b5396cd04dce6cb7f350451b17709b7",
+      "sha256": "105df62722373c2a51c3632ab0a794e38b5396cd04dce6cb7f350451b17709b7"
+    },
+    {
+      "path": "physics/inputs/run-result.json",
+      "source_path": "physics/inputs/run-result.json",
+      "source_sha256": "08b6779c581407dba65f9554a08c4d21aa6a01947beaec6f89bcea48a5437a9f",
+      "sha256": "7621b7a6bef10afa78ad66bf7ddc9e54c22cc7fb4f3c7fec2e921eaaa65243e3"
+    },
+    {
+      "path": "physics/tests/test_coffee_divergence_audit.py",
+      "source_path": "physics/tests/test_coffee_divergence_audit.py",
+      "source_sha256": "4e2b22ca8033b13920f0a2f426d6d087ddbdb8434525899701d47e8678cbe47c",
+      "sha256": "4e2b22ca8033b13920f0a2f426d6d087ddbdb8434525899701d47e8678cbe47c"
+    },
+    {
+      "path": "physics/tests/test_curl_source_independent.py",
+      "source_path": "physics/tests/test_curl_source_independent.py",
+      "source_sha256": "628d9137b5834d5f830724c2b5863acba143a01a8d969a20407a669e21c64d49",
+      "sha256": "628d9137b5834d5f830724c2b5863acba143a01a8d969a20407a669e21c64d49"
+    },
+    {
+      "path": "physics/tests/test_field_injection.py",
+      "source_path": "physics/tests/test_field_injection.py",
+      "source_sha256": "1782ca6cd756333d7e44977b3e4ce08f01ea6fb0beec0f73723fc9416229e318",
+      "sha256": "1782ca6cd756333d7e44977b3e4ce08f01ea6fb0beec0f73723fc9416229e318"
+    },
+    {
+      "path": "physics/tests/test_snapshot_fields.py",
+      "source_path": "physics/tests/test_snapshot_fields.py",
+      "source_sha256": "840af0b06d9f59ef901b0e15d5d8bbb268269a76bcb1c1eee755b4a39a73ce5d",
+      "sha256": "840af0b06d9f59ef901b0e15d5d8bbb268269a76bcb1c1eee755b4a39a73ce5d"
+    },
+    {
+      "path": "physics/third_party/coffee-curl-conductor.patch",
+      "source_path": "physics/third_party/coffee-curl-conductor.patch",
+      "source_sha256": "9b0095d5accd8d5258c04d67bb0f236ea4533ed05ccc5ef65bf32d49e569d90e",
+      "sha256": "9b0095d5accd8d5258c04d67bb0f236ea4533ed05ccc5ef65bf32d49e569d90e"
+    },
+    {
+      "path": "physics/third_party/coffee-curl-radiative.patch",
+      "source_path": "physics/third_party/coffee-curl-radiative.patch",
+      "source_sha256": "5d7463478636e196de2a5ed57702f7b78fef6e9d56b349178cd8fd8e8e4fb68c",
+      "sha256": "5d7463478636e196de2a5ed57702f7b78fef6e9d56b349178cd8fd8e8e4fb68c"
+    },
+    {
+      "path": "physics/third_party/coffee-portable.patch",
+      "source_path": "physics/third_party/coffee-portable.patch",
+      "source_sha256": "54538e6a5ad06436dceb5a374467a1098b8138efbf156faa8832feddb960e75b",
+      "sha256": "54538e6a5ad06436dceb5a374467a1098b8138efbf156faa8832feddb960e75b"
+    },
+    {
+      "path": "physics/third_party/coffee-surface-anchored.patch",
+      "source_path": "physics/third_party/coffee-surface-anchored.patch",
+      "source_sha256": "2a8a3df5fd9557fa51d43d73b7abaadb175f5cdc35afe8427072cd370e676f45",
+      "sha256": "2a8a3df5fd9557fa51d43d73b7abaadb175f5cdc35afe8427072cd370e676f45"
+    },
+    {
+      "path": "physics/third_party/coffee-curl-radiative-provenance.json",
+      "source_path": "physics/third_party/coffee-curl-radiative-provenance.json",
+      "source_sha256": "3e0ed94cb91a2c59efddf4e2d54d3f11b36ad330e79674e5c1319dabefe7036d",
+      "sha256": "3e0ed94cb91a2c59efddf4e2d54d3f11b36ad330e79674e5c1319dabefe7036d"
+    },
+    {
+      "path": "physics/third_party/coffee-provenance.json",
+      "source_path": "physics/third_party/coffee-provenance.json",
+      "source_sha256": "6bf56d5ecffd3426dd2ce1de1396617a63935779a06ae57f82b42b3ecf326cd5",
+      "sha256": "6bf56d5ecffd3426dd2ce1de1396617a63935779a06ae57f82b42b3ecf326cd5"
+    },
+    {
+      "path": "physics/third_party/coffee-surface-anchored-provenance.json",
+      "source_path": "physics/third_party/coffee-surface-anchored-provenance.json",
+      "source_sha256": "8852a52207459bc77043b7eb70b9d45dc047ce4ce02ebd2f032bec813749c8c9",
+      "sha256": "8852a52207459bc77043b7eb70b9d45dc047ce4ce02ebd2f032bec813749c8c9"
+    },
+    {
+      "path": "physics/diagnostics/n97-final-illustration-a128-r6/profiles.npz",
+      "source_path": "physics/diagnostics/n97-final-illustration-a128-r6/profiles.npz",
+      "source_sha256": "d74a755cffd614ecb51228b8b2f163665abad696a8f5c4db90eed1bfec6a5d54",
+      "sha256": "d74a755cffd614ecb51228b8b2f163665abad696a8f5c4db90eed1bfec6a5d54"
+    },
+    {
+      "path": "physics/diagnostics/n97-final-illustration-a128-r6/protocol.json",
+      "source_path": "physics/diagnostics/n97-final-illustration-a128-r6/protocol.json",
+      "source_sha256": "b830493f54f89ead0f38ad95018e49ffb9ead37c6e0c802ffe55a8ad4d0c0378",
+      "sha256": "a6a7b723d84525a9393f1abbb4d44cee02523d54c2f7b2784a232c70b8805d6c"
+    },
+    {
+      "path": "physics/diagnostics/n97-final-illustration-a128-r6/results.json",
+      "source_path": "physics/diagnostics/n97-final-illustration-a128-r6/results.json",
+      "source_sha256": "50fb25c32c383b1083e99a9aababd8663a8954dce451e550c38d3599a47ab044",
+      "sha256": "8ffc780bc3c4a80bf12cdd464f96c75d7d9f52aceb7dede332e7377a7eae6d81"
+    },
+    {
+      "path": "physics/diagnostics/final-field-audit/cap512-diagnosis.json",
+      "source_path": "physics/diagnostics/final-field-audit/cap512-diagnosis.json",
+      "source_sha256": "4de37b711b42440e09b923a90003bbc03948cc90e3064444b4a8f46156ff4ef7",
+      "sha256": "4de37b711b42440e09b923a90003bbc03948cc90e3064444b4a8f46156ff4ef7"
+    },
+    {
+      "path": "physics/diagnostics/final-field-audit/cap512-step-check.json",
+      "source_path": "physics/diagnostics/final-field-audit/cap512-step-check.json",
+      "source_sha256": "98f61aab1e1144df1ba46f41ae20e1e511ca4526234f7f0645a1b7cdb49c8547",
+      "sha256": "98f61aab1e1144df1ba46f41ae20e1e511ca4526234f7f0645a1b7cdb49c8547"
+    },
+    {
+      "path": "physics/diagnostics/final-field-audit/grid-assessment.json",
+      "source_path": "physics/diagnostics/final-field-audit/grid-assessment.json",
+      "source_sha256": "ade64e1c5a5ac8e8a9389cf6495fc3d6224213e4c0b293fe8c047b82442e7b3a",
+      "sha256": "ade64e1c5a5ac8e8a9389cf6495fc3d6224213e4c0b293fe8c047b82442e7b3a"
+    },
+    {
+      "path": "physics/diagnostics/final-field-audit/summary.json",
+      "source_path": "physics/diagnostics/final-field-audit/summary.json",
+      "source_sha256": "d3fb736c264a95593f64a73288133d272e890c6c9f9432ef964aa939b523fe31",
+      "sha256": "d3fb736c264a95593f64a73288133d272e890c6c9f9432ef964aa939b523fe31"
+    },
+    {
+      "path": "physics/third_party/COFFEE-LICENSE",
+      "source_path": "physics/third_party/coffee-src/LICENSE",
+      "source_sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    }
+  ],
+  "portability_changes": {
+    "scene_original_sha256": "451bd98ea72d892b7cf1a981f58436345a1611e1b5f1de366181700d98a0d222",
+    "scene_public_sha256": "16e39932a9c78156aa7ca363bab5542959cf71178c50610178751e815cde4e16",
+    "scope": "Removed the unused machine-local prefix in scene metadata and text records; all numerical arrays byte-identical"
+  },
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+}

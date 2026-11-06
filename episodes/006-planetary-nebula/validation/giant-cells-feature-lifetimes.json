@@ -1,0 +1,49 @@
+{
+  "complete": true,
+  "scope": "Persistent statistical site identities and lifetimes; different from Eulerian intensity autocorrelation",
+  "families": [
+    {
+      "family": 0,
+      "intersecting_cells": 24556,
+      "lifetime_display_s_percentiles": [
+        1.6273249499580358,
+        2.232024753158859,
+        3.1200630022460603
+      ],
+      "birth_size_rad_percentiles": [
+        0.03264372948250034,
+        0.04029808488592015,
+        0.05025071884894467
+      ]
+    },
+    {
+      "family": 1,
+      "intersecting_cells": 1206,
+      "lifetime_display_s_percentiles": [
+        5.068631891525017,
+        6.886632319765894,
+        9.537673751105821
+      ],
+      "birth_size_rad_percentiles": [
+        0.11480106376648037,
+        0.13935795528024914,
+        0.17289623629356038
+      ]
+    },
+    {
+      "family": 2,
+      "intersecting_cells": 95053,
+      "lifetime_display_s_percentiles": [
+        1.0034949336027317,
+        1.3878189257253535,
+        1.9432408664118468
+      ],
+      "birth_size_rad_percentiles": [
+        0.019650479986259933,
+        0.024177980506817492,
+        0.030144513299293896
+      ]
+    }
+  ],
+  "tracked_measurements": 1723
+}

@@ -1,0 +1,1166 @@
+{
+  "scope": "Archived selected-model numerical evidence; not a new independent physical validation",
+  "records": {
+    "validation/final-checks/model-accounting.json": {
+      "scope": "Pressure-work surface sources + inertial gravity + dissipative encounters.\n\nThis intentionally remains a prescribed-orbit reduced model. Reports include\nexternal-potential work and mass-source/sink energies, not a false closed binary.\n",
+      "max_mass_error": 3.0531133177191805e-16,
+      "relative_mechanical_balance_error": 2.8788617117868186e-05,
+      "collision_J_absolute_error": 1.304215112563228e-20,
+      "pressure_work": 0.008378061287097425,
+      "launch_allowance": 0.09697926655588311,
+      "model_is_hydrodynamic": false,
+      "classification": "Instantaneous inertial energy and primary-relative radial motion; fallback requires previous outward excursion. Not guaranteed asymptotic escape in a time-dependent potential.",
+      "limitations": [
+        "Prescribed separation/disruption and pressure-work source; no calculated instability or merger",
+        "Collision closure is disjoint central restitution impulses, not resolved shocks or gas pressure",
+        "External potential work and stellar momentum/angular-momentum reservoirs are reported, not self-consistent orbital backreaction",
+        "Kernel size is a reconstruction footprint; it is not an expanding physical packet or a material stream connector"
+      ]
+    },
+    "validation/final-checks/opacity-kernel.json": {
+      "passed": true,
+      "tests": {
+        "kernel_normalized": true,
+        "covariance_matched": true,
+        "chord_quadrature": true,
+        "native_quadrature": true,
+        "camera_continuous": true,
+        "same_zoom": true,
+        "source_unchanged": true
+      },
+      "I2": "1/42",
+      "I4": "1/210",
+      "support_sigma": 3.872983346207417,
+      "normalization": 1.0,
+      "axis_covariance_factor": 1.0000000000000002,
+      "chord_checks": [
+        {
+          "impact": 0.0,
+          "relative_error": 3.3306690738754696e-16
+        },
+        {
+          "impact": 0.001,
+          "relative_error": 1.9727700879603193e-11
+        },
+        {
+          "impact": 0.05,
+          "relative_error": 1.134047189885601e-10
+        },
+        {
+          "impact": 0.2,
+          "relative_error": 1.9320718358555782e-13
+        },
+        {
+          "impact": 0.6,
+          "relative_error": 0.0
+        },
+        {
+          "impact": 0.9,
+          "relative_error": 6.730813973085011e-16
+        },
+        {
+          "impact": 0.99,
+          "relative_error": 3.203774010176508e-15
+        },
+        {
+          "impact": 0.999,
+          "relative_error": 2.864882393549017e-14
+        }
+      ],
+      "native_quadrature": [
+        {
+          "playback_s": 16.0,
+          "relative_column_L1": 7.084732103053642e-11,
+          "weighted_transmission_difference": 6.579922977859117e-19
+        },
+        {
+          "playback_s": 28.0,
+          "relative_column_L1": 8.960577279574263e-11,
+          "weighted_transmission_difference": 8.689389116755389e-18
+        }
+      ],
+      "rows": [
+        {
+          "playback_s": 14.0,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 2.8267101183191057e-06,
+              "opaque_area_fraction": 5.45875365736495e-05,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                529.2398681640625
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.0,
+              "opaque_area_fraction": 0.0,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "compact_seconds": 0.6941678329894785
+        },
+        {
+          "playback_s": 15.5,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.026930689008905936,
+              "opaque_area_fraction": 0.0383664347192062,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                423150.18437500077,
+                23812640.0
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.015571954975662933,
+              "opaque_area_fraction": 0.02434259538112825,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                455425.67093596014,
+                22170658.557498228
+              ]
+            }
+          },
+          "compact_seconds": 0.007195666985353455
+        },
+        {
+          "playback_s": 16.0,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.05679406615097362,
+              "opaque_area_fraction": 0.0729117462765701,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.018214586377143915,
+                809974.6793749998,
+                15247755.0
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.02623334870205131,
+              "opaque_area_fraction": 0.04246879066853039,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                857129.292823664,
+                14468821.803626982
+              ]
+            }
+          },
+          "compact_seconds": 0.007903375022578984
+        },
+        {
+          "playback_s": 16.5,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.04896420616822176,
+              "opaque_area_fraction": 0.05520634900936342,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.007700975332409164,
+                2855.123447265625,
+                3557794.75
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.014980045153679117,
+              "opaque_area_fraction": 0.023368226409942974,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                1750.998964553042,
+                3366322.4721714063
+              ]
+            }
+          },
+          "compact_seconds": 0.007225791981909424
+        },
+        {
+          "playback_s": 18.0,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.00043980249359597756,
+              "opaque_area_fraction": 0.001198030356870907,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                6.650644011201853e-13,
+                99624.6484375
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.00013091057615193007,
+              "opaque_area_fraction": 0.0004162647850144677,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                108643.984538381
+              ]
+            }
+          },
+          "compact_seconds": 0.0071650000172667205
+        },
+        {
+          "playback_s": 26.0,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.9999995439112974,
+              "opaque_area_fraction": 1.0,
+              "tau_quantiles": [
+                6.273190975189209,
+                90879.25,
+                622084.175,
+                1944758.102500003,
+                4053393.5
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.9659917269378494,
+              "opaque_area_fraction": 0.9583810614738449,
+              "tau_quantiles": [
+                0.0,
+                93002.70137974943,
+                636137.2990571774,
+                1859403.147175383,
+                3803994.501479157
+              ]
+            }
+          },
+          "compact_seconds": 0.010212833993136883
+        },
+        {
+          "playback_s": 28.0,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.9137819568131575,
+              "opaque_area_fraction": 0.9163364827796403,
+              "tau_quantiles": [
+                0.0009644005331210792,
+                11505.2724609375,
+                279539.58437500003,
+                1132842.1375000002,
+                2312192.25
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.7805085912667727,
+              "opaque_area_fraction": 0.8058518744285279,
+              "tau_quantiles": [
+                0.0,
+                10678.715473205779,
+                289785.67959623405,
+                1099457.7906383385,
+                2183943.3605864365
+              ]
+            }
+          },
+          "compact_seconds": 0.008898707979824394
+        },
+        {
+          "playback_s": 30.0,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.8689373144546154,
+              "opaque_area_fraction": 0.8751768033946252,
+              "tau_quantiles": [
+                0.0024425091687589884,
+                4204.12451171875,
+                153192.66093749995,
+                728740.0693750001,
+                2337364.5
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.6812542018115445,
+              "opaque_area_fraction": 0.7494106553512494,
+              "tau_quantiles": [
+                0.0,
+                3686.161941024607,
+                153110.4996301569,
+                723790.6501467848,
+                2183743.752831617
+              ]
+            }
+          },
+          "compact_seconds": 0.008842707989970222
+        }
+      ],
+      "smoothing_sensitivity": [
+        {
+          "playback_s": 16.0,
+          "relative_width": 0.9,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.04577749352419106,
+              "opaque_area_fraction": 0.06096303079963368,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.00038576737279072426,
+                750992.8349999998,
+                17790142.0
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.021239046749366185,
+              "opaque_area_fraction": 0.03550874825275944,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                774923.4433383757,
+                16973408.511620637
+              ]
+            }
+          }
+        },
+        {
+          "playback_s": 16.0,
+          "relative_width": 1.1,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.06928685017550751,
+              "opaque_area_fraction": 0.08538583891646985,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.2976213216781618,
+                941780.914374998,
+                13164879.0
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.03257184668365468,
+              "opaque_area_fraction": 0.050118089362317444,
+              "tau_quantiles": [
+                0.0,
+                0.0,
+                0.0,
+                993447.5450775063,
+                12430473.80958634
+              ]
+            }
+          }
+        },
+        {
+          "playback_s": 28.0,
+          "relative_width": 0.9,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.8856490536316849,
+              "opaque_area_fraction": 0.8908869247180737,
+              "tau_quantiles": [
+                1.579384297656361e-05,
+                7051.01318359375,
+                262034.75156250017,
+                1254762.5225000014,
+                2780927.25
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.7012339522041106,
+              "opaque_area_fraction": 0.7381895763486742,
+              "tau_quantiles": [
+                0.0,
+                5779.8043561302,
+                273297.4105508158,
+                1217046.0723343608,
+                2595391.6755043752
+              ]
+            }
+          }
+        },
+        {
+          "playback_s": 28.0,
+          "relative_width": 1.1,
+          "profiles": {
+            "gaussian": {
+              "absorbed_fraction": 0.9400413650272781,
+              "opaque_area_fraction": 0.9361475160012191,
+              "tau_quantiles": [
+                0.018730049952864647,
+                16077.69091796875,
+                282299.0593750002,
+                1047197.1075000002,
+                2000728.75
+              ]
+            },
+            "wendland_c2": {
+              "absorbed_fraction": 0.8419086367584115,
+              "opaque_area_fraction": 0.8596464492532765,
+              "tau_quantiles": [
+                0.0,
+                16024.730400069653,
+                290244.19186389016,
+                1018259.7118139723,
+                1882478.8945861186
+              ]
+            }
+          }
+        }
+      ],
+      "camera_max_angular_step_per_001s": 0.0001653684513769349,
+      "physical_source_sha256": "cd0ba652454e983997858f8987123aebe89d35a9a1b88f687d83fc42fb722ab3",
+      "elapsed_s": 14.862535541993566,
+      "selected_opacity_pending_visual_review": true,
+      "not_physical_density_validation": true
+    },
+    "validation/final-checks/opacity-pixel-integration.json": {
+      "passed": true,
+      "rows": [
+        {
+          "playback_s": 16.0,
+          "rays": 4,
+          "reference_rays": 8,
+          "weighted_transmission_error": 8.177477973697302e-06,
+          "limit": 0.001,
+          "passed": true
+        },
+        {
+          "playback_s": 28.0,
+          "rays": 4,
+          "reference_rays": 8,
+          "weighted_transmission_error": 0.000522605065448438,
+          "limit": 0.001,
+          "passed": true
+        },
+        {
+          "playback_s": 30.0,
+          "rays": 4,
+          "reference_rays": 8,
+          "weighted_transmission_error": 0.00019893825657920876,
+          "limit": 0.001,
+          "passed": true
+        }
+      ],
+      "selected_ray_factor": 4,
+      "previous_failed_2x_preserved": "stills/report.json",
+      "elapsed_s": 35.01049908399
+    },
+    "validation/final-checks/corrected-motion.json": {
+      "scope": "Declared reduced-motion implementation and sensitivity gates, not hydro.",
+      "checks": [
+        {
+          "test": "Event logging preserves every selected trajectory array",
+          "passed": true
+        },
+        {
+          "test": "Mass source/sink accounting",
+          "passed": true,
+          "max_error_Msun": 3.0531133177191805e-16
+        },
+        {
+          "test": "Pressure-work allowance is respected without scaling inherited orbital motion",
+          "passed": true,
+          "spent": 0.008378061287097425,
+          "allowance": 0.09697926655588311
+        },
+        {
+          "test": "Moving-potential gas-energy residual",
+          "passed": true,
+          "relative_residual": 2.8788617117868186e-05
+        },
+        {
+          "test": "Stellar angular momentum reservoir is nonnegative",
+          "passed": true,
+          "minimum_z": 8.326672684688674e-17
+        },
+        {
+          "test": "Launch velocities include inertial primary translation and retained rotation",
+          "passed": true,
+          "max_decomposition_error": 1.5700924586837752e-16
+        },
+        {
+          "test": "Launches begin after volume Roche contact, at resolved surface",
+          "passed": true
+        },
+        {
+          "test": "Encounter conserves momentum and vector angular momentum, converts K to heat",
+          "passed": true
+        },
+        {
+          "test": "Gravitational acceleration matches the adopted potential",
+          "passed": true,
+          "max_relative_error": 0.00028805276604070007
+        },
+        {
+          "test": "Inertial/corotating velocity transformation round trip",
+          "passed": true
+        },
+        {
+          "test": "Fixed circular-binary Jacobi control",
+          "passed": true,
+          "max_absolute_drift": 2.914914470908414e-08
+        },
+        {
+          "test": "Halved timestep preserves population fates and radial spreading",
+          "passed": true,
+          "max_emitted_mass_fraction_difference": 0.002685546875,
+          "max_radius_fractional_difference": 0.006463722442642705
+        },
+        {
+          "test": "Energy residual improves with halved timestep",
+          "passed": true
+        },
+        {
+          "test": "Playback interpolation follows independently saved dense tracks",
+          "passed": true,
+          "position_error_99_Rsun": 5.439442362703308e-06,
+          "position_error_max_Rsun": 7.525298166610224e-05,
+          "velocity_error_99_code": 1.9419750994798655e-05
+        },
+        {
+          "test": "Local Eulerian reconstruction preserves mass and centroid",
+          "passed": true
+        },
+        {
+          "test": "Final interval contains independently classified outward ejecta and fallback",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "timestep_comparison": [
+        {
+          "t": 270,
+          "reference": {
+            "unbound_out_mass_fraction": 0.070556640625,
+            "inward_mass_fraction": 0.076416015625,
+            "r50_r90": [
+              8.237170519564705,
+              19.03473991782418
+            ]
+          },
+          "halfstep": {
+            "unbound_out_mass_fraction": 0.070556640625,
+            "inward_mass_fraction": 0.075927734375,
+            "r50_r90": [
+              8.262735038871801,
+              19.158575633113
+            ]
+          }
+        },
+        {
+          "t": 300,
+          "reference": {
+            "unbound_out_mass_fraction": 0.1488037109375,
+            "inward_mass_fraction": 0.12255859375,
+            "r50_r90": [
+              10.91692218583765,
+              27.82022631129518
+            ]
+          },
+          "halfstep": {
+            "unbound_out_mass_fraction": 0.14892578125,
+            "inward_mass_fraction": 0.125244140625,
+            "r50_r90": [
+              10.932310188509197,
+              27.950983412414832
+            ]
+          }
+        },
+        {
+          "t": 340,
+          "reference": {
+            "unbound_out_mass_fraction": 0.147216796875,
+            "inward_mass_fraction": 0.095458984375,
+            "r50_r90": [
+              26.833158800788333,
+              52.25738684832592
+            ]
+          },
+          "halfstep": {
+            "unbound_out_mass_fraction": 0.14794921875,
+            "inward_mass_fraction": 0.095703125,
+            "r50_r90": [
+              26.894642236410064,
+              52.26689056432654
+            ]
+          }
+        },
+        {
+          "t": 390,
+          "reference": {
+            "unbound_out_mass_fraction": 0.147216796875,
+            "inward_mass_fraction": 0.0601806640625,
+            "r50_r90": [
+              46.73633395072706,
+              86.37989425797022
+            ]
+          },
+          "halfstep": {
+            "unbound_out_mass_fraction": 0.14794921875,
+            "inward_mass_fraction": 0.05859375,
+            "r50_r90": [
+              46.76781099869736,
+              86.32265515148471
+            ]
+          }
+        }
+      ],
+      "late_populations": [
+        {
+          "t": 300.0,
+          "escaping": 1220,
+          "fallback": 1018
+        },
+        {
+          "t": 310.0,
+          "escaping": 1214,
+          "fallback": 1094
+        },
+        {
+          "t": 320.0,
+          "escaping": 1213,
+          "fallback": 970
+        },
+        {
+          "t": 330.0,
+          "escaping": 1212,
+          "fallback": 865
+        },
+        {
+          "t": 340.0,
+          "escaping": 1212,
+          "fallback": 777
+        },
+        {
+          "t": 350.0,
+          "escaping": 1212,
+          "fallback": 694
+        },
+        {
+          "t": 360.0,
+          "escaping": 1212,
+          "fallback": 609
+        },
+        {
+          "t": 370.0,
+          "escaping": 1212,
+          "fallback": 557
+        },
+        {
+          "t": 380.0,
+          "escaping": 1212,
+          "fallback": 518
+        },
+        {
+          "t": 390.0,
+          "escaping": 1212,
+          "fallback": 475
+        }
+      ],
+      "classification": "Instantaneous E>0 and vr>0: unbound-outward candidate; E<=0: currently bound; vr<0 after prior outward excursion: fallback. Energy can change in prescribed moving gravity.",
+      "not_hydrodynamic_validation": true
+    },
+    "validation/final-checks/source-portability.json": {
+      "files": [
+        {
+          "original": "src/detail/compact_density.py",
+          "released": "src/detail/compact_density.py",
+          "original_sha256": "6bc97acb592b51e5d2df1ccba049a18ef9063d30b7e5607e27e9fefffc07a441",
+          "released_sha256": "6bc97acb592b51e5d2df1ccba049a18ef9063d30b7e5607e27e9fefffc07a441",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/consistent_absorption.py",
+          "released": "src/detail/consistent_absorption.py",
+          "original_sha256": "83d138c9652f581640daa255684d7421131299e129640cc60a88cd10d5adc60e",
+          "released_sha256": "83d138c9652f581640daa255684d7421131299e129640cc60a88cd10d5adc60e",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/density_consistency.py",
+          "released": "src/detail/density_consistency.py",
+          "original_sha256": "51dc936f28ed5b14673a0d7a2a096ae8311652e4e0e9d52e8bce4d5624c9d378",
+          "released_sha256": "51dc936f28ed5b14673a0d7a2a096ae8311652e4e0e9d52e8bce4d5624c9d378",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/fields.py",
+          "released": "src/detail/fields.py",
+          "original_sha256": "6d5e0bafbee880271c035ec56259f1ace4f8eba8422120ca45b3b19c6efdfabb",
+          "released_sha256": "258948d5fa9b5ad9f71e33e681be801cc69bbaefe744ac4822be1d1a366ceb9b",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/launch_color.py",
+          "released": "src/detail/launch_color.py",
+          "original_sha256": "6c01e23825357bd371eb291c1a74d357bf5c53b70f91014ce7ff7a0b7f4cefab",
+          "released_sha256": "6c01e23825357bd371eb291c1a74d357bf5c53b70f91014ce7ff7a0b7f4cefab",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/material_geometry.py",
+          "released": "src/detail/material_geometry.py",
+          "original_sha256": "0f25d605c818e52b0c7bb0bc8aa85af18a1d2b3b135b5fa0211c49bccb31d08a",
+          "released_sha256": "0f25d605c818e52b0c7bb0bc8aa85af18a1d2b3b135b5fa0211c49bccb31d08a",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/material_only.py",
+          "released": "src/detail/material_only.py",
+          "original_sha256": "be13d8a9d6e2e4ebe8c52c69c07c1e868b0f3f848fbe3003027b0d6f1385b80b",
+          "released_sha256": "be13d8a9d6e2e4ebe8c52c69c07c1e868b0f3f848fbe3003027b0d6f1385b80b",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/microflow.py",
+          "released": "src/detail/microflow.py",
+          "original_sha256": "b92ec1f3a7c0dfe001706f58a6149c7d5896491946f9e84fe1a6d0c4ec57e70a",
+          "released_sha256": "b92ec1f3a7c0dfe001706f58a6149c7d5896491946f9e84fe1a6d0c4ec57e70a",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/particle_cooling.py",
+          "released": "src/detail/particle_cooling.py",
+          "original_sha256": "c95aede056e5c32b186c3eee05792ecf570ed4f8f5820cbba18a6a2ef0dab0a8",
+          "released_sha256": "c95aede056e5c32b186c3eee05792ecf570ed4f8f5820cbba18a6a2ef0dab0a8",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/polar_final.py",
+          "released": "src/detail/polar_final.py",
+          "original_sha256": "b82481bcb89418f3c0d219f2e25924f27023b6b31090b9fb298d11c318c09472",
+          "released_sha256": "b82481bcb89418f3c0d219f2e25924f27023b6b31090b9fb298d11c318c09472",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/remnant_focus.py",
+          "released": "src/detail/remnant_focus.py",
+          "original_sha256": "6d63693cbf98ddbf481dbe94c7a230bd1c1ec24cb4abdd0e34275d830d9f4f86",
+          "released_sha256": "6d63693cbf98ddbf481dbe94c7a230bd1c1ec24cb4abdd0e34275d830d9f4f86",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/renderer.py",
+          "released": "src/detail/renderer.py",
+          "original_sha256": "c344d2693ad715e6bb384a202d460b7a807563bc11783adf173dcd5ad39f752b",
+          "released_sha256": "ae334a1bc42d2227467af97715a5deccaee8eb41a33e0e45b3661c48311b04d9",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/reprocessing.py",
+          "released": "src/detail/reprocessing.py",
+          "original_sha256": "c03c46c079f63eed2dd4487d412a46ae0c2c35a6a9d33be1cb2b16e866a7e255",
+          "released_sha256": "c03c46c079f63eed2dd4487d412a46ae0c2c35a6a9d33be1cb2b16e866a7e255",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/synchronized_microflow.py",
+          "released": "src/detail/synchronized_microflow.py",
+          "original_sha256": "bd48f228e86f302b883e48075e6b2c6741e9494680d4330387de3c5809db2b00",
+          "released_sha256": "bd48f228e86f302b883e48075e6b2c6741e9494680d4330387de3c5809db2b00",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/transported_microflow.py",
+          "released": "src/detail/transported_microflow.py",
+          "original_sha256": "0928aaca232984f4b8ff7951079e2c871bfbbde286c462afb29ce52ce5640e7e",
+          "released_sha256": "0928aaca232984f4b8ff7951079e2c871bfbbde286c462afb29ce52ce5640e7e",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/detail/wendland_c2.py",
+          "released": "src/detail/wendland_c2.py",
+          "original_sha256": "de04c57fd6dba31f1216ae517f929bd45e70308a769e15834dcf2cfc6c2fbcbf",
+          "released_sha256": "de04c57fd6dba31f1216ae517f929bd45e70308a769e15834dcf2cfc6c2fbcbf",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/gas_transport.py",
+          "released": "src/gas_transport.py",
+          "original_sha256": "6a0fde0b7a3637f941dbd7676eb15de2e9a2a0e470f7162f5d7cb935b32e031b",
+          "released_sha256": "5702b6fca0f7a69781cf54854c53b501f104f7bfdeebf72878ffbbdbecfcc387",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/motion_renderer.py",
+          "released": "src/motion_renderer.py",
+          "original_sha256": "d24fa067c93a1b889a7111782e119cf7c730c1cff483e910ee7b5d88a5bbfe4f",
+          "released_sha256": "98d8b373136cdee358840460854b283ce80f97ebf64919c7237c96b34fbbb9e2",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/motion_view.py",
+          "released": "src/motion_view.py",
+          "original_sha256": "a88745a29b9a40f5d0c52d5db9880120028a3b1812828149eaf250c0dca0d9bf",
+          "released_sha256": "9f831cbb7ad025e9b621467523d083e7894bf28b141b8869ee2cbdcc2d5f8c20",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/quality/kernels.py",
+          "released": "src/quality/kernels.py",
+          "original_sha256": "8f8b0e30597bac663fa9b3c513f1a4d2d66b09ee6c9befc3fd5dcb8944621d13",
+          "released_sha256": "8f8b0e30597bac663fa9b3c513f1a4d2d66b09ee6c9befc3fd5dcb8944621d13",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/quality/renderer.py",
+          "released": "src/quality/renderer.py",
+          "original_sha256": "ba02acbda5479fab862f2657c520c675071fadee27c9854c62ed0c65e058b373",
+          "released_sha256": "b5b89176ebed8250b4c538c7866a742b409e2ee59ce12fb43e3a34a00a960369",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/stellar_render_reuse.py",
+          "released": "src/stellar_render_reuse.py",
+          "original_sha256": "337d24bf883e1b1df01163118efec2fa7a018c46483a771f49888e4e6055de84",
+          "released_sha256": "c5f238d0074c98d019a7f7f01f7038248d2a7c1e776cc16689228f681b272911",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/stellar_structure.py",
+          "released": "src/stellar_structure.py",
+          "original_sha256": "57277416ca5978475be35230bff9036a8b248fa8b5990cba2ed2e67e7b21535d",
+          "released_sha256": "57277416ca5978475be35230bff9036a8b248fa8b5990cba2ed2e67e7b21535d",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/transport_volume.py",
+          "released": "src/transport_volume.py",
+          "original_sha256": "ba67e805653550b83b90283f6b6c28d83444f3c614413d8f5fb79da90b1cbe5d",
+          "released_sha256": "ba67e805653550b83b90283f6b6c28d83444f3c614413d8f5fb79da90b1cbe5d",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "src/video_export.py",
+          "released": "src/video_export.py",
+          "original_sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+          "released_sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "tools/make_reduced_merger_preview.py",
+          "released": "src/dynamics/prescribed.py",
+          "original_sha256": "2f3e5c0d4f8abb06f0f8781d9e147ebf5db6176d83db4c87d3c13b6e3217e0c3",
+          "released_sha256": "a1b3e009e8989d555e5610b06652a04785da9f8b7aa79bb20f33310a03d964d2",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "tools/render_merger_story_preview.py",
+          "released": "src/rendering/photosphere_base.py",
+          "original_sha256": "c6575c553d72ff526d9d97b4521b89875dcdde58189d6de688b17c03352a1bc2",
+          "released_sha256": "28fad88ba3df371cbd3400b4ee098bb3941908c27bca7e4de848413351d20c0c",
+          "adaptations": "Original initialization retained; old unused preview methods and unused base-atlas load omitted; imports/paths relocated; selected renderer reference pixels are identical"
+        },
+        {
+          "original": "tools/render_reduced_merger_preview.py",
+          "released": "src/radiation/spectrum.py",
+          "original_sha256": "8e432c894adc6f3ebae40e19ba8c309f473d1de480e777d15af066ce28fbfabc",
+          "released_sha256": "1d0c72e4233987ac1acda8f62ad72e3fdf6b909804e2ae57b9fa8746200f91fd",
+          "adaptations": "relative asset paths/import relocation; unused standalone preview build/compose/main removed from three helper modules; mathematical implementation retained"
+        },
+        {
+          "original": "tools/build_corrected_gas_transport.py",
+          "released": "scripts/integrate_model.py",
+          "original_sha256": "9d930e0b8ec8001f7d81b9c6e45ca6d769fc741c0413c7b39bde0b05ea465771",
+          "released_sha256": "116a8ca1ba8f6e4f47f527007ce0917d4edecfab9a7fef2fd33512c4884521d2",
+          "adaptations": "imports relocated only"
+        },
+        {
+          "original": "data/stellar-structures/profiles/donor-fine.profile.data",
+          "released": "data/stellar-structures/profiles/donor-fine.profile.data",
+          "original_sha256": "f062e6919da15ee09380086141e321a42acf0530ad4486cb600d8477ea9ed34b",
+          "released_sha256": "f062e6919da15ee09380086141e321a42acf0530ad4486cb600d8477ea9ed34b"
+        },
+        {
+          "original": "fonts/lmroman10-regular.otf",
+          "released": "fonts/lmroman10-regular.otf",
+          "original_sha256": "1aa18cfefa58132c52ce5de70db1fd1154201c19cd2b2cdaffba4906a33e6852",
+          "released_sha256": "1aa18cfefa58132c52ce5de70db1fd1154201c19cd2b2cdaffba4906a33e6852"
+        },
+        {
+          "original": "fonts/lmroman12-bold.otf",
+          "released": "fonts/lmroman12-bold.otf",
+          "original_sha256": "28c8782ac2b6486958b5dc7610ada7800c53546ff7f36bc65909a876e1cd338e",
+          "released_sha256": "28c8782ac2b6486958b5dc7610ada7800c53546ff7f36bc65909a876e1cd338e"
+        },
+        {
+          "original": "fonts/GUST-FONT-LICENSE.txt",
+          "released": "fonts/GUST-FONT-LICENSE.txt",
+          "original_sha256": "49ea6cb9257bbee0a3979c48a774cd221550ac1c20c95549efe45fc99cc18050",
+          "released_sha256": "49ea6cb9257bbee0a3979c48a774cd221550ac1c20c95549efe45fc99cc18050"
+        },
+        {
+          "original": "data/quality-surface/provenance.json",
+          "released": "data/quality-surface/provenance.json",
+          "original_sha256": "1ded32fdee649e23b1acf87e0c2d6c28a8d22473c33496fd4f7909ca552f6fbd",
+          "released_sha256": "1ded32fdee649e23b1acf87e0c2d6c28a8d22473c33496fd4f7909ca552f6fbd"
+        },
+        {
+          "original": "data/quality-surface/ATTRIBUTION.md",
+          "released": "data/quality-surface/ATTRIBUTION.md",
+          "original_sha256": "08e2a189ed70316ec97d65a9531473fc0b1adf1db5f4b06f0596580de7ef09fd",
+          "released_sha256": "08e2a189ed70316ec97d65a9531473fc0b1adf1db5f4b06f0596580de7ef09fd"
+        },
+        {
+          "original": "data/visualization-v1/CIE_xyz_1931_2deg.csv",
+          "released": "data/spectral/CIE_xyz_1931_2deg.csv",
+          "original_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+          "released_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+        }
+      ],
+      "original_config_sha256": "90c1189f6ba75ebac8a677de5f4aed8a9d4e39ecd9fe505a6e89ade2ac71d624",
+      "numeric_model_and_rendering_parameters_unchanged": true,
+      "path_fields_remapped": {
+        "material_support_source": "cache/particle-support",
+        "force_quintic_accelerations": "cache/motion/playback-accelerations.npz",
+        "material_geometry_support_path": "cache/material/cov.npy",
+        "launch_color_reference": "cache/material/launch-reference.npz"
+      },
+      "unused_control_archives_omitted_bytes": 1536557568,
+      "scope": "Import/path relocation and input curation; validated by separate reference-pixel test"
+    },
+    "validation/final-checks/portable-render.json": {
+      "passed": true,
+      "width": 144,
+      "height": 256,
+      "frames": [
+        {
+          "playback_s": 10.5,
+          "tests": {
+            "finite_native_computation": true,
+            "mass": true,
+            "cooling": true,
+            "centroids": true,
+            "material_only": true,
+            "no_new_light": true,
+            "opacity": true,
+            "selected_camera": true
+          },
+          "rgb16_sha256": "4da64031031aa1e44ae58ea2860fcc2fa79c1c81e9f1d1b684fa44c5830bb0f4"
+        },
+        {
+          "playback_s": 18.5,
+          "tests": {
+            "finite_native_computation": true,
+            "mass": true,
+            "cooling": true,
+            "centroids": true,
+            "material_only": true,
+            "no_new_light": true,
+            "opacity": true,
+            "selected_camera": true
+          },
+          "rgb16_sha256": "3357cf9b37fd14eb5945a9f5ea2218e79a71533bc1bcd92f60a85b3f4f2f8ffd"
+        },
+        {
+          "playback_s": 28.5,
+          "tests": {
+            "finite_native_computation": true,
+            "mass": true,
+            "cooling": true,
+            "centroids": true,
+            "material_only": true,
+            "no_new_light": true,
+            "opacity": true,
+            "selected_camera": true
+          },
+          "rgb16_sha256": "3c5d11a4949187de004f4798ef121d04f6275bd905a389ee7e7f572e591ee402"
+        }
+      ],
+      "full_reel_rerendered": false,
+      "not_hydrodynamic_validation": true
+    },
+    "validation/final-checks/clean-checkout.json": {
+      "passed": true,
+      "fresh_git_checkout": true,
+      "fresh_isolated_venv": true,
+      "pinned_requirements_installed": true,
+      "input_restoration": "Local copy of the exact release archive plus checksum-verified local copies of the TWO external Bifrost-derived surface files",
+      "public_from_scratch_reproduction_complete": false,
+      "all_input_hashes_verified": true,
+      "smoke_render_passed": true,
+      "reference_rgb16_matches": false,
+      "CLI_video_test": {
+        "width": 144,
+        "height": 256,
+        "frames": 3,
+        "fps": 30
+      },
+      "full_native_Reel_rerendered": false,
+      "raw_surface_regeneration_tested": false,
+      "elapsed_s": 124.35043033299735
+    },
+    "validation/final-checks/binary-environment-sensitivity.json": {
+      "scope": "Same pinned Python packages, original environment versus fresh PyPI binary wheels; image descriptors, not new hydro or relaxed acceptance gates",
+      "bit_identical": false,
+      "frames": [
+        {
+          "playback_s": 18.5,
+          "mean_absolute_RGB_error_255": 1.78030200677331e-05,
+          "max_absolute_channel_error_255": 0.0038910505836575876,
+          "fraction_different_channels": 0.004575376157407407
+        },
+        {
+          "playback_s": 28.5,
+          "mean_absolute_RGB_error_255": 7.564524337080271e-06,
+          "max_absolute_channel_error_255": 0.0038910505836575876,
+          "fraction_different_channels": 0.0019440827546296296
+        }
+      ],
+      "native_Reel_unchanged": true
+    },
+    "validation/final-checks/encoded-video.json": {
+      "passed": true,
+      "scope": "Decode every final frame and inspect encoded continuity plus source budgets.",
+      "tests": {
+        "native_dimensions": true,
+        "fps": true,
+        "exact_frames": true,
+        "exact_duration": true,
+        "rec709_limited": true,
+        "all_unique_frames": true,
+        "no_whiteout": true,
+        "no_black_frames": true,
+        "no_abrupt_mean_RGB_step": true,
+        "exact_source_clock_samples": true,
+        "mass_identity": true,
+        "conservative_cooling": true,
+        "cooling_within_assigned_budget": true,
+        "photosphere_footprint_bound": true,
+        "zero_smooth_gas": true,
+        "one_selected_sampling": true,
+        "centroids_preserved": true,
+        "PSF_normalized": true,
+        "production_sources_unchanged": true,
+        "material_only_radiation_omitted": true,
+        "physical_absorption_retained": true,
+        "material_support_used": true,
+        "no_excessive_single_channel_clipping": true,
+        "late_camera_scale_fixed": true,
+        "selected_thermal_palette": true
+      },
+      "frames": 960,
+      "unique_frames": 960,
+      "source_interval_s": [
+        0,
+        32
+      ],
+      "native_frame_size": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_s": 32.0,
+      "max_mean_RGB_step": 12.854233741760254,
+      "max_step_global_frame": 574,
+      "median_mean_RGB_step": 3.130086898803711,
+      "white_clip_fraction": 0.0,
+      "mean_scene_range": [
+        38.64801824212272,
+        67.41372189976046
+      ],
+      "part_boundary_steps": [
+        {
+          "frame": 60,
+          "mean_RGB_step": 2.2582123279571533
+        },
+        {
+          "frame": 120,
+          "mean_RGB_step": 2.234652519226074
+        },
+        {
+          "frame": 180,
+          "mean_RGB_step": 2.225921869277954
+        },
+        {
+          "frame": 240,
+          "mean_RGB_step": 2.0622949600219727
+        },
+        {
+          "frame": 300,
+          "mean_RGB_step": 1.9491486549377441
+        },
+        {
+          "frame": 360,
+          "mean_RGB_step": 2.005742073059082
+        },
+        {
+          "frame": 420,
+          "mean_RGB_step": 3.0884931087493896
+        },
+        {
+          "frame": 450,
+          "mean_RGB_step": 2.949551820755005
+        },
+        {
+          "frame": 480,
+          "mean_RGB_step": 6.771471977233887
+        },
+        {
+          "frame": 510,
+          "mean_RGB_step": 8.851078033447266
+        },
+        {
+          "frame": 540,
+          "mean_RGB_step": 10.352283477783203
+        },
+        {
+          "frame": 600,
+          "mean_RGB_step": 10.579862594604492
+        },
+        {
+          "frame": 660,
+          "mean_RGB_step": 4.017581462860107
+        },
+        {
+          "frame": 720,
+          "mean_RGB_step": 5.3086957931518555
+        },
+        {
+          "frame": 780,
+          "mean_RGB_step": 6.589360237121582
+        },
+        {
+          "frame": 810,
+          "mean_RGB_step": 6.885373592376709
+        },
+        {
+          "frame": 840,
+          "mean_RGB_step": 7.1441874504089355
+        },
+        {
+          "frame": 870,
+          "mean_RGB_step": 7.502478122711182
+        },
+        {
+          "frame": 900,
+          "mean_RGB_step": 7.916658401489258
+        }
+      ],
+      "movie_sha256": "6db42a007498ac97b1081bd3f0027ab7ac7fa1b4a0b87e740cf5f03ff87319d5",
+      "elapsed_s": 71.34594316699076,
+      "visual_storyboard_inspection_pending": true,
+      "not_hydrodynamic_validation": true,
+      "max_fraction_any_channel_at_254": 1.0364842454394693e-05,
+      "single_channel_clip_fraction_limit": 0.005,
+      "peak_RGB": [
+        255,
+        245,
+        241
+      ],
+      "validation_tool_sha256": "11d796325d60047ea66aea27988a600b69a3256398d18b21604c9fd0607d3065"
+    }
+  }
+}

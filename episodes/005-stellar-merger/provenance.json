@@ -1,0 +1,407 @@
+{
+  "number": "005",
+  "repo": "sideratlas-no005-stellar-merger",
+  "legacy_tag": "v1.0.0",
+  "legacy_commit": "3eac1d52f55e2af542a76bd660459dc6c4f6d54a",
+  "original_filename": "sideratlas-no005-the-stellar-merger-1080x1920.mp4",
+  "sha256": "6db42a007498ac97b1081bd3f0027ab7ac7fa1b4a0b87e740cf5f03ff87319d5",
+  "bytes": 89526067,
+  "legacy_url": "https://github.com/Loganpis/sideratlas-no005-stellar-merger/releases/download/v1.0.0/sideratlas-no005-the-stellar-merger-1080x1920.mp4",
+  "validated_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "seconds": 32
+  },
+  "complete_decode_passed": true,
+  "central_tag": "no005-v1.0.0",
+  "video_url": "https://github.com/Loganpis/sideratlas/releases/download/no005-v1.0.0/sideratlas-no005-the-stellar-merger-1080x1920.mp4",
+  "source_files": [
+    {
+      "path": "src/__init__.py",
+      "source_path": "src/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/detail/__init__.py",
+      "source_path": "src/detail/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/detail/compact_density.py",
+      "source_path": "src/detail/compact_density.py",
+      "source_sha256": "6bc97acb592b51e5d2df1ccba049a18ef9063d30b7e5607e27e9fefffc07a441",
+      "sha256": "6bc97acb592b51e5d2df1ccba049a18ef9063d30b7e5607e27e9fefffc07a441"
+    },
+    {
+      "path": "src/detail/consistent_absorption.py",
+      "source_path": "src/detail/consistent_absorption.py",
+      "source_sha256": "83d138c9652f581640daa255684d7421131299e129640cc60a88cd10d5adc60e",
+      "sha256": "83d138c9652f581640daa255684d7421131299e129640cc60a88cd10d5adc60e"
+    },
+    {
+      "path": "src/detail/density_consistency.py",
+      "source_path": "src/detail/density_consistency.py",
+      "source_sha256": "51dc936f28ed5b14673a0d7a2a096ae8311652e4e0e9d52e8bce4d5624c9d378",
+      "sha256": "51dc936f28ed5b14673a0d7a2a096ae8311652e4e0e9d52e8bce4d5624c9d378"
+    },
+    {
+      "path": "src/detail/fields.py",
+      "source_path": "src/detail/fields.py",
+      "source_sha256": "258948d5fa9b5ad9f71e33e681be801cc69bbaefe744ac4822be1d1a366ceb9b",
+      "sha256": "258948d5fa9b5ad9f71e33e681be801cc69bbaefe744ac4822be1d1a366ceb9b"
+    },
+    {
+      "path": "src/detail/launch_color.py",
+      "source_path": "src/detail/launch_color.py",
+      "source_sha256": "6c01e23825357bd371eb291c1a74d357bf5c53b70f91014ce7ff7a0b7f4cefab",
+      "sha256": "6c01e23825357bd371eb291c1a74d357bf5c53b70f91014ce7ff7a0b7f4cefab"
+    },
+    {
+      "path": "src/detail/material_geometry.py",
+      "source_path": "src/detail/material_geometry.py",
+      "source_sha256": "0f25d605c818e52b0c7bb0bc8aa85af18a1d2b3b135b5fa0211c49bccb31d08a",
+      "sha256": "0f25d605c818e52b0c7bb0bc8aa85af18a1d2b3b135b5fa0211c49bccb31d08a"
+    },
+    {
+      "path": "src/detail/material_only.py",
+      "source_path": "src/detail/material_only.py",
+      "source_sha256": "be13d8a9d6e2e4ebe8c52c69c07c1e868b0f3f848fbe3003027b0d6f1385b80b",
+      "sha256": "be13d8a9d6e2e4ebe8c52c69c07c1e868b0f3f848fbe3003027b0d6f1385b80b"
+    },
+    {
+      "path": "src/detail/microflow.py",
+      "source_path": "src/detail/microflow.py",
+      "source_sha256": "b92ec1f3a7c0dfe001706f58a6149c7d5896491946f9e84fe1a6d0c4ec57e70a",
+      "sha256": "b92ec1f3a7c0dfe001706f58a6149c7d5896491946f9e84fe1a6d0c4ec57e70a"
+    },
+    {
+      "path": "src/detail/particle_cooling.py",
+      "source_path": "src/detail/particle_cooling.py",
+      "source_sha256": "c95aede056e5c32b186c3eee05792ecf570ed4f8f5820cbba18a6a2ef0dab0a8",
+      "sha256": "c95aede056e5c32b186c3eee05792ecf570ed4f8f5820cbba18a6a2ef0dab0a8"
+    },
+    {
+      "path": "src/detail/polar_final.py",
+      "source_path": "src/detail/polar_final.py",
+      "source_sha256": "b82481bcb89418f3c0d219f2e25924f27023b6b31090b9fb298d11c318c09472",
+      "sha256": "b82481bcb89418f3c0d219f2e25924f27023b6b31090b9fb298d11c318c09472"
+    },
+    {
+      "path": "src/detail/remnant_focus.py",
+      "source_path": "src/detail/remnant_focus.py",
+      "source_sha256": "6d63693cbf98ddbf481dbe94c7a230bd1c1ec24cb4abdd0e34275d830d9f4f86",
+      "sha256": "6d63693cbf98ddbf481dbe94c7a230bd1c1ec24cb4abdd0e34275d830d9f4f86"
+    },
+    {
+      "path": "src/detail/renderer.py",
+      "source_path": "src/detail/renderer.py",
+      "source_sha256": "ae334a1bc42d2227467af97715a5deccaee8eb41a33e0e45b3661c48311b04d9",
+      "sha256": "ae334a1bc42d2227467af97715a5deccaee8eb41a33e0e45b3661c48311b04d9"
+    },
+    {
+      "path": "src/detail/reprocessing.py",
+      "source_path": "src/detail/reprocessing.py",
+      "source_sha256": "c03c46c079f63eed2dd4487d412a46ae0c2c35a6a9d33be1cb2b16e866a7e255",
+      "sha256": "c03c46c079f63eed2dd4487d412a46ae0c2c35a6a9d33be1cb2b16e866a7e255"
+    },
+    {
+      "path": "src/detail/synchronized_microflow.py",
+      "source_path": "src/detail/synchronized_microflow.py",
+      "source_sha256": "bd48f228e86f302b883e48075e6b2c6741e9494680d4330387de3c5809db2b00",
+      "sha256": "bd48f228e86f302b883e48075e6b2c6741e9494680d4330387de3c5809db2b00"
+    },
+    {
+      "path": "src/detail/transported_microflow.py",
+      "source_path": "src/detail/transported_microflow.py",
+      "source_sha256": "0928aaca232984f4b8ff7951079e2c871bfbbde286c462afb29ce52ce5640e7e",
+      "sha256": "0928aaca232984f4b8ff7951079e2c871bfbbde286c462afb29ce52ce5640e7e"
+    },
+    {
+      "path": "src/detail/wendland_c2.py",
+      "source_path": "src/detail/wendland_c2.py",
+      "source_sha256": "de04c57fd6dba31f1216ae517f929bd45e70308a769e15834dcf2cfc6c2fbcbf",
+      "sha256": "de04c57fd6dba31f1216ae517f929bd45e70308a769e15834dcf2cfc6c2fbcbf"
+    },
+    {
+      "path": "src/dynamics/__init__.py",
+      "source_path": "src/dynamics/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/dynamics/prescribed.py",
+      "source_path": "src/dynamics/prescribed.py",
+      "source_sha256": "a1b3e009e8989d555e5610b06652a04785da9f8b7aa79bb20f33310a03d964d2",
+      "sha256": "a1b3e009e8989d555e5610b06652a04785da9f8b7aa79bb20f33310a03d964d2"
+    },
+    {
+      "path": "src/gas_transport.py",
+      "source_path": "src/gas_transport.py",
+      "source_sha256": "5702b6fca0f7a69781cf54854c53b501f104f7bfdeebf72878ffbbdbecfcc387",
+      "sha256": "5702b6fca0f7a69781cf54854c53b501f104f7bfdeebf72878ffbbdbecfcc387"
+    },
+    {
+      "path": "src/motion_renderer.py",
+      "source_path": "src/motion_renderer.py",
+      "source_sha256": "98d8b373136cdee358840460854b283ce80f97ebf64919c7237c96b34fbbb9e2",
+      "sha256": "98d8b373136cdee358840460854b283ce80f97ebf64919c7237c96b34fbbb9e2"
+    },
+    {
+      "path": "src/motion_view.py",
+      "source_path": "src/motion_view.py",
+      "source_sha256": "9f831cbb7ad025e9b621467523d083e7894bf28b141b8869ee2cbdcc2d5f8c20",
+      "sha256": "9f831cbb7ad025e9b621467523d083e7894bf28b141b8869ee2cbdcc2d5f8c20"
+    },
+    {
+      "path": "src/quality/__init__.py",
+      "source_path": "src/quality/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/quality/kernels.py",
+      "source_path": "src/quality/kernels.py",
+      "source_sha256": "8f8b0e30597bac663fa9b3c513f1a4d2d66b09ee6c9befc3fd5dcb8944621d13",
+      "sha256": "8f8b0e30597bac663fa9b3c513f1a4d2d66b09ee6c9befc3fd5dcb8944621d13"
+    },
+    {
+      "path": "src/quality/renderer.py",
+      "source_path": "src/quality/renderer.py",
+      "source_sha256": "b5b89176ebed8250b4c538c7866a742b409e2ee59ce12fb43e3a34a00a960369",
+      "sha256": "b5b89176ebed8250b4c538c7866a742b409e2ee59ce12fb43e3a34a00a960369"
+    },
+    {
+      "path": "src/radiation/__init__.py",
+      "source_path": "src/radiation/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/radiation/spectrum.py",
+      "source_path": "src/radiation/spectrum.py",
+      "source_sha256": "1d0c72e4233987ac1acda8f62ad72e3fdf6b909804e2ae57b9fa8746200f91fd",
+      "sha256": "1d0c72e4233987ac1acda8f62ad72e3fdf6b909804e2ae57b9fa8746200f91fd"
+    },
+    {
+      "path": "src/rendering/__init__.py",
+      "source_path": "src/rendering/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/rendering/final_scene.py",
+      "source_path": "src/rendering/final_scene.py",
+      "source_sha256": "e2c182863e8bb6101f4843fce9a92f478205ecb5bb43ec36f5d3ea73d401a36c",
+      "sha256": "e2c182863e8bb6101f4843fce9a92f478205ecb5bb43ec36f5d3ea73d401a36c"
+    },
+    {
+      "path": "src/rendering/photosphere_base.py",
+      "source_path": "src/rendering/photosphere_base.py",
+      "source_sha256": "28fad88ba3df371cbd3400b4ee098bb3941908c27bca7e4de848413351d20c0c",
+      "sha256": "28fad88ba3df371cbd3400b4ee098bb3941908c27bca7e4de848413351d20c0c"
+    },
+    {
+      "path": "src/stellar_render_reuse.py",
+      "source_path": "src/stellar_render_reuse.py",
+      "source_sha256": "c5f238d0074c98d019a7f7f01f7038248d2a7c1e776cc16689228f681b272911",
+      "sha256": "c5f238d0074c98d019a7f7f01f7038248d2a7c1e776cc16689228f681b272911"
+    },
+    {
+      "path": "src/stellar_structure.py",
+      "source_path": "src/stellar_structure.py",
+      "source_sha256": "57277416ca5978475be35230bff9036a8b248fa8b5990cba2ed2e67e7b21535d",
+      "sha256": "57277416ca5978475be35230bff9036a8b248fa8b5990cba2ed2e67e7b21535d"
+    },
+    {
+      "path": "src/transport_volume.py",
+      "source_path": "src/transport_volume.py",
+      "source_sha256": "ba67e805653550b83b90283f6b6c28d83444f3c614413d8f5fb79da90b1cbe5d",
+      "sha256": "ba67e805653550b83b90283f6b6c28d83444f3c614413d8f5fb79da90b1cbe5d"
+    },
+    {
+      "path": "src/video_export.py",
+      "source_path": "src/video_export.py",
+      "source_sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+      "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "source_path": "scripts/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/analyze_trajectories.py",
+      "source_path": "scripts/analyze_trajectories.py",
+      "source_sha256": "66ede4ca8a78d3602c9f76dd8d90f2ace2cde61e2bd53a8fa138597123f22ab5",
+      "sha256": "66ede4ca8a78d3602c9f76dd8d90f2ace2cde61e2bd53a8fa138597123f22ab5"
+    },
+    {
+      "path": "scripts/check_repository.py",
+      "source_path": "scripts/check_repository.py",
+      "source_sha256": "5e1aa9353da536a4e7a38c89cd95228d6273a469dec0c751a52aa8693544f19a",
+      "sha256": "5e1aa9353da536a4e7a38c89cd95228d6273a469dec0c751a52aa8693544f19a"
+    },
+    {
+      "path": "scripts/derive_surface_inputs.py",
+      "source_path": "scripts/derive_surface_inputs.py",
+      "source_sha256": "331d1f556aab4037a0c3f119d9a59ef6fc04ccb1ce8f8f8a33df2f52a6129467",
+      "sha256": "331d1f556aab4037a0c3f119d9a59ef6fc04ccb1ce8f8f8a33df2f52a6129467"
+    },
+    {
+      "path": "scripts/fetch_inputs.py",
+      "source_path": "scripts/fetch_inputs.py",
+      "source_sha256": "288fb9eea935e4b0ba32e90c2456bb32f595c3157bfadc17cf87b66d1a8c16c6",
+      "sha256": "288fb9eea935e4b0ba32e90c2456bb32f595c3157bfadc17cf87b66d1a8c16c6"
+    },
+    {
+      "path": "scripts/integrate_model.py",
+      "source_path": "scripts/integrate_model.py",
+      "source_sha256": "116a8ca1ba8f6e4f47f527007ce0917d4edecfab9a7fef2fd33512c4884521d2",
+      "sha256": "116a8ca1ba8f6e4f47f527007ce0917d4edecfab9a7fef2fd33512c4884521d2"
+    },
+    {
+      "path": "scripts/render.py",
+      "source_path": "scripts/render.py",
+      "source_sha256": "45a5a393fa28aacdc59476ca17c97a6eb6ef8d0bfbdfb66c7df622eddf0f2e4a",
+      "sha256": "45a5a393fa28aacdc59476ca17c97a6eb6ef8d0bfbdfb66c7df622eddf0f2e4a"
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "source_path": "scripts/smoke_test.py",
+      "source_sha256": "fcb1200516114128f9798886b4c03a51f8c219c91218bfac4b584b2fd6dd3405",
+      "sha256": "fcb1200516114128f9798886b4c03a51f8c219c91218bfac4b584b2fd6dd3405"
+    },
+    {
+      "path": "scripts/verify_inputs.py",
+      "source_path": "scripts/verify_inputs.py",
+      "source_sha256": "e5f228f351b0ffc2959961bae4e90cd90b48e31e7ddc0b85a850f4b804bb1f1b",
+      "sha256": "be8c30e539aaeded15e57be36ca290cb156dea2ded0c97303b357386ff0b4685"
+    },
+    {
+      "path": "scripts/verify_video.py",
+      "source_path": "scripts/verify_video.py",
+      "source_sha256": "7b70400ccaa35e66c62afec243632a057bc9075ed0f068980e243f4e51efeb20",
+      "sha256": "7b70400ccaa35e66c62afec243632a057bc9075ed0f068980e243f4e51efeb20"
+    },
+    {
+      "path": "config/exposure-samples.json",
+      "source_path": "config/exposure-samples.json",
+      "source_sha256": "a9442b5ecb702e725c58e0c0f88015201c52c7803cc02fe2b81ca631062ed6cf",
+      "sha256": "a9442b5ecb702e725c58e0c0f88015201c52c7803cc02fe2b81ca631062ed6cf"
+    },
+    {
+      "path": "config/final-release.json",
+      "source_path": "config/final-release.json",
+      "source_sha256": "4f4dfc36a2d6e42fe1ce137473e3b7c80d91ce1b7f08700c3dedd4a9576ee83b",
+      "sha256": "4f4dfc36a2d6e42fe1ce137473e3b7c80d91ce1b7f08700c3dedd4a9576ee83b"
+    },
+    {
+      "path": "config/model.json",
+      "source_path": "config/model.json",
+      "source_sha256": "d81f5b984984e29fccf74a180daa10ca1ad980134a442f7dd8f7c54fe89438a5",
+      "sha256": "d81f5b984984e29fccf74a180daa10ca1ad980134a442f7dd8f7c54fe89438a5"
+    },
+    {
+      "path": "data/stellar-structures/companion-fine-structure.json",
+      "source_path": "data/stellar-structures/companion-fine-structure.json",
+      "source_sha256": "8f61a96d30af54817a6a3fe265e79d0d8b23450a622d69a5b2f13956fe17f65c",
+      "sha256": "8f61a96d30af54817a6a3fe265e79d0d8b23450a622d69a5b2f13956fe17f65c"
+    },
+    {
+      "path": "data/stellar-structures/donor-fine-structure.json",
+      "source_path": "data/stellar-structures/donor-fine-structure.json",
+      "source_sha256": "552a3f89869c40be18a41a14044bcebddf37662f9e50471bcadb2735a62f4e85",
+      "sha256": "552a3f89869c40be18a41a14044bcebddf37662f9e50471bcadb2735a62f4e85"
+    },
+    {
+      "path": "data/stellar-structures/profiles/donor-fine.profile.data",
+      "source_path": "data/stellar-structures/profiles/donor-fine.profile.data",
+      "source_sha256": "f062e6919da15ee09380086141e321a42acf0530ad4486cb600d8477ea9ed34b",
+      "sha256": "f062e6919da15ee09380086141e321a42acf0530ad4486cb600d8477ea9ed34b"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "source_path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "source_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv_metadata.json",
+      "source_path": "data/spectral/CIE_xyz_1931_2deg.csv_metadata.json",
+      "source_sha256": "f08c934713c00ca3eb3bcb98ed006df9d88df36b87edcf8d5e85e10938029e69",
+      "sha256": "f08c934713c00ca3eb3bcb98ed006df9d88df36b87edcf8d5e85e10938029e69"
+    },
+    {
+      "path": "data/quality-surface/provenance.json",
+      "source_path": "data/quality-surface/provenance.json",
+      "source_sha256": "1ded32fdee649e23b1acf87e0c2d6c28a8d22473c33496fd4f7909ca552f6fbd",
+      "sha256": "1ded32fdee649e23b1acf87e0c2d6c28a8d22473c33496fd4f7909ca552f6fbd"
+    },
+    {
+      "path": "licenses/No004-MIT.txt",
+      "source_path": "licenses/No004-MIT.txt",
+      "source_sha256": "777d73196b1b7910118e669742be61c950f9550f65aea6c020c3049469a5ba4b",
+      "sha256": "777d73196b1b7910118e669742be61c950f9550f65aea6c020c3049469a5ba4b"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_sha256": "325596355d0189a576356783fb925c12afab9d33022fec3abcf6090b23778452",
+      "sha256": "325596355d0189a576356783fb925c12afab9d33022fec3abcf6090b23778452"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "source_path": "THIRD-PARTY-NOTICES.md",
+      "source_sha256": "20146830b00bb061f7808e3930c727feb9fbf11e568b69f6dc96c2e49b6563b4",
+      "sha256": "161cf37e920869f3ba4e9279b71a2beccdff1fac35499e857c3e1b325245798d"
+    },
+    {
+      "path": "requirements.txt",
+      "source_path": "requirements.txt",
+      "source_sha256": "6be6dea2f814c170e7260d57ba1bbb188d9acd6e02cad075d84b9bccdab45b78",
+      "sha256": "6be6dea2f814c170e7260d57ba1bbb188d9acd6e02cad075d84b9bccdab45b78"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "source_path": "requirements-lock.txt",
+      "source_sha256": "862c39f40669e6065a24ba1dd7bd9cd1cbdb53fea23a867cea475404085aed65",
+      "sha256": "862c39f40669e6065a24ba1dd7bd9cd1cbdb53fea23a867cea475404085aed65"
+    },
+    {
+      "path": "data/input-manifest.json",
+      "source_path": "data/input-manifest.json",
+      "source_sha256": "40c99de550f212926a2338a7adfbe45b61e4b68c60ec7fc496650891266f438b",
+      "sha256": "40c99de550f212926a2338a7adfbe45b61e4b68c60ec7fc496650891266f438b"
+    },
+    {
+      "path": "data/release-assets.json",
+      "source_path": "data/release-assets.json",
+      "source_sha256": "47952f6a6fdf231f3e68e40c1c6e972a96b4b33d482376088dfc5ba51fc328a4",
+      "sha256": "47952f6a6fdf231f3e68e40c1c6e972a96b4b33d482376088dfc5ba51fc328a4"
+    },
+    {
+      "path": "data/quality-surface/ATTRIBUTION.md",
+      "source_path": "data/quality-surface/ATTRIBUTION.md",
+      "source_sha256": "08e2a189ed70316ec97d65a9531473fc0b1adf1db5f4b06f0596580de7ef09fd",
+      "sha256": "08e2a189ed70316ec97d65a9531473fc0b1adf1db5f4b06f0596580de7ef09fd"
+    },
+    {
+      "path": "instagram-caption.text",
+      "source_path": "instagram-caption.text",
+      "source_sha256": "742b5378a315e1d21ea7c988de422eb923958f66e813f37d7658f9832cd5e512",
+      "sha256": "fe0a75312c3287790c2f6df1bc0de1e6a2f2a3fb2ee3efdef8899e5d7e4d8f9c"
+    },
+    {
+      "path": "validation/final-checks/encoded-video.json",
+      "source_path": "validation/final-checks/encoded-video.json",
+      "source_sha256": "2df01ec62df42007435eba21cb43841a2b178ccaf04ac845c9276ddedd673506",
+      "sha256": "2df01ec62df42007435eba21cb43841a2b178ccaf04ac845c9276ddedd673506"
+    }
+  ],
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+}

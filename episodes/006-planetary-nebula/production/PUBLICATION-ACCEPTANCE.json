@@ -1,0 +1,38 @@
+{
+  "accepted": true,
+  "decision": "GIANT CELLS is the final SiderAtlas No.006; no movie or scientific-model change required",
+  "date": "2026-11-06T20:04:36.741261+00:00",
+  "file": "output/production/SiderAtlas-No006-The-Planetary-Nebula-GIANT-CELLS-1080x1920.mp4",
+  "sha256": "e72f76440db97cb60e9c47a62c426d9107bb2629890677313c0e0902df998fcb",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "seconds": 32,
+  "frames": 960,
+  "evidence": [
+    "docs/FINAL-PUBLICATION-VALIDATION.md",
+    "validation/publication-targeted-science.json",
+    "validation/publication-radius-179-180.json",
+    "validation/publication-encoded-photometry.json",
+    "output/publication-review/film-00-08.jpg",
+    "output/publication-review/film-08-16.jpg",
+    "output/publication-review/film-16-24.jpg",
+    "output/publication-review/film-24-32.jpg",
+    "output/publication-review/critical-5.7-6.3-actual-encoded.jpg",
+    "output/publication-review/critical-7.7-8.0-actual-encoded.jpg"
+  ],
+  "all85frozen_sources_unchanged": true,
+  "models_recomputed": false,
+  "review_method": "Read actual implementation; eight full statistical maps and direct spectral/angular checks; full960-frame decode and65epoch storyboard;31consecutive critical encoded frames; actual179\u2013180 limb remeasurement",
+  "critical_interval_findings": "Continuous statistically evolving cells with unchanged birth sizes; visible contrast changes follow Teff, spectral sensitivity, cell statistics and geometric projection; no giant-atlas zoom or model handoff in these intervals",
+  "caveat": "Internally consistent physics-informed numerical visualization, not validated giant RHD or an observation",
+  "cover": {
+    "file": "output/publication-review/cover.png",
+    "source_frame": 780,
+    "PTS_s": 26.0,
+    "sha256": "d9c70d5d7548f9228679f3d5404136e878954660b07a08571b14660ad4ba1e57",
+    "treatment": "Actual native encoded frame, Rec709-to-sRGB decoding only; no added labels or image edits"
+  },
+  "published_to_instagram": false,
+  "github_repository_modified": false
+}

@@ -1,0 +1,99 @@
+{
+  "sharing": {
+    "passed": true,
+    "checks": {
+      "golden/atmosphere.py": true,
+      "golden/stellar_renderer.py": true,
+      "golden_orbit/render.py": true,
+      "photosphere/surface.py": true,
+      "src/continuum.py": true,
+      "src/geometry.py": true,
+      "src/solar_surface.py": true,
+      "src/active_region.py": true,
+      "src/optics.py": true,
+      "No006_adapter_callable_bodies_identical": true,
+      "encoder_command_and_call_identical": true,
+      "004-main-sequence-star_encoder_bytes_identical": true,
+      "005-stellar-merger_encoder_bytes_identical": true,
+      "006-planetary-nebula_encoder_bytes_identical": true
+    }
+  },
+  "white_dwarf_frame_parity": {
+    "passed": true,
+    "width": 144,
+    "height": 256,
+    "global_frame": 181,
+    "max_RGB16_difference": 0,
+    "sha256": "d7c01248bd96c78af42172461b05dc5134e3060f3aa8a8ebcf277d05ef6da34d",
+    "scope": "Bounded rendered-frame parity in the same environment; full native film not rerendered"
+  },
+  "white_dwarf_cell_numerics": {
+    "neighbor_candidate_checks": [
+      {
+        "t": 1.23,
+        "rms_difference": 0.0,
+        "max_difference": 0.0
+      },
+      {
+        "t": 4.57,
+        "rms_difference": 0.0,
+        "max_difference": 0.0
+      },
+      {
+        "t": 19.21,
+        "rms_difference": 0.0,
+        "max_difference": 0.0
+      }
+    ],
+    "atlas_vs_direct_RMS": 0.0177506706386956,
+    "temporal_step_halving_RMS": 0.0008893201340870693,
+    "intensity_RMS": 0.17250217497348785,
+    "native_patch_smoothed_absolute_RMS_error": 0.009034680569229769,
+    "atlas_mean": 0.9997047083968595,
+    "atlas_relative_RMS": 0.1662688213846818,
+    "numerical_checks_passed": true,
+    "interpretation": "Numerical checks of a statistical surrogate, not RHD validation; atlas smoothing explicitly measured"
+  },
+  "pulsar_tests": {
+    "passed": true,
+    "tests": 63,
+    "seconds": 3.55,
+    "scope": "Existing software and numerical tests; no new field solve"
+  },
+  "black_hole_flow": {
+    "passed": true,
+    "checks": 70,
+    "scope": "Neutral test-flow limit/normalization checks; no new fluid simulation"
+  },
+  "nebula_rebuilt_projector": {
+    "passed": true,
+    "raw_HDR_relative_L1": 3.539827649686533e-06,
+    "raw_HDR_flux_relative_bias": 2.1683290411665214e-06,
+    "max_absolute_error_over_peak": 6.809048184897503e-06,
+    "repeat_bit_exact": true,
+    "width": 144,
+    "height": 256,
+    "selected_state_playback_s": 27.0,
+    "thresholds": {
+      "HDR_L1": 0.001,
+      "flux_bias": 0.001,
+      "peak_normalized": 0.005
+    },
+    "binary_sha256": "6906503a48b74472efca2851317a6323637ad6144834c42f474f50478a26796b",
+    "scope": "Bounded arithmetic check; original native-resolution qualification remains archived in validation"
+  },
+  "all_final_movies": {
+    "passed": true,
+    "count": 6,
+    "total_bytes": 317698477,
+    "checks": [
+      "exact accepted SHA-256",
+      "complete decode",
+      "H.264",
+      "1080x1920",
+      "30 fps",
+      "960 frames",
+      "32 seconds"
+    ]
+  }
+}

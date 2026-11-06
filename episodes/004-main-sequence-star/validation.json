@@ -1,0 +1,300 @@
+{
+  "scope": "Archived selected-model numerical evidence; not a new independent physical validation",
+  "records": {
+    "validation/scientific-checks.json": {
+      "camera": {
+        "revolutions": 4,
+        "seconds_per_orbit": 8,
+        "angular_speed_deg_s": 45,
+        "azimuth_at_0_8_16_24_32_s": [
+          -15.0,
+          345.0,
+          705.0,
+          1065.0,
+          1425.0
+        ],
+        "inclination_deg": 67,
+        "maximum_frozen_orientation_return_error": 1.4988010832439613e-15,
+        "frame_sampling": "960 midpoint frames; constant 1.5 degree azimuth steps, no duplicated endpoint",
+        "centered_constant_radius": true,
+        "source_clock_reset": false,
+        "physical_seconds_per_display_second": 20,
+        "physical_rotation_days": 25.38,
+        "physical_rotation_during_film_deg": 0.1050696086157079
+      },
+      "UV_depth_quadrature": [
+        {
+          "time_s": 0.0,
+          "L1_48_vs_96": 2.2727957638349375e-05,
+          "total_UV_flux_relative": -1.0696680208255316e-09,
+          "physical_CIV_sum": 7631611.805285771
+        },
+        {
+          "time_s": 1.0,
+          "L1_48_vs_96": 0.0034961696574503094,
+          "total_UV_flux_relative": -2.929395128725698e-05,
+          "physical_CIV_sum": 7201790.378533635
+        },
+        {
+          "time_s": 2.0,
+          "L1_48_vs_96": 0.007960251005635596,
+          "total_UV_flux_relative": -1.7578066291323857e-05,
+          "physical_CIV_sum": 6520068.761966512
+        },
+        {
+          "time_s": 3.0,
+          "L1_48_vs_96": 0.007576097104161627,
+          "total_UV_flux_relative": 2.1776354424130062e-06,
+          "physical_CIV_sum": 5952717.769798818
+        },
+        {
+          "time_s": 4.0,
+          "L1_48_vs_96": 0.0027672955549566734,
+          "total_UV_flux_relative": 2.1391541451531992e-06,
+          "physical_CIV_sum": 4260019.023285567
+        },
+        {
+          "time_s": 5.0,
+          "L1_48_vs_96": 0.009615878175628501,
+          "total_UV_flux_relative": -1.4159497130350474e-08,
+          "physical_CIV_sum": 4353091.506364485
+        },
+        {
+          "time_s": 6.0,
+          "L1_48_vs_96": 0.022820322517772683,
+          "total_UV_flux_relative": 2.555172792018112e-06,
+          "physical_CIV_sum": 5086819.484000041
+        },
+        {
+          "time_s": 7.0,
+          "L1_48_vs_96": 0.0019518809506012084,
+          "total_UV_flux_relative": -5.258127461560402e-05,
+          "physical_CIV_sum": 7238755.3543485245
+        },
+        {
+          "time_s": 16.0,
+          "L1_48_vs_96": 2.3926539098088515e-05,
+          "total_UV_flux_relative": -1.0538541150850733e-09,
+          "physical_CIV_sum": 9312793.524622405
+        },
+        {
+          "time_s": 31.99,
+          "L1_48_vs_96": 2.866547122253748e-05,
+          "total_UV_flux_relative": -1.035197150223155e-09,
+          "physical_CIV_sum": 8335419.632386218
+        },
+        {
+          "time_s": 32.0,
+          "L1_48_vs_96": 2.3733142099642655e-05,
+          "total_UV_flux_relative": -1.0493171886949426e-09,
+          "physical_CIV_sum": 8587647.798984932
+        }
+      ],
+      "maximum_depth_quadrature_L1_48_vs_96": 0.022820322517772683,
+      "projection_reuse_provenance": {
+        "report_sha256": "4238a5f241e756c2fa551f3cc98f17c43f1db7fb142aeedb17f589132a2711c5",
+        "all_projection_settings_matched": true
+      },
+      "world_anchoring": {
+        "actual_surface_and_active_map_frozen_time_return_errors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "atmospheric_centers_star_fixed": [
+          [
+            0.3835478227345365,
+            0.0007342960716360258,
+            0.923520724447955
+          ],
+          [
+            -0.4674557816029269,
+            -0.29125794430932367,
+            -0.8346579551664883
+          ]
+        ],
+        "camera_azimuth_never_used_for_atlas_hash": true,
+        "physical_source_times_optical": [
+          3852.4,
+          4492.4
+        ],
+        "physical_source_times_CIV": [
+          974,
+          1614
+        ],
+        "note": "Only the viewpoint repeats; evolving source radiation and the independent physical rotation do not reset"
+      },
+      "grading": {
+        "max_absolute_pre_tone_linear_Y_error": 1.7763568394002505e-15,
+        "fixed_initial_limb_reference": true,
+        "per_frame_auto_exposure": false,
+        "relative_intensity_knots": [
+          0.65,
+          1.0,
+          1.9
+        ],
+        "gain_vectors": [
+          [
+            1.38,
+            0.75,
+            0.075
+          ],
+          [
+            1.28,
+            0.9,
+            0.13
+          ],
+          [
+            1.08,
+            1.0,
+            0.65
+          ]
+        ],
+        "UV_false_color_linear_RGB": [
+          1,
+          0.23,
+          0.035
+        ]
+      },
+      "photospheric_output_sampling_1_vs_4_post_imaging_RMS_relative_to_mean": 0.015329490204649333,
+      "limitations": [
+        "Independent local models, not a global MHD solution",
+        "The two finite 2.5D UV sheets can look sheet-like as the camera orbits; no artificial billboarding",
+        "Prescribed 10x magnification, contrast, golden grading and optical halo",
+        "UV ionization, opacity and temporal reconstruction limits unchanged",
+        "Four camera orbits are seamless; the evolving physical state is not a repeated 8-second clip or a closed 32-second loop"
+      ]
+    },
+    "validation/sideratlas-no004-golden-orbit-32s-export.json": {
+      "verified": true,
+      "file": "sideratlas-no004-golden-orbit-32s.mp4",
+      "sha256": "ac01415be0eea40d72d410541e16a3b52d12a1bae85bb1ed7a1fed38fb8484c4",
+      "size_bytes": 81831077,
+      "width": 1080,
+      "height": 1920,
+      "frames": 960,
+      "duration_s": 32.0,
+      "complete_decode": true,
+      "first_frame_MAE_8bit": 1.4818576388888889,
+      "first_frame_PSNR_dB": 39.579053447707906,
+      "minimum_adjacent_frame_MAE_8bit": 5.191402874228395,
+      "max_normalized_PSF_flux_error": 6.439293542825908e-15,
+      "minimum_crop_fraction": 0.9991745451875119,
+      "only_labels": [
+        "THE MAIN-SEQUENCE STAR",
+        "@sideratlas",
+        "NO.004"
+      ]
+    },
+    "validation/inherited-optical/convergence.json": {
+      "17_vs_33_wavelengths": {
+        "mean_relative_difference": 6.538629531860352e-05,
+        "rms_relative_to_mean": 0.0003508926020003855,
+        "max_relative_to_mean": 0.0013271314091980457
+      },
+      "vertical_formal_integration_refinement": {
+        "mean_relative_difference": 0.010651767253875732,
+        "rms_relative_to_mean": 0.015804952010512352,
+        "max_relative_to_mean": 0.09674971550703049
+      },
+      "oblique_angular_interpolation": {
+        "mean_relative_difference": 0.0023069381713867188,
+        "rms_relative_to_mean": 0.02278308756649494,
+        "max_relative_to_mean": 0.3710988759994507
+      },
+      "output_grid_point_consistency": {
+        "mean_relative_difference": 0.0,
+        "rms_relative_to_mean": 0.0,
+        "max_relative_to_mean": 0.0
+      },
+      "40_second_temporal_midpoint": {
+        "mean_relative_difference": 0.00047832727432250977,
+        "rms_relative_to_mean": 0.01141745038330555,
+        "max_relative_to_mean": 0.3526182472705841
+      },
+      "scope": "Post-processing convergence only, not independent radiation-MHD grid convergence; maximum point errors may be larger in magnetic lanes"
+    },
+    "validation/inherited-optical/transfer.json": {
+      "formal_solver_isothermal_max_error": 0.0,
+      "linear_source_max_error": 4.758065808019296e-08,
+      "limb_darkening": [
+        0.3935040723055435,
+        0.5685004103353306,
+        0.7417122702504145,
+        0.8797082516257182,
+        1.0
+      ],
+      "finite_positive_RGB": true,
+      "disk_center_broadband_rms_contrast": 0.16668530140716714,
+      "checks": "Analytic constant and linearly varying source functions; no MHD convergence claim"
+    },
+    "validation/UV-projected-temporal-holdout.json": {
+      "test": "Omit one native output; project retained brackets and compare the true middle emissivity, fixed camera and no artificial advection",
+      "cases": [
+        {
+          "snapshot": 308,
+          "time_s": 1050.0,
+          "bracket_s": [
+            1040.0,
+            1060.0
+          ],
+          "raw_projected_L1_relative": 0.3824443711326312,
+          "Gaussian_blurred_L1_relative": 0.19383459203311043,
+          "relative_integrated_flux_error": 0.05152496206734569
+        },
+        {
+          "snapshot": 324,
+          "time_s": 1200.0,
+          "bracket_s": [
+            1190.0,
+            1210.0
+          ],
+          "raw_projected_L1_relative": 0.3060901782427566,
+          "Gaussian_blurred_L1_relative": 0.1644942725900688,
+          "relative_integrated_flux_error": 0.07494130875296978
+        },
+        {
+          "snapshot": 340,
+          "time_s": 1350.0,
+          "bracket_s": [
+            1340.0,
+            1360.0
+          ],
+          "raw_projected_L1_relative": 0.21943408823039365,
+          "Gaussian_blurred_L1_relative": 0.0981541596343379,
+          "relative_integrated_flux_error": -0.017019522027794998
+        },
+        {
+          "snapshot": 356,
+          "time_s": 1500.0,
+          "bracket_s": [
+            1490.0,
+            1510.0
+          ],
+          "raw_projected_L1_relative": 0.3904568838660714,
+          "Gaussian_blurred_L1_relative": 0.1899673116309779,
+          "relative_integrated_flux_error": -0.037863449347908085
+        }
+      ],
+      "conclusion": "Native spatial emissivity is rapidly variable; retain all recorded states, disclose radiance interpolation and do not claim independently converged subcadence UV motion"
+    },
+    "validation/emissivity-grid.json": {
+      "snapshot": 325,
+      "native_grid_reduction_factors": [
+        4,
+        2
+      ],
+      "native_MHD_recomputed": false,
+      "source_payload_sha256": [
+        "fd7ee7c9972e5430325b6ef7c9858feb7739212c4fa30975f626f51f609247aa",
+        "9791d021d5f37a4ff7d332d8b83c9e6865bab3293e380b78c26a0cc031c542a3"
+      ],
+      "final_width": 1080,
+      "raw_projected_L1_relative": 0.018953168845249124,
+      "Gaussian_1p2px_L1_relative": 0.005259392662195111,
+      "integrated_flux_relative_difference": -6.23652350751902e-05,
+      "scope": "Same native T/ne and coefficient; convergence of emissivity averaging and display projection, not MHD or non-LTE accuracy"
+    }
+  }
+}

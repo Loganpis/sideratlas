@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "device": {
+    "device": "Apple M1",
+    "ready": true
+  },
+  "spatial_samples": 1,
+  "native_width": 1080,
+  "native_height": 1920,
+  "raw_HDR_relative_L1": 6.091776782491015e-07,
+  "raw_HDR_flux_relative_bias": 3.3617136852015506e-07,
+  "max_absolute_error_over_peak": 7.788710444242873e-05,
+  "repeated_call_bit_exact": true,
+  "calls": [
+    {
+      "elapsed_s": 0.5994168749966775,
+      "width": 1080,
+      "height": 1920,
+      "spatial_samples": 1,
+      "transport_emission_unit_scale": 1e+20
+    },
+    {
+      "elapsed_s": 0.5911455840032431,
+      "width": 1080,
+      "height": 1920,
+      "spatial_samples": 1,
+      "transport_emission_unit_scale": 1e+20
+    }
+  ],
+  "thresholds": {
+    "HDR_L1": 0.001,
+    "flux_bias": 0.001,
+    "peak_normalized": 0.005
+  },
+  "physical_state": "exact saved accepted CPU27s input; same geometry/nodes/opacity/emission; no new physics",
+  "passed": true
+}

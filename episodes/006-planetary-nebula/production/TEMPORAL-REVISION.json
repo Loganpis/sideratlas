@@ -1,0 +1,32 @@
+{
+  "scope": "Native time-sampling correction only; accepted MIST data, gas caches, radiative equations, source animation phase and shaders unchanged",
+  "previous_selected_sha256": "697cf2d0cee86508cbc5ae04c587e2e7e0777c7d1fc62a1f11dc730dd1a0aa60",
+  "base_config_sha256": "8a1d1ec98f3a92d06b9efbc0c0fd1f946b26111e137274de2ffdd69516c79f15",
+  "prior_camera_revision_sha256": "f4dd06f36a218716fcda1580e150fcdb3e8d18635a171eefe30c704d24b2db7b",
+  "additional_sources": [
+    {
+      "path": "scripts/prepare_temporal_repair.py",
+      "sha256": "876cd90205277f919c765ef3be5c45a9a77db14573ff467ebc526a4d4b66b745"
+    },
+    {
+      "path": "production/TEMPORAL-SAMPLING.json",
+      "sha256": "0e922f7b04b90cede51dfa7eafcf3345fd4f58b66b4a63a05a2116b2d953d203"
+    },
+    {
+      "path": "src/production_temporal_fix.py",
+      "sha256": "f10c461e1c81d42db7a69483af0275b1bf7fb739ce339b716ea0edcffa049577"
+    },
+    {
+      "path": "scripts/render_temporal_repair.py",
+      "sha256": "a2354f2071c2ea896a1e87008d93ffff9d50beac0a56092a9f8c9de74bff8eba"
+    }
+  ],
+  "changed_chunks": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "new_physical_simulations": false,
+  "frozen": true
+}

@@ -1,0 +1,5 @@
+# Used to prepare atomic coefficients, review PDFs and draw diagnostic palettes.
+# The renderer reads the generated tables without importing PyNeb.
+pyneb==1.1.32
+pypdf==6.21.4
+matplotlib==3.8.4

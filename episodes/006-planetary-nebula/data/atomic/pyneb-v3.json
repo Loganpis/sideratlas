@@ -1,0 +1,29 @@
+{
+  "pyneb_version": "1.1.32",
+  "units": "erg cm^3 s^-1; multiply by ne*n(ion), then divide by4pi for emissivity per sr",
+  "H_recombination_file": "h_i_rec_SH95.hdf5",
+  "O_atom_file": "o_iii_atom_FFT04-SZ00.dat",
+  "O_collision_file": "o_iii_coll_SSB14.dat",
+  "N_atom_file": "n_ii_atom_FFT04.dat",
+  "N_collision_file": "n_ii_coll_T11.dat",
+  "checks": {
+    "ha": {
+      "max_relative_interpolation_error": 0.00010595677215841093,
+      "at_10000K_100cm3": 3.53524661559251e-25
+    },
+    "hb": {
+      "max_relative_interpolation_error": 0.00033629931436796046,
+      "at_10000K_100cm3": 1.2346256361806316e-25
+    },
+    "o3": {
+      "max_relative_interpolation_error": 0.0031543002471907666,
+      "at_10000K_100cm3": 3.496416746642857e-21
+    },
+    "n2": {
+      "max_relative_interpolation_error": 0.0029589584417895054,
+      "at_10000K_100cm3": 5.949327888012204e-21
+    }
+  },
+  "sha256": "1e7a00ca011c44d97e236358b00b5c718236d3ba7eb09696a78eb1fb26b43965",
+  "scope": "n-level/Case-B coefficients only; ionic stages, Te and radiation transfer are separate approximations"
+}

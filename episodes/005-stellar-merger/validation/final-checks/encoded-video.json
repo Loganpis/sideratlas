@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "scope": "Decode every final frame and inspect encoded continuity plus source budgets.",
+  "tests": {
+    "native_dimensions": true,
+    "fps": true,
+    "exact_frames": true,
+    "exact_duration": true,
+    "rec709_limited": true,
+    "all_unique_frames": true,
+    "no_whiteout": true,
+    "no_black_frames": true,
+    "no_abrupt_mean_RGB_step": true,
+    "exact_source_clock_samples": true,
+    "mass_identity": true,
+    "conservative_cooling": true,
+    "cooling_within_assigned_budget": true,
+    "photosphere_footprint_bound": true,
+    "zero_smooth_gas": true,
+    "one_selected_sampling": true,
+    "centroids_preserved": true,
+    "PSF_normalized": true,
+    "production_sources_unchanged": true,
+    "material_only_radiation_omitted": true,
+    "physical_absorption_retained": true,
+    "material_support_used": true,
+    "no_excessive_single_channel_clipping": true,
+    "late_camera_scale_fixed": true,
+    "selected_thermal_palette": true
+  },
+  "frames": 960,
+  "unique_frames": 960,
+  "source_interval_s": [
+    0,
+    32
+  ],
+  "native_frame_size": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "duration_s": 32.0,
+  "max_mean_RGB_step": 12.854233741760254,
+  "max_step_global_frame": 574,
+  "median_mean_RGB_step": 3.130086898803711,
+  "white_clip_fraction": 0.0,
+  "mean_scene_range": [
+    38.64801824212272,
+    67.41372189976046
+  ],
+  "part_boundary_steps": [
+    {
+      "frame": 60,
+      "mean_RGB_step": 2.2582123279571533
+    },
+    {
+      "frame": 120,
+      "mean_RGB_step": 2.234652519226074
+    },
+    {
+      "frame": 180,
+      "mean_RGB_step": 2.225921869277954
+    },
+    {
+      "frame": 240,
+      "mean_RGB_step": 2.0622949600219727
+    },
+    {
+      "frame": 300,
+      "mean_RGB_step": 1.9491486549377441
+    },
+    {
+      "frame": 360,
+      "mean_RGB_step": 2.005742073059082
+    },
+    {
+      "frame": 420,
+      "mean_RGB_step": 3.0884931087493896
+    },
+    {
+      "frame": 450,
+      "mean_RGB_step": 2.949551820755005
+    },
+    {
+      "frame": 480,
+      "mean_RGB_step": 6.771471977233887
+    },
+    {
+      "frame": 510,
+      "mean_RGB_step": 8.851078033447266
+    },
+    {
+      "frame": 540,
+      "mean_RGB_step": 10.352283477783203
+    },
+    {
+      "frame": 600,
+      "mean_RGB_step": 10.579862594604492
+    },
+    {
+      "frame": 660,
+      "mean_RGB_step": 4.017581462860107
+    },
+    {
+      "frame": 720,
+      "mean_RGB_step": 5.3086957931518555
+    },
+    {
+      "frame": 780,
+      "mean_RGB_step": 6.589360237121582
+    },
+    {
+      "frame": 810,
+      "mean_RGB_step": 6.885373592376709
+    },
+    {
+      "frame": 840,
+      "mean_RGB_step": 7.1441874504089355
+    },
+    {
+      "frame": 870,
+      "mean_RGB_step": 7.502478122711182
+    },
+    {
+      "frame": 900,
+      "mean_RGB_step": 7.916658401489258
+    }
+  ],
+  "movie_sha256": "6db42a007498ac97b1081bd3f0027ab7ac7fa1b4a0b87e740cf5f03ff87319d5",
+  "elapsed_s": 71.34594316699076,
+  "visual_storyboard_inspection_pending": true,
+  "not_hydrodynamic_validation": true,
+  "max_fraction_any_channel_at_254": 1.0364842454394693e-05,
+  "single_channel_clip_fraction_limit": 0.005,
+  "peak_RGB": [
+    255,
+    245,
+    241
+  ],
+  "validation_tool_sha256": "11d796325d60047ea66aea27988a600b69a3256398d18b21604c9fd0607d3065"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "source": "Actual decoded final-film PNGs",
+  "frames": [
+    179,
+    180
+  ],
+  "PTS_s": [
+    5.966666666666667,
+    6
+  ],
+  "encoded_diameter_px": [
+    814.2586491310825,
+    813.5076235787022
+  ],
+  "step_px": -0.7510255523802698
+}

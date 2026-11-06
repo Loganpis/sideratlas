@@ -1,0 +1,9 @@
+{
+  "base_revision_sha256": "83ee3352088536084c4e20cb09d626375abf2c74aa6bb0f827ee3f6d0357d154",
+  "original_worker_sha256": "3e94a90f5ff1da389514088d23c3fdaf72c9ba997c6ca63b6f2cf7df57178407",
+  "worker_sha256": "c90303dfddadee74375ee758f7f57d9498501b6969fab04475a3424a4bfed77f",
+  "scope": "Validation/provenance correction only: older baseline ledgers omit explicit phase/angle metadata; verify against unchanged analytic formulas. No change to either rendering class or generated images.",
+  "archive": "archive/giant-cells-worker-schema-repair/",
+  "native_diagnostic_revision_preserved": true,
+  "created_utc": "2026-11-06T16:18:07.642139+00:00"
+}

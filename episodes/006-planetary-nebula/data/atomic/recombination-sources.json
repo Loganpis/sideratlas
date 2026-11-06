@@ -1,0 +1,22 @@
+[
+  {
+    "file": "pl.dat",
+    "url": "https://www.pa.uky.edu/~verner/dima/rec/pl.dat",
+    "sha256": "666258903b068ec2d942be7758f5e3d0c2f0207657ec46de38adca65ab8fed79"
+  },
+  {
+    "file": "pl.txt",
+    "url": "https://www.pa.uky.edu/~verner/dima/rec/pl.txt",
+    "sha256": "63c0f88fb23a1280a7ee07df133e37f847971572c23d4c21507a2f61b9f284e2"
+  },
+  {
+    "file": "ldr.dat",
+    "url": "https://www.pa.uky.edu/~verner/dima/rec/ldr.dat",
+    "sha256": "ce7e49208d5fcefed89b7433eda7eee283557b7f360bbb837c185133757c0f68"
+  },
+  {
+    "file": "ldr.txt",
+    "url": "https://www.pa.uky.edu/~verner/dima/rec/ldr.txt",
+    "sha256": "58a1d7523a8bcc9a2b3f8658cf26da214768660345c4b613cd33ed3e8050d300"
+  }
+]

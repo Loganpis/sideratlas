@@ -1,0 +1,115 @@
+{
+  "files": [
+    {
+      "path": "cache/motion/reduced-merger-cache.npz",
+      "bytes": 126631294,
+      "sha256": "cd0ba652454e983997858f8987123aebe89d35a9a1b88f687d83fc42fb722ab3",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/motion/reduced-model-report.json",
+      "bytes": 1289775,
+      "sha256": "080aff16d8cbec6c10b270573d9d45ebc104d5715ebe88870a2cecb1f8a4582a",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/motion/exact-launch-records.json",
+      "bytes": 8065467,
+      "sha256": "753dc56f11bf09ca93e3990b348fc8d07244932a54a179f870841a812a349a14",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/motion/encounter-events.json",
+      "bytes": 1938262,
+      "sha256": "81f196d48e6c4ba67f68621488264d54479cd135089f2648657483608e6749c9",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/motion/playback-accelerations.npz",
+      "bytes": 75438361,
+      "sha256": "7da81c2f5a0390b60124417161e709674a27dfcf77936bbf4a1251ef854f75e1",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/material/cov.npy",
+      "bytes": 460947584,
+      "sha256": "bc63df7d8d595124e14a515a7fad715401608d81e0b299c71e60cd56d16e7c23",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/material/launch-reference.npz",
+      "bytes": 514650,
+      "sha256": "534deb97e9ff05c2a6cf8304e6db9b7453e275db605e41f068e573ed04101f44",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/radiation/radiation-layer.npz",
+      "bytes": 42505806,
+      "sha256": "714e19adcc7b41c29c2bb126df402e776d5090ddf9ee2a4aa9dfbd6f252200a7",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/surface-statistics/surface-atlas-report.json",
+      "bytes": 3365,
+      "sha256": "d504d66dda84bbbb7982c7b4bb1153cb9af502833fe315f81b13ec0265d051c4",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/particle-support/t.npy",
+      "bytes": 12632,
+      "sha256": "f4b0644685af79f8130a7f0ea0aab64be459027b1d4fd13865f43845ed3c0036",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "cache/particle-support/ids.npy",
+      "bytes": 65664,
+      "sha256": "bafe786d30e6daa96194badfc0e797b656791f4ab8b20afe826e1267336c04ca",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    },
+    {
+      "path": "data/quality-surface/illustrative-active-region.npz",
+      "bytes": 13397100,
+      "sha256": "6cc2e3ac6ed417eabe41222a272180962674380187e6f31387b0a033c2d0fb5f",
+      "distribution": "release-asset",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "path": "data/quality-surface/morphology.npz",
+      "bytes": 60563710,
+      "sha256": "49b3b257c2ab838811e98d88863a4c5a31bbb4849f2387bc8c39394fefc08cbe",
+      "distribution": "external-surface-input",
+      "license": "Upstream Bifrost public-use/citation terms; redistribution not confirmed"
+    },
+    {
+      "path": "data/quality-surface/mesoscales.npz",
+      "bytes": 9827807,
+      "sha256": "453c5501e7afa9663ae912d4f68293f39741c5a8fc1e2f365ab4634418e182af",
+      "distribution": "external-surface-input",
+      "license": "Upstream Bifrost public-use/citation terms; redistribution not confirmed"
+    },
+    {
+      "path": "cache/particle-support/manifest.json",
+      "bytes": 204,
+      "sha256": "89a99eeb250ae99eae804dfc84cb3ed0b0ab12bab96b8e9c6a81626952b34b52",
+      "distribution": "release-asset",
+      "license": "MIT: author-generated numerical output"
+    }
+  ],
+  "public_reproduction_complete": false,
+  "missing_public_inputs": [
+    "data/quality-surface/morphology.npz",
+    "data/quality-surface/mesoscales.npz"
+  ],
+  "scope": "Exact cached rendering inputs; large permitted inputs attached to v1.0.0; two Bifrost-derived archives intentionally not redistributed"
+}

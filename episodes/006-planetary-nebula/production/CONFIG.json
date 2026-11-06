@@ -1,0 +1,384 @@
+{
+  "project": "SiderAtlas No.006 \u2014 THE PLANETARY NEBULA",
+  "physical_model": "accepted src/physics_v3.py only",
+  "radial_cache": "cache/radial-v3t-12x24-144.npz",
+  "radial_cache_sha256": "3ccf3fe06c88f577627faae9c362dc8a452d00b7ee5c150bd257be187a258e7b",
+  "imaging": "accepted src/render_v4.py",
+  "rejected_response_v4_enabled": false,
+  "rejected_subgrid_v5_enabled": false,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "seconds": 32,
+  "frames": 960,
+  "motion_test_start_s": 24,
+  "motion_test_frames": 240,
+  "line_sensitivity_base": 100,
+  "point_reference_Y": 8,
+  "spatial_integration": "qualify exact CPU quadrature first; then2x2 gas-ray pixel quadrature with unresolved core; existing original source/PSF integration when resolved",
+  "temporal_integration": "two physical samples per frame over180degree display shutter; documented rendering integration only",
+  "GPU_qualification_thresholds": {
+    "HDR_relative_L1": 0.001,
+    "HDR_flux_relative_bias": 0.001,
+    "max_absolute_error_over_peak": 0.005
+  },
+  "full_export_gate": "scientific checks and native24\u201332s encoded motion review must pass",
+  "status": "frozen for native motion test and conditional full production",
+  "production_configuration_frozen": true,
+  "renderer": "src/production_render.py",
+  "ray_backend": "native/projector.metal on Apple M1; same accepted quadrature",
+  "frozen_sources": [
+    {
+      "path": "../sideratlas-main-sequence-star/golden/atmosphere.py",
+      "sha256": "5f72661eb646f7edebfafc701bce24946d3fe68c6cdf97d8523f8e226ff9dfc1",
+      "bytes": 5415
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/golden/stellar_renderer.py",
+      "sha256": "4f405979f8a8dc25f5b20156be6e2f7675281b797551bb576203f555e1613caf",
+      "bytes": 3440
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/golden_orbit/render.py",
+      "sha256": "2874e43b6a1602b54cc3d256503eb579efea84c622a6cef6a28c8da314fbca83",
+      "bytes": 5514
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/photosphere/surface.py",
+      "sha256": "462000688ad024373cd68a25ff6451a928a8d372dd7b9dcf9781683a60d1bb77",
+      "bytes": 6603
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/src/active_region.py",
+      "sha256": "a74edb646ccf37ac28e4b8c844ec38b7e59641fc0a0f2918a0589f1b8f54c60d",
+      "bytes": 5166
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/src/continuum.py",
+      "sha256": "13b7a649a9fc47cea5d4e67b55f5e9153f65b69ce31c79259ba2bf5cb709b5f4",
+      "bytes": 6859
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/src/geometry.py",
+      "sha256": "486e963973008537fd8e4bfef6ffd1aa1a51967905c73f8e240d9035e7354b40",
+      "bytes": 6382
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/src/optics.py",
+      "sha256": "dc3f8c1651662347c164852322a709a144862d7b904c1ac6089a00d75df4cd17",
+      "bytes": 3818
+    },
+    {
+      "path": "../sideratlas-main-sequence-star/src/solar_surface.py",
+      "sha256": "fa15115c4a80ec5b4c3d86910830ce22075d2d73a4e57d3af6eadc1d6054a0c3",
+      "bytes": 8767
+    },
+    {
+      "path": "cache/radial-v3t-12x24-144.npz",
+      "sha256": "3ccf3fe06c88f577627faae9c362dc8a452d00b7ee5c150bd257be187a258e7b",
+      "bytes": 62041825
+    },
+    {
+      "path": "data/atomic/ldr.dat",
+      "sha256": "ce7e49208d5fcefed89b7433eda7eee283557b7f360bbb837c185133757c0f68",
+      "bytes": 1275
+    },
+    {
+      "path": "data/atomic/ldr.txt",
+      "sha256": "58a1d7523a8bcc9a2b3f8658cf26da214768660345c4b613cd33ed3e8050d300",
+      "bytes": 1119
+    },
+    {
+      "path": "data/atomic/pl.dat",
+      "sha256": "666258903b068ec2d942be7758f5e3d0c2f0207657ec46de38adca65ab8fed79",
+      "bytes": 3507
+    },
+    {
+      "path": "data/atomic/pl.txt",
+      "sha256": "63c0f88fb23a1280a7ee07df133e37f847971572c23d4c21507a2f61b9f284e2",
+      "bytes": 856
+    },
+    {
+      "path": "data/atomic/pyneb-v3.json",
+      "sha256": "90ea1a78aa6eb4b7eace384d4185ce25ae8bfb11b038f9aaebf2dd9a8cee590f",
+      "bytes": 1090
+    },
+    {
+      "path": "data/atomic/pyneb-v3.npz",
+      "sha256": "1e7a00ca011c44d97e236358b00b5c718236d3ba7eb09696a78eb1fb26b43965",
+      "bytes": 119444
+    },
+    {
+      "path": "data/atomic/recombination-sources.json",
+      "sha256": "255dbe57c456502dff8517e075966d381e428ca3f98c9c5f37c7282683090a51",
+      "bytes": 698
+    },
+    {
+      "path": "data/atomic/verner-1996-photo.dat",
+      "sha256": "a53e73b0af4cc6b801aef67b84bd964e3ed8c9c4992f214e4a69dc7e4443f389",
+      "bytes": 17760
+    },
+    {
+      "path": "data/atomic/verner-1996-photo.json",
+      "sha256": "6dc775a2d59bb4f6556542fdc430f7bbcb10c452b54b3983112d540be0d33e27",
+      "bytes": 192
+    },
+    {
+      "path": "data/evolution/00100M.track.eep",
+      "sha256": "a962600501741588e17ac133d60040ca686c62a2e5f07100f9eeeec3be1bc4f3",
+      "bytes": 4222480
+    },
+    {
+      "path": "data/evolution/MIST-solar-nonrotating.txz",
+      "sha256": "a445d926c1765e951eb1bf6811dbfb14635725efcf63aaaa883d02f36cc58741",
+      "bytes": 100050704
+    },
+    {
+      "path": "data/evolution/clock-v3.csv",
+      "sha256": "599d8019ea9884b73c6702c6bd9dd787bd589c5deda04e901cb9669ae3c32bd4",
+      "bytes": 2359
+    },
+    {
+      "path": "data/evolution/playback-physical-time-v2.csv",
+      "sha256": "79587644abe81ff298548917a476075769806e19a39e5a2e8cb94f309fbc0100",
+      "bytes": 1550
+    },
+    {
+      "path": "data/evolution/playback-physical-time.csv",
+      "sha256": "fb4cb50204aacef5dfc2fd850043cae3d946814b893e74bb22afbb252e9aeb03",
+      "bytes": 1418
+    },
+    {
+      "path": "data/provenance.json",
+      "sha256": "6c3e4b0691e08c62614b584af32093f4f6b6bf84779194a939999c1c326aedf0",
+      "bytes": 1335
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "bytes": 24021
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv_metadata.json",
+      "sha256": "f08c934713c00ca3eb3bcb98ed006df9d88df36b87edcf8d5e85e10938029e69",
+      "bytes": 3639
+    },
+    {
+      "path": "fonts/GUST-FONT-LICENSE.txt",
+      "sha256": "49ea6cb9257bbee0a3979c48a774cd221550ac1c20c95549efe45fc99cc18050",
+      "bytes": 1377
+    },
+    {
+      "path": "fonts/lmroman10-regular.otf",
+      "sha256": "1aa18cfefa58132c52ce5de70db1fd1154201c19cd2b2cdaffba4906a33e6852",
+      "bytes": 111536
+    },
+    {
+      "path": "fonts/lmroman12-bold.otf",
+      "sha256": "28c8782ac2b6486958b5dc7610ada7800c53546ff7f36bc65909a876e1cd338e",
+      "bytes": 110496
+    },
+    {
+      "path": "native/build/projector",
+      "sha256": "1869878705d611ee6ca4ee8bc52f01eb58c2315ac27389e7037cb8a31abe80a3",
+      "bytes": 81960
+    },
+    {
+      "path": "native/projector.metal",
+      "sha256": "5615661aee00160f344e8783d9dd82265d016b452d6c5b58a61d8d3cb7e007c0",
+      "bytes": 3697
+    },
+    {
+      "path": "native/projector.swift",
+      "sha256": "c860f943b860d6d0170a85b1bfcc9b1c5457c1fe41806581c36ea3d840c28597",
+      "bytes": 3419
+    },
+    {
+      "path": "scripts/render_final_production.py",
+      "sha256": "13549216a86002182963aaed6957c8b8b6437660763be068ce0aeed5b8406750",
+      "bytes": 8020
+    },
+    {
+      "path": "src/atomic_v3.py",
+      "sha256": "8b491fe85ff1907135da96815a87976988ca0b4985128315af3e6e4340ca6263",
+      "bytes": 11700
+    },
+    {
+      "path": "src/evolution.py",
+      "sha256": "74494940c889e893dd092c8e5678c3e4d093d864b9d6b1b2952d27e008c09cfa",
+      "bytes": 2825
+    },
+    {
+      "path": "src/evolution_v2.py",
+      "sha256": "410806c410d5b4c607525f2e0f835fa9621d5b98a1a8e378215d7cbe2e71b045",
+      "bytes": 1340
+    },
+    {
+      "path": "src/evolution_v3.py",
+      "sha256": "5194937fb9f9d584fd3a09fd978dd2dd7fa2706a966ec9bc40742ee639dc3a18",
+      "bytes": 778
+    },
+    {
+      "path": "src/imaging.py",
+      "sha256": "1e13d4af5d68610ca330642c5ef9451f73d5a5fb4dd5d30dd9b2a445b9c63ce9",
+      "bytes": 1498
+    },
+    {
+      "path": "src/imaging_reuse.py",
+      "sha256": "c5f238d0074c98d019a7f7f01f7038248d2a7c1e776cc16689228f681b272911",
+      "bytes": 5753
+    },
+    {
+      "path": "src/interface_v3.py",
+      "sha256": "307ce79beb9260c7eb86bb75eaa55e214e400b7b3983f5502d8337f825854e40",
+      "bytes": 3881
+    },
+    {
+      "path": "src/ion_history_v3.py",
+      "sha256": "fdfc959cf9e7a7c4494109b293f29ed3b2f71b56e194101b75fe9d660340f99e",
+      "bytes": 2359
+    },
+    {
+      "path": "src/metal_projector.py",
+      "sha256": "2f2a18930aa24478f390cf3dfa698c0b4dd9f35ae1586ede58da8c1c5e6b20a3",
+      "bytes": 2934
+    },
+    {
+      "path": "src/physics.py",
+      "sha256": "b8b555afb58bca3697aa06bcea7e0e0452c0d61cee96574ad32dd9bcb9b11726",
+      "bytes": 15144
+    },
+    {
+      "path": "src/physics_v2.py",
+      "sha256": "c311cc0a888ae9f9e8df6f6a2ab5e712fe356767fa282ffce1505a07cc3339cb",
+      "bytes": 6570
+    },
+    {
+      "path": "src/physics_v3.py",
+      "sha256": "73a8bb354cbcca6e6953329d56d8bef28d77d6fbc80b7db1cb3ce401001b1d9d",
+      "bytes": 11627
+    },
+    {
+      "path": "src/production_numerics.py",
+      "sha256": "006360dca0cce1e78ac1d2df8d08a8cae2ef48d74065ef4d1060b86d6b8a8a3e",
+      "bytes": 1455
+    },
+    {
+      "path": "src/production_render.py",
+      "sha256": "daed180cfc56e8d30954eba98222b9401b3ea117af6a8b97333436022118a1c0",
+      "bytes": 5638
+    },
+    {
+      "path": "src/radial_gas_v3.py",
+      "sha256": "b4c5ec1151288bae0dfff09d1d991f035558097dc885cc427ba95a92c9dc3b45",
+      "bytes": 9098
+    },
+    {
+      "path": "src/render.py",
+      "sha256": "302742f3a66b6f92cf13a5574a341e57727374b6891e88efd2786d85bb09681d",
+      "bytes": 11577
+    },
+    {
+      "path": "src/render_v2.py",
+      "sha256": "f55536a25ff06875973d18c8155dfd8097e76e813d25431562525ed256f3776f",
+      "bytes": 15379
+    },
+    {
+      "path": "src/render_v3.py",
+      "sha256": "bd1d193a268c5b973aadd6b9082322f73d9738bf2d0d08669b0d6c3aa3ae9af2",
+      "bytes": 10588
+    },
+    {
+      "path": "src/reuse_no003.py",
+      "sha256": "8e7f98661dd85a84d403a03b8b4157a943fc0c94ba7d64915cdf85602e079c84",
+      "bytes": 15497
+    },
+    {
+      "path": "src/reuse_no004.py",
+      "sha256": "fe1119c1672bf0cf3ba3da68e601c000b14c96bb302c86681a14e6e73b239c3b",
+      "bytes": 9202
+    },
+    {
+      "path": "src/video_export.py",
+      "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+      "bytes": 2092
+    },
+    {
+      "path": "vendor/no003/DATA-CREDITS.md",
+      "sha256": "f95a2f5cd9befafd127ea2f4ec7ae3d7a7853e473c3651544e64b20c0cafcb25",
+      "bytes": 3447
+    },
+    {
+      "path": "vendor/no003/LICENSE",
+      "sha256": "63572bfed5e2f68a8e26785559ab070703a39b9cbd84f2872faf111a3747c484",
+      "bytes": 1346
+    },
+    {
+      "path": "vendor/no003/PROVENANCE.json",
+      "sha256": "9c76ea7cabb0ae9acaed56096d8c57f1bbd2cbbe811da99ee86b2784b15dc500",
+      "bytes": 5761
+    },
+    {
+      "path": "vendor/no003/luminous/src/luminous_render.py",
+      "sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1",
+      "bytes": 9557
+    },
+    {
+      "path": "vendor/no003/render_previews.py",
+      "sha256": "9e842ec1311ef6dceb46c20c3139eac028b8a097356594e615815856b543f453",
+      "bytes": 3526
+    },
+    {
+      "path": "vendor/no003/src/convective_response.py",
+      "sha256": "1f1384492b757dfd8449e4b0984a5dfacc88d6cc51c5cd59efcf3e36d08990b6",
+      "bytes": 3860
+    },
+    {
+      "path": "vendor/no003/src/mode_model.py",
+      "sha256": "6cd483d13ff98dacf7cd95040f7fe1a906e210c84a779496f00bacb993fb2290",
+      "bytes": 5408
+    },
+    {
+      "path": "vendor/no003/src/visualization.py",
+      "sha256": "992697d88ec02f5f9d8efe1505f22f3def36f7d63f1c6f5b70a959ebf298c5ce",
+      "bytes": 12178
+    },
+    {
+      "path": "vendor/no003/src/white_dwarf.py",
+      "sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5",
+      "bytes": 11742
+    },
+    {
+      "path": "vendor/no003/v220/config.json",
+      "sha256": "b67470f24398b3effabbba78f379d4c5f84b62a4c07b8cffa0d112dbaaf2f368",
+      "bytes": 1615
+    },
+    {
+      "path": "vendor/no003/v220/docs/DISPLAY.md",
+      "sha256": "3aad5d720fa86790942a4df660d9cd07fef3994e0f73e4a9656a676d1b528db0",
+      "bytes": 3521
+    },
+    {
+      "path": "vendor/no003/v220/docs/MODEL.md",
+      "sha256": "0a20d22242d3b8a067989c7b149d67088a25151aa59a30950abde1feffeef814",
+      "bytes": 4142
+    },
+    {
+      "path": "vendor/no003/v220/src/final_renderer.py",
+      "sha256": "e56dcaf9431ec433d4580776058d24f0ea3ecc3a072e883e99e461e7ba0bbb91",
+      "bytes": 3210
+    },
+    {
+      "path": "vendor/no003/v220/src/surface_optics.py",
+      "sha256": "ed98bbe1e4a6c3f0b0f77b35a0fd1c3175f5c8a4073bf6f46040db44a4089b42",
+      "bytes": 3798
+    }
+  ],
+  "physical_state_numerics": "same early-wind PCHIP evaluated with cumulative-zero shift; no renormalization; all original limits retained",
+  "GPU_emission_units": "multiply emission by1e20 during float32 transport and undo before double compositing; no luminosity enhancement",
+  "frozen_utc": "2026-11-05T16:20:29.309455+00:00",
+  "benchmark_native_test_minutes": 24.927400164015125,
+  "benchmark_full_minutes": 106.5293456640211,
+  "benchmark_uncertainty": "dust/transition and thermal throttling can increase runtime; plan2\u20133hours total",
+  "new_physical_simulations_authorized": false
+}

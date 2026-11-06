@@ -1,0 +1,269 @@
+{
+  "number": "003",
+  "repo": "sideratlas-white-dwarf",
+  "legacy_tag": "v2.2.0",
+  "legacy_commit": "5c27cd5d36fb07252d697a708d802e94245e5d9d",
+  "original_filename": "sideratlas-no003-the-white-dwarf-32s.mp4",
+  "sha256": "b290cd5c8632dc8632507cab8ba4f8653e647a4af7575ddf16c9298c0235a017",
+  "bytes": 24614188,
+  "legacy_url": "https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.2.0/sideratlas-no003-the-white-dwarf-32s.mp4",
+  "validated_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "seconds": 32
+  },
+  "complete_decode_passed": true,
+  "central_tag": "no003-v1.0.0",
+  "video_url": "https://github.com/Loganpis/sideratlas/releases/download/no003-v1.0.0/sideratlas-no003-the-white-dwarf-32s.mp4",
+  "source_files": [
+    {
+      "path": "render_previews.py",
+      "source_path": "render_previews.py",
+      "source_sha256": "9e842ec1311ef6dceb46c20c3139eac028b8a097356594e615815856b543f453",
+      "sha256": "9e842ec1311ef6dceb46c20c3139eac028b8a097356594e615815856b543f453"
+    },
+    {
+      "path": "final_export.py",
+      "source_path": "final_export.py",
+      "source_sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+      "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f"
+    },
+    {
+      "path": "config.json",
+      "source_path": "config.json",
+      "source_sha256": "297c789a7431c7fae848a965fa85cd174e853c0f997f123a43ffafd4b5dd16a1",
+      "sha256": "297c789a7431c7fae848a965fa85cd174e853c0f997f123a43ffafd4b5dd16a1"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "source_path": "requirements-lock.txt",
+      "source_sha256": "267e899cc93e0b245e5af6f2f48e5c6832e84c8a8f690620a772aebc0af24c06",
+      "sha256": "267e899cc93e0b245e5af6f2f48e5c6832e84c8a8f690620a772aebc0af24c06"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_sha256": "63572bfed5e2f68a8e26785559ab070703a39b9cbd84f2872faf111a3747c484",
+      "sha256": "63572bfed5e2f68a8e26785559ab070703a39b9cbd84f2872faf111a3747c484"
+    },
+    {
+      "path": "instagram-description.text",
+      "source_path": "instagram-description.text",
+      "source_sha256": "2f38ed541b63fb1b597b80da3a4273a436a59dbe59cc7b5d3fce228c34a1aa16",
+      "sha256": "adb4dc9b447806d98fe8dbeeed4b8b159bd7baa9e0e8268b630d6f494ce9b31c"
+    },
+    {
+      "path": "v220/render_reel.py",
+      "source_path": "v220/render_reel.py",
+      "source_sha256": "82470b9966d0134afe0885d63ebc7799b0a85bab7f78516cccd7072987fe173c",
+      "sha256": "82470b9966d0134afe0885d63ebc7799b0a85bab7f78516cccd7072987fe173c"
+    },
+    {
+      "path": "v220/validate_cells.py",
+      "source_path": "v220/validate_cells.py",
+      "source_sha256": "e93bbbbad46213869d11e660643ca253e477e0c99125b40399e7f6a8ce2e5919",
+      "sha256": "e93bbbbad46213869d11e660643ca253e477e0c99125b40399e7f6a8ce2e5919"
+    },
+    {
+      "path": "v220/validate_reel.py",
+      "source_path": "v220/validate_reel.py",
+      "source_sha256": "38e2380631c5d426c33da1d397bdeb78d7bc1ee19726c454e628467e79edd686",
+      "sha256": "38e2380631c5d426c33da1d397bdeb78d7bc1ee19726c454e628467e79edd686"
+    },
+    {
+      "path": "v220/config.json",
+      "source_path": "v220/config.json",
+      "source_sha256": "b67470f24398b3effabbba78f379d4c5f84b62a4c07b8cffa0d112dbaaf2f368",
+      "sha256": "b67470f24398b3effabbba78f379d4c5f84b62a4c07b8cffa0d112dbaaf2f368"
+    },
+    {
+      "path": "src/convective_response.py",
+      "source_path": "src/convective_response.py",
+      "source_sha256": "1f1384492b757dfd8449e4b0984a5dfacc88d6cc51c5cd59efcf3e36d08990b6",
+      "sha256": "1f1384492b757dfd8449e4b0984a5dfacc88d6cc51c5cd59efcf3e36d08990b6"
+    },
+    {
+      "path": "src/mode_model.py",
+      "source_path": "src/mode_model.py",
+      "source_sha256": "6cd483d13ff98dacf7cd95040f7fe1a906e210c84a779496f00bacb993fb2290",
+      "sha256": "6cd483d13ff98dacf7cd95040f7fe1a906e210c84a779496f00bacb993fb2290"
+    },
+    {
+      "path": "src/visualization.py",
+      "source_path": "src/visualization.py",
+      "source_sha256": "992697d88ec02f5f9d8efe1505f22f3def36f7d63f1c6f5b70a959ebf298c5ce",
+      "sha256": "992697d88ec02f5f9d8efe1505f22f3def36f7d63f1c6f5b70a959ebf298c5ce"
+    },
+    {
+      "path": "src/white_dwarf.py",
+      "source_path": "src/white_dwarf.py",
+      "source_sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5",
+      "sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5"
+    },
+    {
+      "path": "luminous/src/luminous_render.py",
+      "source_path": "luminous/src/luminous_render.py",
+      "source_sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1",
+      "sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1"
+    },
+    {
+      "path": "v220/src/cellular_convection.py",
+      "source_path": "v220/src/cellular_convection.py",
+      "source_sha256": "d0504d83bf9a65c2e6af0858caeea9bcdbb7573b8d84485e4f9098db124f2f1a",
+      "sha256": "d0504d83bf9a65c2e6af0858caeea9bcdbb7573b8d84485e4f9098db124f2f1a"
+    },
+    {
+      "path": "v220/src/final_renderer.py",
+      "source_path": "v220/src/final_renderer.py",
+      "source_sha256": "e56dcaf9431ec433d4580776058d24f0ea3ecc3a072e883e99e461e7ba0bbb91",
+      "sha256": "e56dcaf9431ec433d4580776058d24f0ea3ecc3a072e883e99e461e7ba0bbb91"
+    },
+    {
+      "path": "v220/src/surface_optics.py",
+      "source_path": "v220/src/surface_optics.py",
+      "source_sha256": "ed98bbe1e4a6c3f0b0f77b35a0fd1c3175f5c8a4073bf6f46040db44a4089b42",
+      "sha256": "ed98bbe1e4a6c3f0b0f77b35a0fd1c3175f5c8a4073bf6f46040db44a4089b42"
+    },
+    {
+      "path": "licenses/GYRE-COPYING",
+      "source_path": "licenses/GYRE-COPYING",
+      "source_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/WDEC-LICENSE.txt",
+      "source_path": "licenses/WDEC-LICENSE.txt",
+      "source_sha256": "c8fa5a9d109849b635f0cf514b468055008f7e948c7a5b3b60e5baa73f5bdfae",
+      "sha256": "c8fa5a9d109849b635f0cf514b468055008f7e948c7a5b3b60e5baa73f5bdfae"
+    },
+    {
+      "path": "data/structure.npz",
+      "source_path": "data/structure.npz",
+      "source_sha256": "365652f721536c3a38cbed1838f448dac34bbb510f07aab414c750b89ef89526",
+      "sha256": "365652f721536c3a38cbed1838f448dac34bbb510f07aab414c750b89ef89526"
+    },
+    {
+      "path": "data/structure.json",
+      "source_path": "data/structure.json",
+      "source_sha256": "76e4e88cb186ff7da7f1936b96e6ff490755f8d4ded24c199aa4f7a21337dd75",
+      "sha256": "76e4e88cb186ff7da7f1936b96e6ff490755f8d4ded24c199aa4f7a21337dd75"
+    },
+    {
+      "path": "data/selected-modes.json",
+      "source_path": "data/selected-modes.json",
+      "source_sha256": "44b89548d05adc0f52781c00356bc42bd5db04765013d6b14e1c73b951ab7834",
+      "sha256": "44b89548d05adc0f52781c00356bc42bd5db04765013d6b14e1c73b951ab7834"
+    },
+    {
+      "path": "data/original-model-fingerprint.json",
+      "source_path": "data/original-model-fingerprint.json",
+      "source_sha256": "bec672448542d79cd441312a6430ea2f38b2da3a57c627d48cd4f40db697e28b",
+      "sha256": "bec672448542d79cd441312a6430ea2f38b2da3a57c627d48cd4f40db697e28b"
+    },
+    {
+      "path": "data/spectra-provenance.json",
+      "source_path": "data/spectra-provenance.json",
+      "source_sha256": "bd2237ba1817549773f3d7acdec9fde3bf9ecb6bdd7f5748cdff0d5117909a87",
+      "sha256": "bd2237ba1817549773f3d7acdec9fde3bf9ecb6bdd7f5748cdff0d5117909a87"
+    },
+    {
+      "path": "data/research-spectra-provenance.json",
+      "source_path": "data/research-spectra-provenance.json",
+      "source_sha256": "faf91935838ec35bf16cb8e31ab0940c8ddc27fcd36ed473de027564894368fb",
+      "sha256": "faf91935838ec35bf16cb8e31ab0940c8ddc27fcd36ed473de027564894368fb"
+    },
+    {
+      "path": "data/research-provenance.json",
+      "source_path": "data/research-provenance.json",
+      "source_sha256": "bb6ff1de22198dcb29600eb6bc295403eff6dc4cd07d3f03db08dc92ab80d81c",
+      "sha256": "bb6ff1de22198dcb29600eb6bc295403eff6dc4cd07d3f03db08dc92ab80d81c"
+    },
+    {
+      "path": "data/colour-cache.json",
+      "source_path": "data/colour-cache.json",
+      "source_sha256": "46040c14ee5b76d78a358bf8020a455f0789ef2e6a3a1f3842c34f88fa489c1f",
+      "sha256": "46040c14ee5b76d78a358bf8020a455f0789ef2e6a3a1f3842c34f88fa489c1f"
+    },
+    {
+      "path": "data/CIE_xyz_1931_2deg.csv",
+      "source_path": "data/CIE_xyz_1931_2deg.csv",
+      "source_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+    },
+    {
+      "path": "data/CIE_xyz_1931_2deg.csv_metadata.json",
+      "source_path": "data/CIE_xyz_1931_2deg.csv_metadata.json",
+      "source_sha256": "03abcaecf4e63d77045ef57c4514b52c8bb1a46dd18e1f93a50044a0f4f481c8",
+      "sha256": "03abcaecf4e63d77045ef57c4514b52c8bb1a46dd18e1f93a50044a0f4f481c8"
+    },
+    {
+      "path": "data/wdec-evolved",
+      "source_path": "data/wdec-evolved",
+      "source_sha256": "9ec40e17400781d0adc0c2741b264dafb0928f96ee54aae63654d75d7f10a0f0",
+      "sha256": "9ec40e17400781d0adc0c2741b264dafb0928f96ee54aae63654d75d7f10a0f0"
+    },
+    {
+      "path": "data/wdec-controlparams",
+      "source_path": "data/wdec-controlparams",
+      "source_sha256": "79ece2589c012ef249f67db5867dbc27ecc7d0057d7f37e77c35ceeed6907bc0",
+      "sha256": "79ece2589c012ef249f67db5867dbc27ecc7d0057d7f37e77c35ceeed6907bc0"
+    },
+    {
+      "path": "data/wdec-gridparameters",
+      "source_path": "data/wdec-gridparameters",
+      "source_sha256": "e12756fece9806dc444f806711dded5b8fde8b50b3a029cba414b560f97a6ad0",
+      "sha256": "e12756fece9806dc444f806711dded5b8fde8b50b3a029cba414b560f97a6ad0"
+    },
+    {
+      "path": "data/wdec-inputprof",
+      "source_path": "data/wdec-inputprof",
+      "source_sha256": "a41a5752472bd732e4fdc8ca777c998b3fe0866b439bd128494d3261329d20d2",
+      "sha256": "a41a5752472bd732e4fdc8ca777c998b3fe0866b439bd128494d3261329d20d2"
+    },
+    {
+      "path": "data/wdec-coarsened",
+      "source_path": "data/wdec-coarsened",
+      "source_sha256": "c08536ca702128d207d5545211a39d6b157b320cb4579ae357f47379e9251d35",
+      "sha256": "c08536ca702128d207d5545211a39d6b157b320cb4579ae357f47379e9251d35"
+    },
+    {
+      "path": "calculations/finer/summary.h5",
+      "source_path": "calculations/finer/summary.h5",
+      "source_sha256": "d20f91cbc5c09287c54279960b269b618d948455777fadfff0a367e574479901",
+      "sha256": "d20f91cbc5c09287c54279960b269b618d948455777fadfff0a367e574479901"
+    },
+    {
+      "path": "calculations/finer/gyre.in",
+      "source_path": "calculations/finer/gyre.in",
+      "source_sha256": "90ffbda50540e40045359f8a6d9a9dfd69b65238096f6ab7303fbfc4ef6ad4b0",
+      "sha256": "90ffbda50540e40045359f8a6d9a9dfd69b65238096f6ab7303fbfc4ef6ad4b0"
+    },
+    {
+      "path": "v220/data/cellular-calibration.json",
+      "source_path": "v220/data/cellular-calibration.json",
+      "source_sha256": "422e915c1dc8581520b4a3587b26b6c229599606d8438260b7a77690dc33df77",
+      "sha256": "422e915c1dc8581520b4a3587b26b6c229599606d8438260b7a77690dc33df77"
+    },
+    {
+      "path": "v220/validation/surface-decision.json",
+      "source_path": "v220/validation/surface-decision.json",
+      "source_sha256": "8105089176da63abeca175a39ed701254e7f58cfa164a5418712b09dc63c9a94",
+      "sha256": "8105089176da63abeca175a39ed701254e7f58cfa164a5418712b09dc63c9a94"
+    },
+    {
+      "path": "v220/validation/cellular-numerics.json",
+      "source_path": "v220/validation/cellular-numerics.json",
+      "source_sha256": "16aacb2b7a8e650314f08b3768a0c912c675727eed1a6161dc34f29fec320bf9",
+      "sha256": "16aacb2b7a8e650314f08b3768a0c912c675727eed1a6161dc34f29fec320bf9"
+    },
+    {
+      "path": "v220/validation/physics-preservation.json",
+      "source_path": "v220/validation/physics-preservation.json",
+      "source_sha256": "422dce4d42f3b594ae6f68ccc7bf037a25bb0497dfd5e8074132a0cdaae33806",
+      "sha256": "422dce4d42f3b594ae6f68ccc7bf037a25bb0497dfd5e8074132a0cdaae33806"
+    }
+  ],
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+}

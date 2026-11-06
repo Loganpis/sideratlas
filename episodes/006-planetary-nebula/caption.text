@@ -1,0 +1,43 @@
+NO.006 — THE PLANETARY NEBULA
+@sideratlas
+
+A Sun-like star expands into a giant
+A dusty wind removes its outer envelope
+The exposed core contracts and heats
+Ultraviolet light ionizes the expelled gas
+A faster wind compresses the growing nebula
+Hydrogen, oxygen and nitrogen reveal different regions
+A planetary nebula is not a supernova
+
+CALCULATED
+1 M☉ MIST/MESA track toward a ≈0.540 M☉ post-AGB core
+Conserved wind cohorts and approximate radial pressure dynamics
+Finite-photon hydrogen and approximate oxygen/nitrogen populations
+PyNeb line emission, attenuation and approximate dust reprocessing
+Spectral surface emission with ⟨T_local⁴⟩ = T_eff⁴
+
+ASSUMPTIONS
+Giant convection uses evolving statistical cells, not simulated fluid flow
+Wind speeds, angular structure and gas temperatures are prescribed
+Planck/grey atmospheres and approximate ionization and radiation transfer
+No resolved 3D turbulence, shocks, knots, jets or binary shaping
+The actual Sun may not form a bright planetary nebula
+
+VISUALIZATION
+Enlarged unresolved cells and a separate representative surface clock
+Line-channel false colors and warm infrared dust colors
+100× line sensitivity, separate stellar exposure and an optical halo
+32 seconds compress billions of stellar years and ≈16,000 nebular years
+Physics-informed numerical visualization
+Not an observation or a fully resolved 3D radiation-hydrodynamic simulation
+
+SOURCES
+Choi et al. 2016; Dotter 2016
+Tremblay et al. 2013; Ludwig & Kučinskas 2012; Freytag et al. 2017
+Kwok et al. 1978; Villaver et al. 2002; Perinotto et al. 2004
+Toalá & Arthur 2014; Luridiana et al. 2015 / PyNeb
+Miller Bertolami 2016; Gesicki et al. 2018
+Full references, assumptions, enhancement factors and validation accompany the code
+
+Opening surface data: Cheung et al. 2018, CC BY 3.0
+Provided by the Stanford University Libraries

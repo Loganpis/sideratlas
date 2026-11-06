@@ -1,0 +1,245 @@
+{
+  "scope": "Archived selected-model numerical evidence; not a new independent physical validation",
+  "records": {
+    "validation/mode-convergence.json": {
+      "selected_modes": [
+        {
+          "l": 1,
+          "n_pg": -4,
+          "period_s": 315.78236507927363,
+          "coarse_fine_difference_s": 9.899314153472005e-05,
+          "fine_finer_difference_s": 3.053446562262252e-08,
+          "boundary_sensitivity_s": 5.9056560530734714e-08,
+          "background_thinning_sensitivity_s": -0.7097612091767473
+        },
+        {
+          "l": 1,
+          "n_pg": -6,
+          "period_s": 397.33744306871,
+          "coarse_fine_difference_s": 0.00016256766480182705,
+          "fine_finer_difference_s": 6.836654620201443e-08,
+          "boundary_sensitivity_s": 1.7843211708168383e-07,
+          "background_thinning_sensitivity_s": -0.5877798951786986
+        },
+        {
+          "l": 1,
+          "n_pg": -8,
+          "period_s": 488.1545239796074,
+          "coarse_fine_difference_s": 6.75600020940692e-05,
+          "fine_finer_difference_s": 4.49376784672495e-08,
+          "boundary_sensitivity_s": 1.736099591198581e-06,
+          "background_thinning_sensitivity_s": 0.06532914036603188
+        },
+        {
+          "l": 2,
+          "n_pg": -6,
+          "period_s": 247.451848394301,
+          "coarse_fine_difference_s": 6.982111847264605e-05,
+          "fine_finer_difference_s": 5.3606186156685e-10,
+          "boundary_sensitivity_s": 4.83559119857091e-07,
+          "background_thinning_sensitivity_s": 0.15035786447168675
+        },
+        {
+          "l": 2,
+          "n_pg": -8,
+          "period_s": 286.9182814124411,
+          "coarse_fine_difference_s": 9.622681903920238e-05,
+          "fine_finer_difference_s": 4.855564839090221e-10,
+          "boundary_sensitivity_s": 9.485056011726556e-07,
+          "background_thinning_sensitivity_s": 0.06507013279457396
+        },
+        {
+          "l": 2,
+          "n_pg": -10,
+          "period_s": 348.68568011766195,
+          "coarse_fine_difference_s": 3.4338320858751104e-05,
+          "fine_finer_difference_s": 4.012861154478742e-09,
+          "boundary_sensitivity_s": 4.687769376232609e-06,
+          "background_thinning_sensitivity_s": -1.0173039593755107
+        }
+      ],
+      "mode_counts": {
+        "coarse": 49,
+        "fine": 49,
+        "finer": 49,
+        "boundary": 49,
+        "scan": 49,
+        "coarsened": 49
+      },
+      "scan_keys_match": true,
+      "max_scan_period_difference_s": 1.5933210306684487e-10,
+      "GYRE_regression": "Official test/ad/wdec/m0.593 passed; see validation/gyre-regression.txt",
+      "limitation": "Integration convergence on one supplied 435-point background; background thinning is a sensitivity test, not a physical error bound or full equilibrium-structure convergence"
+    },
+    "v220/validation/cellular-statistics.json": {
+      "model": "Finite-lived drifting multiplicatively weighted spherical Voronoi intensity surrogate",
+      "hydrodynamic_solution": false,
+      "failed_RHD_outputs_used": false,
+      "profile_power": 2.3943147779626557,
+      "profile_mean": 0.5537794232368469,
+      "intensity_scale": 0.5515150626244366,
+      "target_bolometric_intensity_RMS": 0.17267912516280087,
+      "target_bright_area_fraction": 0.5488786274809161,
+      "calibration_decay_model_units": 0.4470059130871139,
+      "local_seconds_per_model_unit": 0.24714119946782145,
+      "target_approx_decay_local_s": 0.11047357752955808,
+      "validation_RMS_mean": 0.172415092587471,
+      "validation_RMS_range": [
+        0.17151707410812378,
+        0.17374296486377716
+      ],
+      "validation_bright_area_mean": 0.5490206204927884,
+      "validation_decay_local_s": 0.11080977114460959,
+      "minimum_possible_intensity": 0.694582306713406,
+      "measured_angular_characteristic_scale_rad": 0.052100840336134456,
+      "local_patch_angular_scales_rad": [
+        0.047058823529411764,
+        0.044444444444444446,
+        0.047058823529411764,
+        0.05714285714285715,
+        0.06153846153846154,
+        0.07272727272727274
+      ],
+      "spatial_magnification": 551.293836004438,
+      "reference_granule_size_km": 0.8522720853480057,
+      "statistical_checks_passed": true,
+      "constraints": "Neighbor DA RHD bolometric vertical intensity contrast/size; empirical decay estimate; morphology, birth process and drift prescribed",
+      "limitations": [
+        "No mass/momentum/energy evolution or validated DA convection",
+        "Grey bolometric intensity proxy, not local Teff or optical cell spectra",
+        "Magnification reduces visible cell count; not physical disk photometry",
+        "No nonadiabatic mode/convection coupling or fluid velocities claimed"
+      ],
+      "elapsed_s": 10.023495000001276
+    },
+    "v220/validation/reproduction.json": {
+      "extracted_bundle_frame_zero_bit_identical": true,
+      "all_render_input_hashes_identical": true,
+      "source_fingerprint": "f6256fe416e52451184e69a9e2610be73d90f64f7e1fefb8ef6a6a1461a5a23e",
+      "frame_zero_png_sha256": "060994b3c743b32c264f06170e37a27c8c03832c547e72238fd09566a8cede19",
+      "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:54:21) [Clang 16.0.6 ]",
+      "scope": "Same installed dependencies and CPU architecture; no original workspace imports",
+      "numerical_outputs_reused": true
+    },
+    "v220/validation/final-validation.json": {
+      "frames": 960,
+      "duration_s": 32,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "codec": "h264",
+      "profile": "High",
+      "pixel_format": "yuv420p",
+      "color": "Rec.709 limited",
+      "audio": false,
+      "full_decode_passed": true,
+      "timestamps_monotonic_and_uniform": true,
+      "max_PTS_error_s": 3.3333333604446125e-07,
+      "source_fingerprint_verified": true,
+      "no_repeated_segments": true,
+      "checkpoint_joins_mean_sRGB_difference": [
+        0.0030597048232873397,
+        0.0035832507514322602,
+        0.003229097953481804,
+        0.003402468253247801,
+        0.002895102073751311,
+        0.0034147653917534094,
+        0.0030650190631808277
+      ],
+      "color_managed_decode_checks": [
+        {
+          "frame": 0,
+          "PSNR_dB": 47.549479199286,
+          "mean_absolute_sRGB_error": 0.0027158224400871504
+        },
+        {
+          "frame": 240,
+          "PSNR_dB": 47.17064934485671,
+          "mean_absolute_sRGB_error": 0.0028179548182441674
+        },
+        {
+          "frame": 480,
+          "PSNR_dB": 47.247744738642226,
+          "mean_absolute_sRGB_error": 0.0028147807734204763
+        },
+        {
+          "frame": 720,
+          "PSNR_dB": 47.25643137991632,
+          "mean_absolute_sRGB_error": 0.002804512249858792
+        },
+        {
+          "frame": 959,
+          "PSNR_dB": 46.20785273692741,
+          "mean_absolute_sRGB_error": 0.003072088326071169
+        }
+      ],
+      "caption_characters": 2180,
+      "movie_bytes": 24614188,
+      "sha256": "b290cd5c8632dc8632507cab8ba4f8653e647a4af7575ddf16c9298c0235a017"
+    },
+    "luminous/validation/optics-validation.json": {
+      "airy_unit_flux_error": 4.440892098500626e-16,
+      "airy_kernel_min": 2.7296856156386417e-09,
+      "airy_first_zero_encircled_energy": 0.837798214092573,
+      "airy_analytic_encircled_energy": 0.8377848691733143,
+      "moffat_unit_flux_error": 0.0,
+      "moffat_kernel_min": 4.232661700191894e-11,
+      "moffat_encircled_energy_at_3alpha": 0.9682771066376816,
+      "moffat_analytic_encircled_energy_at_3alpha": 0.9683772233983162,
+      "spectrum_65_to_1881_nodes_max_absolute_MTF_difference": 5.168107081421347e-05,
+      "local_SED_effective_PSF_variation": [
+        {
+          "temperature_K": 11150.020041311296,
+          "mu": 0.02,
+          "max_absolute_MTF_difference": 0.0012649759057855314
+        },
+        {
+          "temperature_K": 11150.020041311296,
+          "mu": 0.5,
+          "max_absolute_MTF_difference": 0.0001235367352248884
+        },
+        {
+          "temperature_K": 11150.020041311296,
+          "mu": 1.0,
+          "max_absolute_MTF_difference": 4.9973581324413985e-05
+        },
+        {
+          "temperature_K": 11290.020041311296,
+          "mu": 0.02,
+          "max_absolute_MTF_difference": 0.001171685206542178
+        },
+        {
+          "temperature_K": 11290.020041311296,
+          "mu": 0.5,
+          "max_absolute_MTF_difference": 5.4498952735959616e-05
+        },
+        {
+          "temperature_K": 11290.020041311296,
+          "mu": 1.0,
+          "max_absolute_MTF_difference": 0.00011628493058754574
+        },
+        {
+          "temperature_K": 11430.020041311296,
+          "mu": 0.02,
+          "max_absolute_MTF_difference": 0.0010803827529303756
+        },
+        {
+          "temperature_K": 11430.020041311296,
+          "mu": 0.5,
+          "max_absolute_MTF_difference": 1.3107823487984449e-05
+        },
+        {
+          "temperature_K": 11430.020041311296,
+          "mu": 1.0,
+          "max_absolute_MTF_difference": 0.00018117222359520513
+        }
+      ],
+      "synthetic_scene_padded_luminance_error": 4.440892098500626e-16,
+      "synthetic_scene_pad_doubling_max_display_linear_difference": 0.0001386962449831143,
+      "synthetic_scene_pad_doubling_rms_display_linear_difference": 8.542302883890979e-05,
+      "no_convection_response_in_render": true,
+      "no_temperature_amplitude_increase": true,
+      "known_approximation": "One disk-spectrum-weighted photopic diffraction core at all surface positions; broad scattering is achromatic and integrates actual spectral RGB"
+    }
+  }
+}

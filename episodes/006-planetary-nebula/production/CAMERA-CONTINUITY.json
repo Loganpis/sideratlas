@@ -1,0 +1,27 @@
+{
+  "base_config": "production/CONFIG.json",
+  "base_config_sha256": "8a1d1ec98f3a92d06b9efbc0c0fd1f946b26111e137274de2ffdd69516c79f15",
+  "scope": "Camera-only bounded correction of instantaneous opacity feedback; exact original camera outside two windows; physical model, ray equation, radiative/exposure policy and stellar dimensions unchanged",
+  "windows": [
+    {
+      "start_s": 8.0,
+      "end_s": 10.0,
+      "edge_blend_s": 0.25,
+      "halfwidth_start_pc": 2.664176273384412e-06,
+      "halfwidth_end_pc": 0.00030190351146319787
+    },
+    {
+      "start_s": 14.0,
+      "end_s": 16.0,
+      "edge_blend_s": 0.25,
+      "halfwidth_start_pc": 0.0003258820832686952,
+      "halfwidth_end_pc": 0.011010455343311458
+    }
+  ],
+  "changed_chunks": [
+    4,
+    7
+  ],
+  "reason": "Native full-frame review found factor27 camera-scale jump between opacity-spike samples near8.7s; similar feedback near15.74s",
+  "created_utc": "2026-11-05T21:14:08.159313+00:00"
+}

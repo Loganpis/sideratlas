@@ -1,0 +1,54 @@
+NO.005 — THE STELLAR MERGER
+@sideratlas
+1.52 M☉ evolved donor + 0.16 M☉ companion
+V1309 Sco–informed illustrative scenario
+
+Tides distort the stars
+Gas leaves the overflowing envelope
+Streams stretch through moving gravity
+The companion enters the envelope
+Expanding ejecta surround a disturbed remnant
+Dense foreground gas can hide the star
+
+CALCULATED
+MESA stellar structures
+8192 tracers in moving stellar gravity
+Inertial launches include translation and rotation
+Approximate encounters convert motion into heat
+Mass, work and angular-momentum bookkeeping
+Thermal cooling and normalized grey extinction
+Stellar spectra and limb darkening
+I_direct = I_star e⁻ᵗᵃᵘ; tau = ∫ kappa rho ds
+
+ASSUMPTIONS
+Inspiral, disruption, gas supply and remnant expansion prescribed
+A plausible scenario, not a hydrodynamic prediction
+No gas self-gravity or resolved pressure and shocks
+Ideal-gas temperatures; grey opacity 0.1 cm²/g
+Wendland C2 density matches Gaussian mass and covariance
+Density sigma = 0.4 × material-emissivity sigma
+Compact support = √15 sigma
+Kernel tails change covering area and visible stellar patches
+This is a subgrid assumption, not a validated gas-density field
+Cooling display is an unoccluded energy diagnostic
+Reprocessed radiation omitted, not reassigned
+512 persistent emissivity samples per tracer carry no new mass
+No independent particle velocities or extra luminosity
+Source-anchored warm false colors show relative thermal evolution
+Equal colors do not imply equal absolute temperatures
+Enhanced contrast and 0.5% gas bloom
+Solar-derived surface detail is a rescaled surrogate
+Camera 10° more polar; smoothly eased motion
+Close late framing; distant ejecta can leave the frame
+32 seconds compress 7.19 days; 30 fps; 1/60-second playback shutter
+
+SOURCES
+Nandez, Ivanova & Lombardi 2014
+MacLeod, Ostriker & Stone 2018a,b
+Pejcha, Metzger & Tomida 2016; Hubová & Pejcha 2019
+Matsumoto & Metzger 2022; Dehnen & Aly 2012
+Bifrost: Gudiksen 2011; Carlsson 2016
+MURaM: Cheung et al. 2019, CC BY 3.0
+Provided by the Stanford University Libraries
+https://purl.stanford.edu/dv883vb9686
+Code: https://github.com/Loganpis/sideratlas/tree/main/episodes/005-stellar-merger

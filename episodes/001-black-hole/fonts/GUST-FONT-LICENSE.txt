@@ -1,0 +1,1 @@
+../../../shared/fonts/GUST-FONT-LICENSE.txt

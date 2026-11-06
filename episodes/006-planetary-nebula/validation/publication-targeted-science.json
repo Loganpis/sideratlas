@@ -1,0 +1,551 @@
+{
+  "passed": true,
+  "created_utc": "2026-11-06T19:53:41.930242+00:00",
+  "file": "output/production/SiderAtlas-No006-The-Planetary-Nebula-GIANT-CELLS-1080x1920.mp4",
+  "movie_sha256": "e72f76440db97cb60e9c47a62c426d9107bb2629890677313c0e0902df998fcb",
+  "source_hashes": {
+    "src/giant_convection.py": "b7e7c83396aa9a350cb98599f69a8809380226a4cd61ce9846f535e7c4dd4440",
+    "src/production_giant_cells.py": "19a6cd5014a8c9f66c2c0ce5cbae9e8c57a90227f9c6175edfa0c4dad968d47a",
+    "src/reuse_no003.py": "8e7f98661dd85a84d403a03b8b4157a943fc0c94ba7d64915cdf85602e079c84",
+    "src/evolution_v2.py": "410806c410d5b4c607525f2e0f835fa9621d5b98a1a8e378215d7cbe2e71b045",
+    "src/evolution_v3.py": "5194937fb9f9d584fd3a09fd978dd2dd7fa2706a966ec9bc40742ee639dc3a18"
+  },
+  "no_accepted_scientific_inputs_changed": true,
+  "no_gas_or_evolution_calculation": true,
+  "full_timeline": {
+    "frames": 960,
+    "physical_samples": 1920,
+    "physical_age_strictly_increasing": true,
+    "maximum_relative_Lbb_vs_adopted_L_error": 1.1102230246251565e-15,
+    "maximum_pulsation_phase_error_rad": 0.0
+  },
+  "grey_limb_flux_integral": 1.0000000000000004,
+  "targeted_epochs": [
+    {
+      "playback_s": 5.7,
+      "stellar_R_Rsun": 54.22466666102288,
+      "temperature_K": 3646.145561727979,
+      "pulse_factor": 0.9980277881927633,
+      "secular_fit": {
+        "R_Rsun": 54.33182051895904,
+        "T_K": 3642.548301548996,
+        "M_Msun": 0.9900311542316641,
+        "logg_cgs": 0.9632909092540414,
+        "fit_in_grid": false,
+        "scale_method": "flagged H_p/c_s continuation from3600K/logg1; not validated giant RHD",
+        "reference_length_km": 2135723.727653751,
+        "reference_decay_s": 327132.1513919001,
+        "reference_angular_diameter": 0.05650264935204122,
+        "birth_angular_diameter": 0.05650264935204122,
+        "spatial_display_factor": 1.0,
+        "birth_decay_display_s": 1.2032097571945446,
+        "reference_drift_km_s": 1.501584161845015
+      },
+      "bolometric_mean": 1.0000000000000013,
+      "bolometric_RMS": 0.2233880904784128,
+      "surface_integrated_L_erg_s": 1.792236837920701e+36,
+      "adopted_L_erg_s": 1.7922368379206996e+36,
+      "relative_L_error": 8.881784197001252e-16,
+      "temperature_range_K": [
+        3136.5987866509176,
+        4074.0430357581067
+      ],
+      "visible_band_full_sphere_RMS": 0.38087740175494117,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.0006540787160844719,
+      "populations": {
+        "population0": {
+          "active_cells": 9202,
+          "median_diameter_rad": 0.040175890699728045,
+          "median_lifetime_display_s": 2.27129685926875,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 813,
+          "median_diameter_rad": 0.13821700790717517,
+          "median_lifetime_display_s": 6.793477181254668,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 24886,
+          "median_diameter_rad": 0.02402532955213091,
+          "median_lifetime_display_s": 1.4580246144255478,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 396.72337350488
+    },
+    {
+      "playback_s": 5.9,
+      "stellar_R_Rsun": 167.87994071064477,
+      "temperature_K": 3107.2421778551484,
+      "pulse_factor": 0.978349364905389,
+      "secular_fit": {
+        "R_Rsun": 171.59508324194553,
+        "T_K": 3073.421231620456,
+        "M_Msun": 0.9535304974364687,
+        "logg_cgs": -0.05192452870856354,
+        "fit_in_grid": false,
+        "scale_method": "flagged H_p/c_s continuation from3600K/logg1; not validated giant RHD",
+        "reference_length_km": 18662820.47081717,
+        "reference_decay_s": 3112053.4799095034,
+        "reference_angular_diameter": 0.1563329183751487,
+        "birth_angular_diameter": 0.1563329183751487,
+        "spatial_display_factor": 1.0,
+        "birth_decay_display_s": 1.3986373163196117,
+        "reference_drift_km_s": 1.3792978610421476
+      },
+      "bolometric_mean": 1.000000000000001,
+      "bolometric_RMS": 0.22260357830266292,
+      "surface_integrated_L_erg_s": 9.060739309209467e+36,
+      "adopted_L_erg_s": 9.060739309209454e+36,
+      "relative_L_error": 1.3322676295501878e-15,
+      "temperature_range_K": [
+        2667.103256477083,
+        3470.4038621262894
+      ],
+      "visible_band_full_sphere_RMS": 0.4359280352425246,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.0005354680351339347,
+      "populations": {
+        "population0": {
+          "active_cells": 8459,
+          "median_diameter_rad": 0.04032578100159229,
+          "median_lifetime_display_s": 2.3146351073295097,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 791,
+          "median_diameter_rad": 0.1385973252339019,
+          "median_lifetime_display_s": 6.793477181254668,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 22074,
+          "median_diameter_rad": 0.02422123697875022,
+          "median_lifetime_display_s": 1.5098800331780255,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 406.5903455777791
+    },
+    {
+      "playback_s": 6.0,
+      "stellar_R_Rsun": 94.62275050533728,
+      "temperature_K": 3396.746969023165,
+      "pulse_factor": 0.9874455458432583,
+      "secular_fit": {
+        "R_Rsun": 95.82579100554999,
+        "T_K": 3375.357471565712,
+        "M_Msun": 0.9535282881134162,
+        "logg_cgs": 0.45411931875739986,
+        "fit_in_grid": false,
+        "scale_method": "flagged H_p/c_s continuation from3600K/logg1; not validated giant RHD",
+        "reference_length_km": 6391916.86621901,
+        "reference_decay_s": 1017072.8180716787,
+        "reference_angular_diameter": 0.09587970775973162,
+        "birth_angular_diameter": 0.09587970775973162,
+        "spatial_display_factor": 1.0,
+        "birth_decay_display_s": 1.3015557684401693,
+        "reference_drift_km_s": 1.4454627565582658
+      },
+      "bolometric_mean": 0.9999999999999999,
+      "bolometric_RMS": 0.22216843479300305,
+      "surface_integrated_L_erg_s": 4.110640810307193e+36,
+      "adopted_L_erg_s": 4.1106408103071924e+36,
+      "relative_L_error": 2.220446049250313e-16,
+      "temperature_range_K": [
+        2912.285788551718,
+        3796.576527788839
+      ],
+      "visible_band_full_sphere_RMS": 0.40243240172502126,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.000326799040328396,
+      "populations": {
+        "population0": {
+          "active_cells": 8035,
+          "median_diameter_rad": 0.04038465748166313,
+          "median_lifetime_display_s": 2.335104505737011,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 776,
+          "median_diameter_rad": 0.13892490973910027,
+          "median_lifetime_display_s": 6.803823281962297,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 20432,
+          "median_diameter_rad": 0.024294991869404002,
+          "median_lifetime_display_s": 1.5352755641964988,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 406.64657634538156
+    },
+    {
+      "playback_s": 6.3,
+      "stellar_R_Rsun": 18.513340159787727,
+      "temperature_K": 4284.697128545309,
+      "pulse_factor": 1.0,
+      "secular_fit": {
+        "R_Rsun": 18.513340159787727,
+        "T_K": 4284.697128545309,
+        "M_Msun": 0.9535229915792625,
+        "logg_cgs": 1.8821121704778339,
+        "fit_in_grid": true,
+        "scale_method": "Tremblay2013 fit",
+        "reference_length_km": 313822.957889904,
+        "reference_decay_s": 48351.981660074096,
+        "reference_angular_diameter": 0.024365645835435327,
+        "birth_angular_diameter": 0.04,
+        "spatial_display_factor": 1.6416556437764271,
+        "birth_decay_display_s": 1.0386609191691407,
+        "reference_drift_km_s": 1.4927884615384617
+      },
+      "bolometric_mean": 0.9999999999999999,
+      "bolometric_RMS": 0.2112511052818618,
+      "surface_integrated_L_erg_s": 3.983966545614555e+35,
+      "adopted_L_erg_s": 3.983966545614557e+35,
+      "relative_L_error": 3.3306690738754696e-16,
+      "temperature_range_K": [
+        3684.571686622493,
+        4767.280369045643
+      ],
+      "visible_band_full_sphere_RMS": 0.3119810468417064,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.0004982289731778611,
+      "populations": {
+        "population0": {
+          "active_cells": 7350,
+          "median_diameter_rad": 0.040668762410542694,
+          "median_lifetime_display_s": 2.44583633059114,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 750,
+          "median_diameter_rad": 0.13892490973910027,
+          "median_lifetime_display_s": 6.864436470911029,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 18726,
+          "median_diameter_rad": 0.024644386493293285,
+          "median_lifetime_display_s": 1.6411516918061704,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 362.29187770374176
+    },
+    {
+      "playback_s": 7.7,
+      "stellar_R_Rsun": 31.146835388332512,
+      "temperature_K": 4005.5052702559465,
+      "pulse_factor": 1.0,
+      "secular_fit": {
+        "R_Rsun": 31.146835388332512,
+        "T_K": 4005.5052702559465,
+        "M_Msun": 0.9495408987890551,
+        "logg_cgs": 1.4284363830671702,
+        "fit_in_grid": true,
+        "scale_method": "Tremblay2013 fit",
+        "reference_length_km": 832817.9591640247,
+        "reference_decay_s": 128315.65593045716,
+        "reference_angular_diameter": 0.0384338730145111,
+        "birth_angular_diameter": 0.04,
+        "spatial_display_factor": 1.0407486121655654,
+        "birth_decay_display_s": 1.12233022140702,
+        "reference_drift_km_s": 1.4927884615384612
+      },
+      "bolometric_mean": 1.0000000000000002,
+      "bolometric_RMS": 0.22133180307974548,
+      "surface_integrated_L_erg_s": 8.612370259951131e+35,
+      "adopted_L_erg_s": 8.612370259951128e+35,
+      "relative_L_error": 4.440892098500626e-16,
+      "temperature_range_K": [
+        3464.118696778298,
+        4474.702718263097
+      ],
+      "visible_band_full_sphere_RMS": 0.34793595495059604,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.000279924236018525,
+      "populations": {
+        "population0": {
+          "active_cells": 8085,
+          "median_diameter_rad": 0.04047623655067313,
+          "median_lifetime_display_s": 2.7392773619875093,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 675,
+          "median_diameter_rad": 0.14030285486502844,
+          "median_lifetime_display_s": 7.343346693837605,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 28214,
+          "median_diameter_rad": 0.024251611630171456,
+          "median_lifetime_display_s": 1.6393904798888594,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 379.11381119122643
+    },
+    {
+      "playback_s": 7.9,
+      "stellar_R_Rsun": 63.63177749465961,
+      "temperature_K": 3609.7249683050445,
+      "pulse_factor": 0.9982448593783926,
+      "secular_fit": {
+        "R_Rsun": 63.74365657568539,
+        "T_K": 3606.555789643436,
+        "M_Msun": 0.9472246948393578,
+        "logg_cgs": 0.8053296294894128,
+        "fit_in_grid": false,
+        "scale_method": "flagged H_p/c_s continuation from3600K/logg1; not validated giant RHD",
+        "reference_length_km": 3042241.5092584095,
+        "reference_decay_s": 468304.33416682674,
+        "reference_angular_diameter": 0.06860167373692391,
+        "birth_angular_diameter": 0.06860167373692391,
+        "spatial_display_factor": 1.0,
+        "birth_decay_display_s": 1.234290913014263,
+        "reference_drift_km_s": 1.494147066510323
+      },
+      "bolometric_mean": 0.9999999999999999,
+      "bolometric_RMS": 0.22446665955653092,
+      "surface_integrated_L_erg_s": 2.3708832652722502e+36,
+      "adopted_L_erg_s": 2.3708832652722508e+36,
+      "relative_L_error": 2.220446049250313e-16,
+      "temperature_range_K": [
+        3116.5302274999685,
+        4036.2053936990505
+      ],
+      "visible_band_full_sphere_RMS": 0.38725258200825735,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.00038157362412705176,
+      "populations": {
+        "population0": {
+          "active_cells": 8072,
+          "median_diameter_rad": 0.040679994059558626,
+          "median_lifetime_display_s": 2.771556328341987,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 662,
+          "median_diameter_rad": 0.1402515164454205,
+          "median_lifetime_display_s": 7.437413676784539,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 27862,
+          "median_diameter_rad": 0.02433073584909378,
+          "median_lifetime_display_s": 1.671591925266124,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 401.2440108573369
+    },
+    {
+      "playback_s": 7.966666666666667,
+      "stellar_R_Rsun": 84.89752555907589,
+      "temperature_K": 3454.7890994888953,
+      "pulse_factor": 0.998275797773466,
+      "secular_fit": {
+        "R_Rsun": 85.04415888718287,
+        "T_K": 3451.809437020845,
+        "M_Msun": 0.9460210092510386,
+        "logg_cgs": 0.554362363752498,
+        "fit_in_grid": false,
+        "scale_method": "flagged H_p/c_s continuation from3600K/logg1; not validated giant RHD",
+        "reference_length_km": 5189375.66003316,
+        "reference_decay_s": 816530.7065036878,
+        "reference_angular_diameter": 0.08770990021998912,
+        "birth_angular_diameter": 0.08770990021998912,
+        "spatial_display_factor": 1.0,
+        "birth_decay_display_s": 1.2825008147532322,
+        "reference_drift_km_s": 1.4617409881844246
+      },
+      "bolometric_mean": 1.0000000000000007,
+      "bolometric_RMS": 0.22437722826857853,
+      "surface_integrated_L_erg_s": 3.5411297073024906e+36,
+      "adopted_L_erg_s": 3.5411297073024894e+36,
+      "relative_L_error": 4.440892098500626e-16,
+      "temperature_range_K": [
+        2982.485983065512,
+        3864.757876877972
+      ],
+      "visible_band_full_sphere_RMS": 0.4025714289822468,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.0005882977613766993,
+      "populations": {
+        "population0": {
+          "active_cells": 7995,
+          "median_diameter_rad": 0.040734802456200904,
+          "median_lifetime_display_s": 2.7804886498135515,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 658,
+          "median_diameter_rad": 0.14054096105325087,
+          "median_lifetime_display_s": 7.446983360955109,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 27123,
+          "median_diameter_rad": 0.02438643818178874,
+          "median_lifetime_display_s": 1.682675884108175,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 408.1925144815254
+    },
+    {
+      "playback_s": 8.0,
+      "stellar_R_Rsun": 90.03161147590806,
+      "temperature_K": 3421.936472976244,
+      "pulse_factor": 1.0,
+      "secular_fit": {
+        "R_Rsun": 90.03161147590806,
+        "T_K": 3421.936472976244,
+        "M_Msun": 0.9455735537757118,
+        "logg_cgs": 0.5046558326820708,
+        "fit_in_grid": false,
+        "scale_method": "flagged H_p/c_s continuation from3600K/logg1; not validated giant RHD",
+        "reference_length_km": 5768285.832566984,
+        "reference_decay_s": 911573.3458877533,
+        "reference_angular_diameter": 0.09209366264481446,
+        "birth_angular_diameter": 0.09209366264481446,
+        "spatial_display_factor": 1.0,
+        "birth_decay_display_s": 1.2920535559811444,
+        "reference_drift_km_s": 1.4554020776006438
+      },
+      "bolometric_mean": 1.0000000000000007,
+      "bolometric_RMS": 0.22438568762638395,
+      "surface_integrated_L_erg_s": 3.83304065581386e+36,
+      "adopted_L_erg_s": 3.8330406558138576e+36,
+      "relative_L_error": 6.661338147750939e-16,
+      "temperature_range_K": [
+        2953.93149013875,
+        3827.887861556498
+      ],
+      "visible_band_full_sphere_RMS": 0.4060398453629233,
+      "maximum_CIE_band_approximation_relative_Y_error": 0.0005957730280555795,
+      "populations": {
+        "population0": {
+          "active_cells": 7938,
+          "median_diameter_rad": 0.04076354540281943,
+          "median_lifetime_display_s": 2.7832150960087505,
+          "uncovered_area_fraction": 0.0
+        },
+        "population1": {
+          "active_cells": 651,
+          "median_diameter_rad": 0.14020017802581258,
+          "median_lifetime_display_s": 7.456438115882244,
+          "uncovered_area_fraction": 0.0
+        },
+        "population2": {
+          "active_cells": 26645,
+          "median_diameter_rad": 0.024405851758354417,
+          "median_lifetime_display_s": 1.6889228371648035,
+          "uncovered_area_fraction": 0.0
+        }
+      },
+      "handoff_weight": 1.0,
+      "nearest_encoded_sample_radius_px": 410.23789186460823
+    }
+  ],
+  "persistent_identity_checks": [
+    {
+      "interval_s": [
+        5.7,
+        6.3
+      ],
+      "family": 0,
+      "persistent_sites": 6481,
+      "birth_size_exact": true,
+      "angular_displacement_rad_percentiles": [
+        0.0051229918762429605,
+        0.006567424551600809,
+        0.00831233551700995
+      ]
+    },
+    {
+      "interval_s": [
+        5.7,
+        6.3
+      ],
+      "family": 1,
+      "persistent_sites": 731,
+      "birth_size_exact": true,
+      "angular_displacement_rad_percentiles": [
+        0.00624828714940931,
+        0.007889999703837696,
+        0.009958700017573003
+      ]
+    },
+    {
+      "interval_s": [
+        5.7,
+        6.3
+      ],
+      "family": 2,
+      "persistent_sites": 14064,
+      "birth_size_exact": true,
+      "angular_displacement_rad_percentiles": [
+        0.004683211497622502,
+        0.006017268774149896,
+        0.007604508734903573
+      ]
+    },
+    {
+      "interval_s": [
+        7.7,
+        8.0
+      ],
+      "family": 0,
+      "persistent_sites": 7425,
+      "birth_size_exact": true,
+      "angular_displacement_rad_percentiles": [
+        0.0022659186841325284,
+        0.0028444543489320796,
+        0.0036111639574000725
+      ]
+    },
+    {
+      "interval_s": [
+        7.7,
+        8.0
+      ],
+      "family": 1,
+      "persistent_sites": 636,
+      "birth_size_exact": true,
+      "angular_displacement_rad_percentiles": [
+        0.002702290238814303,
+        0.0036829636742154235,
+        0.004741025583104904
+      ]
+    },
+    {
+      "interval_s": [
+        7.7,
+        8.0
+      ],
+      "family": 2,
+      "persistent_sites": 23692,
+      "birth_size_exact": true,
+      "angular_displacement_rad_percentiles": [
+        0.002269122232447633,
+        0.0028283602434665124,
+        0.003547004039617022
+      ]
+    }
+  ],
+  "limitations": [
+    "Normalized bolometric luminosity is a closure, not a solved convective heat flux",
+    "Planck spectrum and fixed grey limb coefficient u=0.6, not a giant-atmosphere radiative-transfer solution",
+    "Prescribed statistical cells/drift/lifetimes/contrast; no fluid velocity, shocks or nonadiabatic convection",
+    "Flagged low-gravity fit continuation, angular floors and independent representative atmosphere clock",
+    "Visible-band flux/contrast may change at fixed bolometric luminosity; camera exposure and line false colors are separate",
+    "Normalized surface fluctuations do not feed back into the accepted ionizing-photon or wind calculation"
+  ]
+}

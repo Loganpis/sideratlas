@@ -1,0 +1,299 @@
+{
+  "number": "001",
+  "repo": "sideratlas-black-hole",
+  "legacy_tag": "v1.2.1",
+  "legacy_commit": "95642a426717c1987c6cc6512fb51e7bb41c4f7a",
+  "original_filename": "sideratlas-kerr-newman-reel.mp4",
+  "sha256": "582a11becc92758149c37a38ad45c8962be70ba0863947352e2686ec0840256e",
+  "bytes": 45028512,
+  "legacy_url": "https://github.com/Loganpis/sideratlas-black-hole/releases/download/v1.2.1/sideratlas-kerr-newman-reel.mp4",
+  "validated_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "seconds": 32
+  },
+  "complete_decode_passed": true,
+  "central_tag": "no001-v1.0.0",
+  "video_url": "https://github.com/Loganpis/sideratlas/releases/download/no001-v1.0.0/sideratlas-kerr-newman-reel.mp4",
+  "source_files": [
+    {
+      "path": "assemble_kn_accretion.py",
+      "source_path": "assemble_kn_accretion.py",
+      "source_sha256": "1cef84cd9d80f66f7eabb339d0eaabe9018e746071b21cbffe68e673e228f2b9",
+      "sha256": "1cef84cd9d80f66f7eabb339d0eaabe9018e746071b21cbffe68e673e228f2b9"
+    },
+    {
+      "path": "emission.py",
+      "source_path": "emission.py",
+      "source_sha256": "b250a41640e0461ef3d5b8c6bb85e728f465096177935a866ef9a9d76ac8f532",
+      "sha256": "b250a41640e0461ef3d5b8c6bb85e728f465096177935a866ef9a9d76ac8f532"
+    },
+    {
+      "path": "generate_kn_steady_reference.py",
+      "source_path": "generate_kn_steady_reference.py",
+      "source_sha256": "69851c4d04c19c6ce9c6ea22b5075017f021492d7d666ad1b57f9807c9df00fd",
+      "sha256": "69851c4d04c19c6ce9c6ea22b5075017f021492d7d666ad1b57f9807c9df00fd"
+    },
+    {
+      "path": "instagram_export.py",
+      "source_path": "instagram_export.py",
+      "source_sha256": "ac92e7c87543a3deea101ee051efa8204422fdb9e76c2b4ae01e099eb413a930",
+      "sha256": "ac92e7c87543a3deea101ee051efa8204422fdb9e76c2b4ae01e099eb413a930"
+    },
+    {
+      "path": "kerr_emission.py",
+      "source_path": "kerr_emission.py",
+      "source_sha256": "960e8fdc132ab2167f9df7bd406430e6431f92c38ee6e9c724eb17048577f986",
+      "sha256": "960e8fdc132ab2167f9df7bd406430e6431f92c38ee6e9c724eb17048577f986"
+    },
+    {
+      "path": "kerr_orbit_emission.py",
+      "source_path": "kerr_orbit_emission.py",
+      "source_sha256": "378afecf40b3ad60f2912a78b066e254ca53395dfa061756caf12cf9550605bd",
+      "sha256": "378afecf40b3ad60f2912a78b066e254ca53395dfa061756caf12cf9550605bd"
+    },
+    {
+      "path": "kerr_raytrace.py",
+      "source_path": "kerr_raytrace.py",
+      "source_sha256": "c5e5bdaf5561a2c28aaa56acf3c830965f2a91e04852866754c850521ddec6f9",
+      "sha256": "c5e5bdaf5561a2c28aaa56acf3c830965f2a91e04852866754c850521ddec6f9"
+    },
+    {
+      "path": "kn_accretion_trace.py",
+      "source_path": "kn_accretion_trace.py",
+      "source_sha256": "d5ee4950d726c9b3b84d2d966c4309a2e47074e5ac1ffbeeb4bcfc2c9d4fb867",
+      "sha256": "d5ee4950d726c9b3b84d2d966c4309a2e47074e5ac1ffbeeb4bcfc2c9d4fb867"
+    },
+    {
+      "path": "kn_dynamic_emission.py",
+      "source_path": "kn_dynamic_emission.py",
+      "source_sha256": "4458d9eea4b82a92d0ebf9ae40fa52023118d4ee3fb9a46fc8310036842c316e",
+      "sha256": "4458d9eea4b82a92d0ebf9ae40fa52023118d4ee3fb9a46fc8310036842c316e"
+    },
+    {
+      "path": "kn_flow.py",
+      "source_path": "kn_flow.py",
+      "source_sha256": "6c925008ef8eff7c570c4de793307a945b345202a24c88a3ab60a308e0eb2c40",
+      "sha256": "6c925008ef8eff7c570c4de793307a945b345202a24c88a3ab60a308e0eb2c40"
+    },
+    {
+      "path": "kn_orbit_emission.py",
+      "source_path": "kn_orbit_emission.py",
+      "source_sha256": "c1a8587a2b82380ab9c5abc8b87ffab08513ea8dea759569a723cf8925ec68cf",
+      "sha256": "c1a8587a2b82380ab9c5abc8b87ffab08513ea8dea759569a723cf8925ec68cf"
+    },
+    {
+      "path": "kn_orbit_trace.py",
+      "source_path": "kn_orbit_trace.py",
+      "source_sha256": "698460d50b266e3953973449e3ca78f4d3b088faa6d830ea8ca9fd624706dd74",
+      "sha256": "698460d50b266e3953973449e3ca78f4d3b088faa6d830ea8ca9fd624706dd74"
+    },
+    {
+      "path": "kn_orbits.py",
+      "source_path": "kn_orbits.py",
+      "source_sha256": "84c097f23ce6427c10466a57db53395105a47047dd10d53da4569158183d08cf",
+      "sha256": "84c097f23ce6427c10466a57db53395105a47047dd10d53da4569158183d08cf"
+    },
+    {
+      "path": "nasa_emission.py",
+      "source_path": "nasa_emission.py",
+      "source_sha256": "98acbba4cca4311e6d3edd0620ea0f60e32f9191929163113153b9db8cb010b4",
+      "sha256": "98acbba4cca4311e6d3edd0620ea0f60e32f9191929163113153b9db8cb010b4"
+    },
+    {
+      "path": "nasa_raytrace.py",
+      "source_path": "nasa_raytrace.py",
+      "source_sha256": "136960b3d0038a4762a585844fa9e39c2bb9cb942a7df550812d3fe6c8604390",
+      "sha256": "136960b3d0038a4762a585844fa9e39c2bb9cb942a7df550812d3fe6c8604390"
+    },
+    {
+      "path": "raytrace.py",
+      "source_path": "raytrace.py",
+      "source_sha256": "653c187d66dbe3694e716e7b663e172dd559ebbf7817f8d6cc4c33806f4615eb",
+      "sha256": "653c187d66dbe3694e716e7b663e172dd559ebbf7817f8d6cc4c33806f4615eb"
+    },
+    {
+      "path": "render.py",
+      "source_path": "render.py",
+      "source_sha256": "578cfac73c98475e860beb8958d533f0698c76adb57161f9a9e28aacba15b71a",
+      "sha256": "578cfac73c98475e860beb8958d533f0698c76adb57161f9a9e28aacba15b71a"
+    },
+    {
+      "path": "render_kn_accretion.py",
+      "source_path": "render_kn_accretion.py",
+      "source_sha256": "8a4d530517aa6fbae9a62d966feb344c045a1630ebc87fb536b7c3de3440e645",
+      "sha256": "8a4d530517aa6fbae9a62d966feb344c045a1630ebc87fb536b7c3de3440e645"
+    },
+    {
+      "path": "render_kn_orbit.py",
+      "source_path": "render_kn_orbit.py",
+      "source_sha256": "94b393f626a837edf1b91bd6ce00b7db89aa753a2fa572a79ffbb472b63f4fc4",
+      "sha256": "94b393f626a837edf1b91bd6ce00b7db89aa753a2fa572a79ffbb472b63f4fc4"
+    },
+    {
+      "path": "review_kn_accretion_video.py",
+      "source_path": "review_kn_accretion_video.py",
+      "source_sha256": "fce9057d5195e0c8af3830b049a447dd3b132a2989ae2909a34cd43226bb0573",
+      "sha256": "fce9057d5195e0c8af3830b049a447dd3b132a2989ae2909a34cd43226bb0573"
+    },
+    {
+      "path": "title_overlay.py",
+      "source_path": "title_overlay.py",
+      "source_sha256": "e7c356e58bea9e54213914946c9edef2884f4744ef74b794b99d8b01c855bd85",
+      "sha256": "e7c356e58bea9e54213914946c9edef2884f4744ef74b794b99d8b01c855bd85"
+    },
+    {
+      "path": "verify_kn_accretion.py",
+      "source_path": "verify_kn_accretion.py",
+      "source_sha256": "c6dd93b309a55c948de21284621b3daa0cc7de73f6c6e731818de65ff835a2dd",
+      "sha256": "c6dd93b309a55c948de21284621b3daa0cc7de73f6c6e731818de65ff835a2dd"
+    },
+    {
+      "path": "verify_kn_accretion_trace.py",
+      "source_path": "verify_kn_accretion_trace.py",
+      "source_sha256": "7aaa932e8afc4f0b239950ae15e24ae453226c44c2affe645786396b20b8d53a",
+      "sha256": "7aaa932e8afc4f0b239950ae15e24ae453226c44c2affe645786396b20b8d53a"
+    },
+    {
+      "path": "verify_kn_dynamic_emission.py",
+      "source_path": "verify_kn_dynamic_emission.py",
+      "source_sha256": "8bbaeb26e25d208f13eefc2ec51be3d91cc701ffc909ceaf6b2f15f173acd2c6",
+      "sha256": "8bbaeb26e25d208f13eefc2ec51be3d91cc701ffc909ceaf6b2f15f173acd2c6"
+    },
+    {
+      "path": "verify_kn_flow.py",
+      "source_path": "verify_kn_flow.py",
+      "source_sha256": "e771b30c6ce4d1e4c007e3de32cd0cb92a7fbef67053c5fc40a0c44429702264",
+      "sha256": "e771b30c6ce4d1e4c007e3de32cd0cb92a7fbef67053c5fc40a0c44429702264"
+    },
+    {
+      "path": "verify_kn_image_orders.py",
+      "source_path": "verify_kn_image_orders.py",
+      "source_sha256": "acaa2119a8b68a05224a80dedf4023d446e7c7a80ba6598b27d810e0142f4c5f",
+      "sha256": "acaa2119a8b68a05224a80dedf4023d446e7c7a80ba6598b27d810e0142f4c5f"
+    },
+    {
+      "path": "verify_kn_orbit_emission.py",
+      "source_path": "verify_kn_orbit_emission.py",
+      "source_sha256": "d201ad55bb26ae61116822cc5d89fad6c3c5667d787c7241913b9063b06ccfdc",
+      "sha256": "d201ad55bb26ae61116822cc5d89fad6c3c5667d787c7241913b9063b06ccfdc"
+    },
+    {
+      "path": "verify_kn_sampling.py",
+      "source_path": "verify_kn_sampling.py",
+      "source_sha256": "6b4dccab9134262a667c983a1e756c303b61161fbaad6e21598eb1b30f797bd8",
+      "sha256": "6b4dccab9134262a667c983a1e756c303b61161fbaad6e21598eb1b30f797bd8"
+    },
+    {
+      "path": "verify_kn_trace.py",
+      "source_path": "verify_kn_trace.py",
+      "source_sha256": "2e4417a7145fd20be878abc555ee0437f6e18e3bcd5e6a04bcd4c6ab08c8c26c",
+      "sha256": "2e4417a7145fd20be878abc555ee0437f6e18e3bcd5e6a04bcd4c6ab08c8c26c"
+    },
+    {
+      "path": "video_io.py",
+      "source_path": "video_io.py",
+      "source_sha256": "d1e5552163c1b26df0b39a8d253c58e2503e51fa080928be57e0952223ea0c4b",
+      "sha256": "d1e5552163c1b26df0b39a8d253c58e2503e51fa080928be57e0952223ea0c4b"
+    },
+    {
+      "path": "video_validation.py",
+      "source_path": "video_validation.py",
+      "source_sha256": "81b8e53dbfaa3229e7f86f4c0db7d6c30427e53705ac99643b26b7bd93287a10",
+      "sha256": "81b8e53dbfaa3229e7f86f4c0db7d6c30427e53705ac99643b26b7bd93287a10"
+    },
+    {
+      "path": "kn_accretion_trace.cpp",
+      "source_path": "kn_accretion_trace.cpp",
+      "source_sha256": "deb2a0ec621ae42dea626ab43e1746c6d06f24267de3ecdf8a5dbebb0045f81f",
+      "sha256": "deb2a0ec621ae42dea626ab43e1746c6d06f24267de3ecdf8a5dbebb0045f81f"
+    },
+    {
+      "path": "kn_orbit_trace.cpp",
+      "source_path": "kn_orbit_trace.cpp",
+      "source_sha256": "7b31b6904f004df42ba28ae0315fb1cbd07c037715981b1c36fceb323ea715a3",
+      "sha256": "7b31b6904f004df42ba28ae0315fb1cbd07c037715981b1c36fceb323ea715a3"
+    },
+    {
+      "path": "kerr_raytrace.cpp",
+      "source_path": "kerr_raytrace.cpp",
+      "source_sha256": "a2442095b9a259eecb4baea14f8d255e0b167ee06c32e5122dd51aac40ca8c45",
+      "sha256": "a2442095b9a259eecb4baea14f8d255e0b167ee06c32e5122dd51aac40ca8c45"
+    },
+    {
+      "path": "requirements.txt",
+      "source_path": "requirements.txt",
+      "source_sha256": "78a8f118233202d0d9aee600bc35e442581000c5b42b709db3b540dfbd2c4535",
+      "sha256": "78a8f118233202d0d9aee600bc35e442581000c5b42b709db3b540dfbd2c4535"
+    },
+    {
+      "path": "MODEL.md",
+      "source_path": "MODEL.md",
+      "source_sha256": "03849147a5b2f0b094338d40351ab9d44d2e477619d5eceb308dd2c381b9bb53",
+      "sha256": "6a299d6cfcdfac2ae6210947c11085638e6b2f10c0f7cdbb7bd737ec0653338e"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "source_path": "THIRD-PARTY-NOTICES.md",
+      "source_sha256": "cc91e433c844f89fec4c95cfa8f818106e6570ba16a2f1c3854c78939257ce4b",
+      "sha256": "cc91e433c844f89fec4c95cfa8f818106e6570ba16a2f1c3854c78939257ce4b"
+    },
+    {
+      "path": "caption.text",
+      "source_path": "caption-kerr-newman.text",
+      "source_sha256": "0db545c93339267f4414b4fd19dd05add4e131c839c553940fa16e80cbdb5563",
+      "sha256": "4a073fd507e5f04f133ba241e9bbb618a5f98ded5c8e87ba010efee41ae1cada"
+    },
+    {
+      "path": "compare_kn_emission.py",
+      "source_path": "compare_kn_emission.py",
+      "source_sha256": "e2ebbcd4d098e440a950cd0826b77797447a0a398f28e64f1c353af266833938",
+      "sha256": "e2ebbcd4d098e440a950cd0826b77797447a0a398f28e64f1c353af266833938"
+    },
+    {
+      "path": "kn-flow-diagnostics.json",
+      "source_path": "kn-flow-diagnostics.json",
+      "source_sha256": "58828d62b652ead8532da96de445f11720b5a204e39d147050352a18fb25cada",
+      "sha256": "58828d62b652ead8532da96de445f11720b5a204e39d147050352a18fb25cada"
+    },
+    {
+      "path": "kn-accretion-trace-diagnostics.json",
+      "source_path": "kn-accretion-trace-diagnostics.json",
+      "source_sha256": "986a0eb2ceacc7cd3073e4412f1e861dba8aa342c198312d0e932888f186122c",
+      "sha256": "986a0eb2ceacc7cd3073e4412f1e861dba8aa342c198312d0e932888f186122c"
+    },
+    {
+      "path": "kn-dynamic-emission-diagnostics.json",
+      "source_path": "kn-dynamic-emission-diagnostics.json",
+      "source_sha256": "3f7b6347ca6f623f3dca5df53f30442e41c4e827ceeaec91785ab7ba0cf9ecf0",
+      "sha256": "3f7b6347ca6f623f3dca5df53f30442e41c4e827ceeaec91785ab7ba0cf9ecf0"
+    },
+    {
+      "path": "kn-sampling-diagnostics.json",
+      "source_path": "kn-sampling-diagnostics.json",
+      "source_sha256": "9fa6dc26bf97e466dccc32b08e11ab58ba6fbcd0c70518ae3d3ed9f11ce2ef25",
+      "sha256": "9fa6dc26bf97e466dccc32b08e11ab58ba6fbcd0c70518ae3d3ed9f11ce2ef25"
+    },
+    {
+      "path": "kn-image-order-diagnostics.json",
+      "source_path": "kn-image-order-diagnostics.json",
+      "source_sha256": "71d5f8cf04769d024329756d1c9084654f4ccf3e23d198c0615ca7663236af6c",
+      "sha256": "71d5f8cf04769d024329756d1c9084654f4ccf3e23d198c0615ca7663236af6c"
+    },
+    {
+      "path": "kn-emission-comparison-diagnostics.json",
+      "source_path": "kn-emission-comparison-diagnostics.json",
+      "source_sha256": "6d2d0d4d55374fbf59a50208f2a19f9fa8c4e1991008ba15917e4638949f4cf1",
+      "sha256": "6d2d0d4d55374fbf59a50208f2a19f9fa8c4e1991008ba15917e4638949f4cf1"
+    },
+    {
+      "path": "caption-kerr-newman.text",
+      "source_path": "caption-kerr-newman.text",
+      "source_sha256": "0db545c93339267f4414b4fd19dd05add4e131c839c553940fa16e80cbdb5563",
+      "sha256": "0db545c93339267f4414b4fd19dd05add4e131c839c553940fa16e80cbdb5563"
+    }
+  ],
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+}

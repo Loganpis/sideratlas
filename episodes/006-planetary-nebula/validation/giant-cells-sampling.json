@@ -1,0 +1,67 @@
+{
+  "complete": true,
+  "comparisons": [
+    {
+      "playback_s": 4.0,
+      "lat_nodes": 513,
+      "control_lat_nodes": 1025,
+      "bolometric_contrast_relative_error": 0.00025429369413343395,
+      "native_disk_proxy_RMS_error": 0.005736896081869865,
+      "field_evaluation_s": 1.2042369590053568,
+      "scope": "2px positive Gaussian sampling diagnostic at330px stellar radius; actual production optics unchanged"
+    },
+    {
+      "playback_s": 4.0,
+      "lat_nodes": 769,
+      "control_lat_nodes": 1025,
+      "bolometric_contrast_relative_error": 1.010131399958869e-05,
+      "native_disk_proxy_RMS_error": 0.0022047716108877114,
+      "field_evaluation_s": 0.8494500829983735,
+      "scope": "2px positive Gaussian sampling diagnostic at330px stellar radius; actual production optics unchanged"
+    },
+    {
+      "playback_s": 5.9,
+      "lat_nodes": 513,
+      "control_lat_nodes": 1025,
+      "bolometric_contrast_relative_error": 0.0002877337946969316,
+      "native_disk_proxy_RMS_error": 0.006027725969860151,
+      "field_evaluation_s": 0.3710611249989597,
+      "scope": "2px positive Gaussian sampling diagnostic at330px stellar radius; actual production optics unchanged"
+    },
+    {
+      "playback_s": 5.9,
+      "lat_nodes": 769,
+      "control_lat_nodes": 1025,
+      "bolometric_contrast_relative_error": 4.8523161257474356e-05,
+      "native_disk_proxy_RMS_error": 0.0023846680967916944,
+      "field_evaluation_s": 0.7381978750054259,
+      "scope": "2px positive Gaussian sampling diagnostic at330px stellar radius; actual production optics unchanged"
+    },
+    {
+      "playback_s": 7.8,
+      "lat_nodes": 513,
+      "control_lat_nodes": 1025,
+      "bolometric_contrast_relative_error": 0.00017572999582649018,
+      "native_disk_proxy_RMS_error": 0.0056823881138302265,
+      "field_evaluation_s": 0.34346945901052095,
+      "scope": "2px positive Gaussian sampling diagnostic at330px stellar radius; actual production optics unchanged"
+    },
+    {
+      "playback_s": 7.8,
+      "lat_nodes": 769,
+      "control_lat_nodes": 1025,
+      "bolometric_contrast_relative_error": 1.879050978514929e-05,
+      "native_disk_proxy_RMS_error": 0.00222520498816117,
+      "field_evaluation_s": 0.7434830840065842,
+      "scope": "2px positive Gaussian sampling diagnostic at330px stellar radius; actual production optics unchanged"
+    }
+  ],
+  "thresholds": {
+    "contrast_relative_error": 0.03,
+    "PSF_disk_RMS_error": 0.02
+  },
+  "selected_lat_nodes": 769,
+  "selected_lon_nodes": 1536,
+  "method": "Same deterministic cells at3spatial samplings; compare bolometric contrast and a sampled disk after a fixed positive PSF proxy",
+  "passed": true
+}

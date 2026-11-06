@@ -1,0 +1,41 @@
+{
+  "selected_chunks": [
+    2,
+    3
+  ],
+  "effective_retiming_windows": [
+    [
+      5.2,
+      7.2
+    ]
+  ],
+  "unchanged_intervals_s": [
+    [
+      0,
+      4
+    ],
+    [
+      8,
+      32
+    ]
+  ],
+  "selected_renderer": "src.production_publication.PublicationRenderer",
+  "diagnostic_sha256": "d422e6752d460a0e2492af7e9935682576b4835e980e4f1021779629661e72eb",
+  "excluded_trial_chunks": [
+    4,
+    5
+  ],
+  "excluded_trial": "archive/production-agb-retiming-not-selected/",
+  "reason": "Narrowest verified repair of the six-second rollback; preserve the accepted AGB radiation and every other scene",
+  "additional_sources": [
+    {
+      "path": "src/production_publication.py",
+      "sha256": "31af30d357d7b04e065870d57aa11bd9db439be1df3eba08f8812dff03da9872"
+    },
+    {
+      "path": "scripts/assemble_publication_repair.py",
+      "sha256": "6fb71e46cefca5da7d4baeea9a4246aa17f1d4b6ce7f0b8d0727ecf004287931"
+    }
+  ],
+  "frozen": true
+}

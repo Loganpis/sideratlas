@@ -1,0 +1,422 @@
+{
+  "number": "006",
+  "repo": null,
+  "legacy_tag": null,
+  "legacy_commit": null,
+  "original_filename": "SiderAtlas-No006-The-Planetary-Nebula-GIANT-CELLS-1080x1920.mp4",
+  "sha256": "e72f76440db97cb60e9c47a62c426d9107bb2629890677313c0e0902df998fcb",
+  "bytes": 21266413,
+  "accepted_manifest": "../sideratlas-planetary-nebula/production/PUBLICATION-ACCEPTANCE.json",
+  "validated_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 960,
+    "seconds": 32
+  },
+  "complete_decode_passed": true,
+  "central_tag": "no006-v1.0.0",
+  "video_url": "https://github.com/Loganpis/sideratlas/releases/download/no006-v1.0.0/SiderAtlas-No006-The-Planetary-Nebula-GIANT-CELLS-1080x1920.mp4",
+  "source_files": [
+    {
+      "path": "src/atomic_v3.py",
+      "source_path": "src/atomic_v3.py",
+      "source_sha256": "8b491fe85ff1907135da96815a87976988ca0b4985128315af3e6e4340ca6263",
+      "sha256": "8b491fe85ff1907135da96815a87976988ca0b4985128315af3e6e4340ca6263"
+    },
+    {
+      "path": "src/evolution.py",
+      "source_path": "src/evolution.py",
+      "source_sha256": "74494940c889e893dd092c8e5678c3e4d093d864b9d6b1b2952d27e008c09cfa",
+      "sha256": "74494940c889e893dd092c8e5678c3e4d093d864b9d6b1b2952d27e008c09cfa"
+    },
+    {
+      "path": "src/evolution_v2.py",
+      "source_path": "src/evolution_v2.py",
+      "source_sha256": "410806c410d5b4c607525f2e0f835fa9621d5b98a1a8e378215d7cbe2e71b045",
+      "sha256": "410806c410d5b4c607525f2e0f835fa9621d5b98a1a8e378215d7cbe2e71b045"
+    },
+    {
+      "path": "src/evolution_v3.py",
+      "source_path": "src/evolution_v3.py",
+      "source_sha256": "5194937fb9f9d584fd3a09fd978dd2dd7fa2706a966ec9bc40742ee639dc3a18",
+      "sha256": "5194937fb9f9d584fd3a09fd978dd2dd7fa2706a966ec9bc40742ee639dc3a18"
+    },
+    {
+      "path": "src/giant_convection.py",
+      "source_path": "src/giant_convection.py",
+      "source_sha256": "b7e7c83396aa9a350cb98599f69a8809380226a4cd61ce9846f535e7c4dd4440",
+      "sha256": "b7e7c83396aa9a350cb98599f69a8809380226a4cd61ce9846f535e7c4dd4440"
+    },
+    {
+      "path": "src/imaging.py",
+      "source_path": "src/imaging.py",
+      "source_sha256": "1e13d4af5d68610ca330642c5ef9451f73d5a5fb4dd5d30dd9b2a445b9c63ce9",
+      "sha256": "1e13d4af5d68610ca330642c5ef9451f73d5a5fb4dd5d30dd9b2a445b9c63ce9"
+    },
+    {
+      "path": "src/interface_v3.py",
+      "source_path": "src/interface_v3.py",
+      "source_sha256": "307ce79beb9260c7eb86bb75eaa55e214e400b7b3983f5502d8337f825854e40",
+      "sha256": "307ce79beb9260c7eb86bb75eaa55e214e400b7b3983f5502d8337f825854e40"
+    },
+    {
+      "path": "src/ion_history_v3.py",
+      "source_path": "src/ion_history_v3.py",
+      "source_sha256": "fdfc959cf9e7a7c4494109b293f29ed3b2f71b56e194101b75fe9d660340f99e",
+      "sha256": "fdfc959cf9e7a7c4494109b293f29ed3b2f71b56e194101b75fe9d660340f99e"
+    },
+    {
+      "path": "src/metal_projector.py",
+      "source_path": "src/metal_projector.py",
+      "source_sha256": "2f2a18930aa24478f390cf3dfa698c0b4dd9f35ae1586ede58da8c1c5e6b20a3",
+      "sha256": "2f2a18930aa24478f390cf3dfa698c0b4dd9f35ae1586ede58da8c1c5e6b20a3"
+    },
+    {
+      "path": "src/physics.py",
+      "source_path": "src/physics.py",
+      "source_sha256": "b8b555afb58bca3697aa06bcea7e0e0452c0d61cee96574ad32dd9bcb9b11726",
+      "sha256": "b8b555afb58bca3697aa06bcea7e0e0452c0d61cee96574ad32dd9bcb9b11726"
+    },
+    {
+      "path": "src/physics_v2.py",
+      "source_path": "src/physics_v2.py",
+      "source_sha256": "c311cc0a888ae9f9e8df6f6a2ab5e712fe356767fa282ffce1505a07cc3339cb",
+      "sha256": "c311cc0a888ae9f9e8df6f6a2ab5e712fe356767fa282ffce1505a07cc3339cb"
+    },
+    {
+      "path": "src/physics_v3.py",
+      "source_path": "src/physics_v3.py",
+      "source_sha256": "73a8bb354cbcca6e6953329d56d8bef28d77d6fbc80b7db1cb3ce401001b1d9d",
+      "sha256": "73a8bb354cbcca6e6953329d56d8bef28d77d6fbc80b7db1cb3ce401001b1d9d"
+    },
+    {
+      "path": "src/production_camera_fix.py",
+      "source_path": "src/production_camera_fix.py",
+      "source_sha256": "c6240c0fbd36bb3fe0bb0722730b9bfa3aef7256c1fcdca6fbbf2240c731198c",
+      "sha256": "c6240c0fbd36bb3fe0bb0722730b9bfa3aef7256c1fcdca6fbbf2240c731198c"
+    },
+    {
+      "path": "src/production_giant_cells.py",
+      "source_path": "src/production_giant_cells.py",
+      "source_sha256": "19a6cd5014a8c9f66c2c0ce5cbae9e8c57a90227f9c6175edfa0c4dad968d47a",
+      "sha256": "19a6cd5014a8c9f66c2c0ce5cbae9e8c57a90227f9c6175edfa0c4dad968d47a"
+    },
+    {
+      "path": "src/production_numerics.py",
+      "source_path": "src/production_numerics.py",
+      "source_sha256": "006360dca0cce1e78ac1d2df8d08a8cae2ef48d74065ef4d1060b86d6b8a8a3e",
+      "sha256": "006360dca0cce1e78ac1d2df8d08a8cae2ef48d74065ef4d1060b86d6b8a8a3e"
+    },
+    {
+      "path": "src/production_publication.py",
+      "source_path": "src/production_publication.py",
+      "source_sha256": "31af30d357d7b04e065870d57aa11bd9db439be1df3eba08f8812dff03da9872",
+      "sha256": "31af30d357d7b04e065870d57aa11bd9db439be1df3eba08f8812dff03da9872"
+    },
+    {
+      "path": "src/production_render.py",
+      "source_path": "src/production_render.py",
+      "source_sha256": "daed180cfc56e8d30954eba98222b9401b3ea117af6a8b97333436022118a1c0",
+      "sha256": "daed180cfc56e8d30954eba98222b9401b3ea117af6a8b97333436022118a1c0"
+    },
+    {
+      "path": "src/production_temporal_fix.py",
+      "source_path": "src/production_temporal_fix.py",
+      "source_sha256": "f10c461e1c81d42db7a69483af0275b1bf7fb739ce339b716ea0edcffa049577",
+      "sha256": "f10c461e1c81d42db7a69483af0275b1bf7fb739ce339b716ea0edcffa049577"
+    },
+    {
+      "path": "src/radial_gas_v3.py",
+      "source_path": "src/radial_gas_v3.py",
+      "source_sha256": "b4c5ec1151288bae0dfff09d1d991f035558097dc885cc427ba95a92c9dc3b45",
+      "sha256": "b4c5ec1151288bae0dfff09d1d991f035558097dc885cc427ba95a92c9dc3b45"
+    },
+    {
+      "path": "src/render_v2.py",
+      "source_path": "src/render_v2.py",
+      "source_sha256": "f55536a25ff06875973d18c8155dfd8097e76e813d25431562525ed256f3776f",
+      "sha256": "f55536a25ff06875973d18c8155dfd8097e76e813d25431562525ed256f3776f"
+    },
+    {
+      "path": "src/render_v3.py",
+      "source_path": "src/render_v3.py",
+      "source_sha256": "bd1d193a268c5b973aadd6b9082322f73d9738bf2d0d08669b0d6c3aa3ae9af2",
+      "sha256": "bd1d193a268c5b973aadd6b9082322f73d9738bf2d0d08669b0d6c3aa3ae9af2"
+    },
+    {
+      "path": "src/render_v4.py",
+      "source_path": "src/render_v4.py",
+      "source_sha256": "1b740f693a8219795804ea1fb175052b326c476db3caa6b7ceedd98681c7132a",
+      "sha256": "1b740f693a8219795804ea1fb175052b326c476db3caa6b7ceedd98681c7132a"
+    },
+    {
+      "path": "src/reuse_no003.py",
+      "source_path": "src/reuse_no003.py",
+      "source_sha256": "8e7f98661dd85a84d403a03b8b4157a943fc0c94ba7d64915cdf85602e079c84",
+      "sha256": "8e7f98661dd85a84d403a03b8b4157a943fc0c94ba7d64915cdf85602e079c84"
+    },
+    {
+      "path": "src/reuse_no004.py",
+      "source_path": "src/reuse_no004.py",
+      "source_sha256": "fe1119c1672bf0cf3ba3da68e601c000b14c96bb302c86681a14e6e73b239c3b",
+      "sha256": "dfbd74542aa21296179b031b1fd6ef130d0e341f89b8bec68f2a48dc094f27da"
+    },
+    {
+      "path": "src/video_export.py",
+      "source_path": "src/video_export.py",
+      "source_sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+      "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f"
+    },
+    {
+      "path": "native/projector.swift",
+      "source_path": "native/projector.swift",
+      "source_sha256": "c860f943b860d6d0170a85b1bfcc9b1c5457c1fe41806581c36ea3d840c28597",
+      "sha256": "c860f943b860d6d0170a85b1bfcc9b1c5457c1fe41806581c36ea3d840c28597"
+    },
+    {
+      "path": "native/projector.metal",
+      "source_path": "native/projector.metal",
+      "source_sha256": "5615661aee00160f344e8783d9dd82265d016b452d6c5b58a61d8d3cb7e007c0",
+      "sha256": "5615661aee00160f344e8783d9dd82265d016b452d6c5b58a61d8d3cb7e007c0"
+    },
+    {
+      "path": "production/CAMERA-CONTINUITY.json",
+      "source_path": "production/CAMERA-CONTINUITY.json",
+      "source_sha256": "05d9e0b96c81293df9ce2ae25f6c09f1fa855ad47bc4241e80d242142c813475",
+      "sha256": "05d9e0b96c81293df9ce2ae25f6c09f1fa855ad47bc4241e80d242142c813475"
+    },
+    {
+      "path": "production/CAMERA-REVISION.json",
+      "source_path": "production/CAMERA-REVISION.json",
+      "source_sha256": "f4dd06f36a218716fcda1580e150fcdb3e8d18635a171eefe30c704d24b2db7b",
+      "sha256": "f4dd06f36a218716fcda1580e150fcdb3e8d18635a171eefe30c704d24b2db7b"
+    },
+    {
+      "path": "production/CONFIG.json",
+      "source_path": "production/CONFIG.json",
+      "source_sha256": "8a1d1ec98f3a92d06b9efbc0c0fd1f946b26111e137274de2ffdd69516c79f15",
+      "sha256": "8a1d1ec98f3a92d06b9efbc0c0fd1f946b26111e137274de2ffdd69516c79f15"
+    },
+    {
+      "path": "production/GIANT-CELLS-REVISION.json",
+      "source_path": "production/GIANT-CELLS-REVISION.json",
+      "source_sha256": "83ee3352088536084c4e20cb09d626375abf2c74aa6bb0f827ee3f6d0357d154",
+      "sha256": "83ee3352088536084c4e20cb09d626375abf2c74aa6bb0f827ee3f6d0357d154"
+    },
+    {
+      "path": "production/GIANT-CELLS-WORKER-REPAIR.json",
+      "source_path": "production/GIANT-CELLS-WORKER-REPAIR.json",
+      "source_sha256": "6896cad4a8bb5e7d82ef738882189d7968accfb1a5ebc406ee66db7d29710209",
+      "sha256": "6896cad4a8bb5e7d82ef738882189d7968accfb1a5ebc406ee66db7d29710209"
+    },
+    {
+      "path": "production/PUBLICATION-ACCEPTANCE.json",
+      "source_path": "production/PUBLICATION-ACCEPTANCE.json",
+      "source_sha256": "38ba08c6005f9fe8d30cfebbd2aa2e22359f30ae4eab08a197101b367594e77f",
+      "sha256": "38ba08c6005f9fe8d30cfebbd2aa2e22359f30ae4eab08a197101b367594e77f"
+    },
+    {
+      "path": "production/PUBLICATION-SELECTION.json",
+      "source_path": "production/PUBLICATION-SELECTION.json",
+      "source_sha256": "d0df062c422248805546038ccd962e6ab1b82b20197021451dab171c866f713c",
+      "sha256": "d0df062c422248805546038ccd962e6ab1b82b20197021451dab171c866f713c"
+    },
+    {
+      "path": "production/TEMPORAL-REVISION.json",
+      "source_path": "production/TEMPORAL-REVISION.json",
+      "source_sha256": "8963765cc09098c8b5dfad5e431c045bb61fe64c3b340fba409147d6053eedf2",
+      "sha256": "8963765cc09098c8b5dfad5e431c045bb61fe64c3b340fba409147d6053eedf2"
+    },
+    {
+      "path": "production/TEMPORAL-SAMPLING.json",
+      "source_path": "production/TEMPORAL-SAMPLING.json",
+      "source_sha256": "0e922f7b04b90cede51dfa7eafcf3345fd4f58b66b4a63a05a2116b2d953d203",
+      "sha256": "0e922f7b04b90cede51dfa7eafcf3345fd4f58b66b4a63a05a2116b2d953d203"
+    },
+    {
+      "path": "validation/giant-cells-feature-lifetimes.json",
+      "source_path": "validation/giant-cells-feature-lifetimes.json",
+      "source_sha256": "d290c2aa754a4837c8242099d17868385de33e89bd4a58c46c200f38da4c7759",
+      "sha256": "d290c2aa754a4837c8242099d17868385de33e89bd4a58c46c200f38da4c7759"
+    },
+    {
+      "path": "validation/giant-cells-final-checks.json",
+      "source_path": "validation/giant-cells-final-checks.json",
+      "source_sha256": "19a94530f96dcdc73fb81089a18dfd64c8e7eaf56edc906ec728dc7e0db430e4",
+      "sha256": "19a94530f96dcdc73fb81089a18dfd64c8e7eaf56edc906ec728dc7e0db430e4"
+    },
+    {
+      "path": "validation/giant-cells-sampling.json",
+      "source_path": "validation/giant-cells-sampling.json",
+      "source_sha256": "4144a2dc7d9f48eca1d6fef7cc5b9dcf084a735e48151bc814335623e7c865fd",
+      "sha256": "4144a2dc7d9f48eca1d6fef7cc5b9dcf084a735e48151bc814335623e7c865fd"
+    },
+    {
+      "path": "validation/production-metal-qualification.json",
+      "source_path": "validation/production-metal-qualification.json",
+      "source_sha256": "3e84d29d804f7a78245ca427f8719194445b6329791bb0e6da65013fe5ece34b",
+      "sha256": "3e84d29d804f7a78245ca427f8719194445b6329791bb0e6da65013fe5ece34b"
+    },
+    {
+      "path": "validation/publication-encoded-photometry.json",
+      "source_path": "validation/publication-encoded-photometry.json",
+      "source_sha256": "8a7841e7c4b17a03fe5850fbc251f81667ccede87a32d4a37beea63c2b772026",
+      "sha256": "8a7841e7c4b17a03fe5850fbc251f81667ccede87a32d4a37beea63c2b772026"
+    },
+    {
+      "path": "validation/publication-radius-179-180.json",
+      "source_path": "validation/publication-radius-179-180.json",
+      "source_sha256": "5a027ddc95d40574ef8abed5ba530272c0ed5513430e8e4fb0a817a77c99e96e",
+      "sha256": "5a027ddc95d40574ef8abed5ba530272c0ed5513430e8e4fb0a817a77c99e96e"
+    },
+    {
+      "path": "validation/publication-targeted-science.json",
+      "source_path": "validation/publication-targeted-science.json",
+      "source_sha256": "8327286746f7563ce99f3e33fa3db1b8a51be027303a3ab36e762285671910b1",
+      "sha256": "8327286746f7563ce99f3e33fa3db1b8a51be027303a3ab36e762285671910b1"
+    },
+    {
+      "path": "vendor/no003/luminous/src/luminous_render.py",
+      "source_path": "vendor/no003/luminous/src/luminous_render.py",
+      "source_sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1",
+      "sha256": "5b2ab8d37f5a0404f958faad0d8bb132d7d87f83e8cfa6f2f2a083b4287640b1"
+    },
+    {
+      "path": "vendor/no003/render_previews.py",
+      "source_path": "vendor/no003/render_previews.py",
+      "source_sha256": "9e842ec1311ef6dceb46c20c3139eac028b8a097356594e615815856b543f453",
+      "sha256": "9e842ec1311ef6dceb46c20c3139eac028b8a097356594e615815856b543f453"
+    },
+    {
+      "path": "vendor/no003/src/convective_response.py",
+      "source_path": "vendor/no003/src/convective_response.py",
+      "source_sha256": "1f1384492b757dfd8449e4b0984a5dfacc88d6cc51c5cd59efcf3e36d08990b6",
+      "sha256": "1f1384492b757dfd8449e4b0984a5dfacc88d6cc51c5cd59efcf3e36d08990b6"
+    },
+    {
+      "path": "vendor/no003/src/mode_model.py",
+      "source_path": "vendor/no003/src/mode_model.py",
+      "source_sha256": "6cd483d13ff98dacf7cd95040f7fe1a906e210c84a779496f00bacb993fb2290",
+      "sha256": "6cd483d13ff98dacf7cd95040f7fe1a906e210c84a779496f00bacb993fb2290"
+    },
+    {
+      "path": "vendor/no003/src/visualization.py",
+      "source_path": "vendor/no003/src/visualization.py",
+      "source_sha256": "992697d88ec02f5f9d8efe1505f22f3def36f7d63f1c6f5b70a959ebf298c5ce",
+      "sha256": "992697d88ec02f5f9d8efe1505f22f3def36f7d63f1c6f5b70a959ebf298c5ce"
+    },
+    {
+      "path": "vendor/no003/src/white_dwarf.py",
+      "source_path": "vendor/no003/src/white_dwarf.py",
+      "source_sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5",
+      "sha256": "a952665f2de435f2adee033acac940ac7a6f3ac9743427aab282771bd00368c5"
+    },
+    {
+      "path": "vendor/no003/v220/src/final_renderer.py",
+      "source_path": "vendor/no003/v220/src/final_renderer.py",
+      "source_sha256": "e56dcaf9431ec433d4580776058d24f0ea3ecc3a072e883e99e461e7ba0bbb91",
+      "sha256": "e56dcaf9431ec433d4580776058d24f0ea3ecc3a072e883e99e461e7ba0bbb91"
+    },
+    {
+      "path": "vendor/no003/v220/src/surface_optics.py",
+      "source_path": "vendor/no003/v220/src/surface_optics.py",
+      "source_sha256": "ed98bbe1e4a6c3f0b0f77b35a0fd1c3175f5c8a4073bf6f46040db44a4089b42",
+      "sha256": "ed98bbe1e4a6c3f0b0f77b35a0fd1c3175f5c8a4073bf6f46040db44a4089b42"
+    },
+    {
+      "path": "vendor/no003/LICENSE",
+      "source_path": "vendor/no003/LICENSE",
+      "source_sha256": "63572bfed5e2f68a8e26785559ab070703a39b9cbd84f2872faf111a3747c484",
+      "sha256": "63572bfed5e2f68a8e26785559ab070703a39b9cbd84f2872faf111a3747c484"
+    },
+    {
+      "path": "vendor/no003/v220/config.json",
+      "source_path": "vendor/no003/v220/config.json",
+      "source_sha256": "b67470f24398b3effabbba78f379d4c5f84b62a4c07b8cffa0d112dbaaf2f368",
+      "sha256": "b67470f24398b3effabbba78f379d4c5f84b62a4c07b8cffa0d112dbaaf2f368"
+    },
+    {
+      "path": "vendor/no003/PROVENANCE.json",
+      "source_path": "vendor/no003/PROVENANCE.json",
+      "source_sha256": "e04d9e022f8badf2c91cfb73460210549995398e93f128927c244135dfd32a04",
+      "sha256": "e04d9e022f8badf2c91cfb73460210549995398e93f128927c244135dfd32a04"
+    },
+    {
+      "path": "vendor/no003/DATA-CREDITS.md",
+      "source_path": "vendor/no003/DATA-CREDITS.md",
+      "source_sha256": "f95a2f5cd9befafd127ea2f4ec7ae3d7a7853e473c3651544e64b20c0cafcb25",
+      "sha256": "f95a2f5cd9befafd127ea2f4ec7ae3d7a7853e473c3651544e64b20c0cafcb25"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "source_path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "source_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv_metadata.json",
+      "source_path": "data/spectral/CIE_xyz_1931_2deg.csv_metadata.json",
+      "source_sha256": "f08c934713c00ca3eb3bcb98ed006df9d88df36b87edcf8d5e85e10938029e69",
+      "sha256": "f08c934713c00ca3eb3bcb98ed006df9d88df36b87edcf8d5e85e10938029e69"
+    },
+    {
+      "path": "data/atomic/pyneb-v3.json",
+      "source_path": "data/atomic/pyneb-v3.json",
+      "source_sha256": "90ea1a78aa6eb4b7eace384d4185ce25ae8bfb11b038f9aaebf2dd9a8cee590f",
+      "sha256": "90ea1a78aa6eb4b7eace384d4185ce25ae8bfb11b038f9aaebf2dd9a8cee590f"
+    },
+    {
+      "path": "data/atomic/recombination-sources.json",
+      "source_path": "data/atomic/recombination-sources.json",
+      "source_sha256": "255dbe57c456502dff8517e075966d381e428ca3f98c9c5f37c7282683090a51",
+      "sha256": "255dbe57c456502dff8517e075966d381e428ca3f98c9c5f37c7282683090a51"
+    },
+    {
+      "path": "data/atomic/verner-1996-photo.json",
+      "source_path": "data/atomic/verner-1996-photo.json",
+      "source_sha256": "6dc775a2d59bb4f6556542fdc430f7bbcb10c452b54b3983112d540be0d33e27",
+      "sha256": "6dc775a2d59bb4f6556542fdc430f7bbcb10c452b54b3983112d540be0d33e27"
+    },
+    {
+      "path": "data/atomic/pyneb-v3.npz",
+      "source_path": "data/atomic/pyneb-v3.npz",
+      "source_sha256": "1e7a00ca011c44d97e236358b00b5c718236d3ba7eb09696a78eb1fb26b43965",
+      "sha256": "1e7a00ca011c44d97e236358b00b5c718236d3ba7eb09696a78eb1fb26b43965"
+    },
+    {
+      "path": "requirements.txt",
+      "source_path": "requirements.txt",
+      "source_sha256": "aa14130bdf24735b16c0dd916f89d0bbe395f2d9d460ee6bde78ca94f08a35f6",
+      "sha256": "aa14130bdf24735b16c0dd916f89d0bbe395f2d9d460ee6bde78ca94f08a35f6"
+    },
+    {
+      "path": "requirements-research.txt",
+      "source_path": "requirements-research.txt",
+      "source_sha256": "c1bcc072fafc5bf3a123ded8dfdd1879c5f5828783fe17d3f75be71a6a65bcf5",
+      "sha256": "c1bcc072fafc5bf3a123ded8dfdd1879c5f5828783fe17d3f75be71a6a65bcf5"
+    },
+    {
+      "path": "data/provenance.json",
+      "source_path": "data/provenance.json",
+      "source_sha256": "6c3e4b0691e08c62614b584af32093f4f6b6bf84779194a939999c1c326aedf0",
+      "sha256": "6c3e4b0691e08c62614b584af32093f4f6b6bf84779194a939999c1c326aedf0"
+    },
+    {
+      "path": "data/evolution/clock-v3.csv",
+      "source_path": "data/evolution/clock-v3.csv",
+      "source_sha256": "599d8019ea9884b73c6702c6bd9dd787bd589c5deda04e901cb9669ae3c32bd4",
+      "sha256": "599d8019ea9884b73c6702c6bd9dd787bd589c5deda04e901cb9669ae3c32bd4"
+    },
+    {
+      "path": "data/selected-frame-ledger.json.gz",
+      "source_path": "data/selected-frame-ledger.json.gz",
+      "source_sha256": "b3ee80eea8a4a1805ab9d0c7cdb248493a64afb4193697d3229e85a3193b2b21",
+      "sha256": "b3ee80eea8a4a1805ab9d0c7cdb248493a64afb4193697d3229e85a3193b2b21"
+    }
+  ],
+  "portability_changes": {
+    "scope": "One sibling-directory locator in reuse_no004.py; function/class bodies unchanged; private local_evidence metadata removed in the accepted public package"
+  },
+  "validation_scope": "Archived original evidence plus consolidation checks; no new full physical simulations or full movie rerenders"
+}

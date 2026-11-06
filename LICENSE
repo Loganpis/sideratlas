@@ -1,0 +1,35 @@
+SIDERATLAS — collection licensing
+
+This repository is a collection of independently licensed components. There is
+no single license grant for every file, dataset and rendered movie.
+
+001-black-hole: the selected original release declares no general code or
+media license. Publication here grants no additional reuse permission. See
+its THIRD-PARTY-NOTICES.md for font terms.
+
+002-pulsar: project software is GPL-2.0; see episodes/002-pulsar/LICENSE and
+NOTICE. COFFEE and its dependencies retain their upstream notices. Its media
+and caption remain all rights reserved. The GPL component is independent;
+its code is not incorporated into the MIT episode implementations.
+
+003-white-dwarf: original code is MIT, with separate GYRE GPLv3/WDEC notices
+for supplied equilibrium inputs and separate data/font terms. See the episode
+LICENSE, licenses/ and METHODS.md. Atmosphere tables/integration caches remain
+external; this collection grants no new rights to those inputs.
+
+004-main-sequence-star, 005-stellar-merger, 006-planetary-nebula:
+original code/documentation and author-generated numerical outputs retain
+their episode MIT notices. This does not license external datasets, fonts or
+rendered media. Dataset attribution and redistribution restrictions remain
+in the episode documentation and manifests.
+
+shared/video_export.py: unchanged No.004 encoder, MIT; see shared/LICENSE.
+shared/fonts/: unmodified Latin Modern GUST/LPPL fonts and STIX Two Math OFL;
+all original notices and source inventories are retained beside the fonts.
+CIE 1931 CSV/metadata: unmodified CC BY-SA 4.0 data, separately attributed in
+the episode methods. No permission for data is inferred from a software license.
+
+Original movies, thumbnails and captions retain their previously stated
+media rights. No new blanket media license is granted. Paper citations do
+not authorize redistribution or imply endorsement. No paper PDFs, NASA footage,
+raw Bifrost cubes, compiler binaries or private requested datasets are bundled.

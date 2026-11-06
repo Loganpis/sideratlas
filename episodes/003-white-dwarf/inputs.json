@@ -1,0 +1,145 @@
+{
+  "archives": [
+    {
+      "name": "no003-cellular-input.zip",
+      "url": "https://github.com/Loganpis/sideratlas/releases/download/no003-v1.0.0/no003-cellular-input.zip",
+      "sha256": "4edd9a0c50c22be26736d746df9f7b5fe0cfa1d301fc596e4bee35a6d9afbf95",
+      "bytes": 5624665,
+      "format": "zip",
+      "files": [
+        {
+          "member": "v220/data/cellular-catalog.npz",
+          "path": "v220/data/cellular-catalog.npz",
+          "bytes": 5624507,
+          "sha256": "677552c4a28d5f16a5e94659bcef4b6ea86a41a24e202a1579c0508b9b7d9e98"
+        }
+      ],
+      "rights": "Original project numerical output"
+    },
+    {
+      "name": "sideratlas-white-dwarf-v2.2.0.zip",
+      "url": "https://github.com/Loganpis/sideratlas-white-dwarf/releases/download/v2.2.0/sideratlas-white-dwarf-v2.2.0.zip",
+      "sha256": "79f33e834f6fd0977aed5d798d9da4e8fcb2f1cb6c4f2788058df05c339d47c8",
+      "bytes": 42106397,
+      "format": "zip",
+      "files": [
+        {
+          "member": "sideratlas-white-dwarf/data/claret-2020-ReadMe.txt",
+          "path": "data/claret-2020-ReadMe.txt",
+          "bytes": 15030,
+          "sha256": "9740c37586b5d149cf270d514fbe7f68aa6aabcbac3f8afedbe3e04fa56fbb1d"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/claret-2020-a4.dat",
+          "path": "data/claret-2020-a4.dat",
+          "bytes": 240352,
+          "sha256": "e9b2bfa2be831b152970d8b49f7158d6cbcde0d51d60b1daa22985985cccfd7f"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/colour-cache.npz",
+          "path": "data/colour-cache.npz",
+          "bytes": 242092,
+          "sha256": "b37ca577187d6fc4fb8ed44dbf651dfd8f48eae0e374444fd0ffabdf10f8679f"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11000-g7.75.txt",
+          "path": "data/koester-T11000-g7.75.txt",
+          "bytes": 148657,
+          "sha256": "62d23ad51ff614ce5a9188803601e8202fbd4c635e6592dbbd41c3c13e9e3a22"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11000-g8.txt",
+          "path": "data/koester-T11000-g8.txt",
+          "bytes": 147466,
+          "sha256": "5fb4ad8b6829659e644f299918acd7980df77d4f3da28a5388d3c6ac8aed6964"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11250-g7.75.txt",
+          "path": "data/koester-T11250-g7.75.txt",
+          "bytes": 147370,
+          "sha256": "26e3031676593136b894db3dddd3cb3e1eee264f8334a039496dae0ca240e560"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11250-g8.txt",
+          "path": "data/koester-T11250-g8.txt",
+          "bytes": 146047,
+          "sha256": "1f1cfaa1179c84756f7671083fb26d0452c368f99ff903729e5d66ad14da90eb"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11500-g7.75.txt",
+          "path": "data/koester-T11500-g7.75.txt",
+          "bytes": 145951,
+          "sha256": "dd1875d01ca1f3b082d44933e88218426aaaa8757ab08d460731212cf2a85427"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11500-g8.25.txt",
+          "path": "data/koester-T11500-g8.25.txt",
+          "bytes": 144763,
+          "sha256": "69c80ca8de36348de1d4f9834b62c6aa624da36ebef9227eb3a9188632f5f81a"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11500-g8.txt",
+          "path": "data/koester-T11500-g8.txt",
+          "bytes": 146014,
+          "sha256": "dee5cd5e38658c2eddcf5cb7ce6c910d2bda4d58f76a7b3830ddf65060859a49"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11750-g8.25.txt",
+          "path": "data/koester-T11750-g8.25.txt",
+          "bytes": 142618,
+          "sha256": "b993dc436eff56cd18851007f04c12c46f43ab2fc383b54c091210ca31562751"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T11750-g8.txt",
+          "path": "data/koester-T11750-g8.txt",
+          "bytes": 145948,
+          "sha256": "97f4b9a90eb28f6cdf79f0811d080ef4f486c902b8fa7b6e8ffab4422be2d9aa"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T12000-g8.25.txt",
+          "path": "data/koester-T12000-g8.25.txt",
+          "bytes": 142420,
+          "sha256": "cca7c38a2381fc473871e4962d7d902653bee83fad6fb2a6e644a0b372a4ddea"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T12000-g8.txt",
+          "path": "data/koester-T12000-g8.txt",
+          "bytes": 144727,
+          "sha256": "7fe04920db50ed6d15f0aaf4d52f95aecdb64c0504ad43a35a492a521f163198"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T12250-g8.25.txt",
+          "path": "data/koester-T12250-g8.25.txt",
+          "bytes": 141925,
+          "sha256": "76998100b812c77e4d6525e229f112df685c1c64c17a8a68acc801b97ae5f1cb"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T12250-g8.txt",
+          "path": "data/koester-T12250-g8.txt",
+          "bytes": 144166,
+          "sha256": "cd3878c7b13a1280128f6aee871421fa562cec4a51a174bb6cc09b55549e0db2"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T12500-g8.25.txt",
+          "path": "data/koester-T12500-g8.25.txt",
+          "bytes": 142189,
+          "sha256": "52faae114336469b66ab0fa051f6d381ac503a74b6516f0d4b2465717cd107c4"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/koester-T12500-g8.txt",
+          "path": "data/koester-T12500-g8.txt",
+          "bytes": 145057,
+          "sha256": "aa4c9b894db4e494f2fb360b8c1d1a583d832a9b5206e564f181eee900bcdc82"
+        },
+        {
+          "member": "sideratlas-white-dwarf/data/research-colour-cache.npz",
+          "path": "data/research-colour-cache.npz",
+          "bytes": 382743,
+          "sha256": "8ceb7c7af55d5b4e939e35062dc5b9fbc52392a98cdf2a8672f5b0dde5c9c2f4"
+        }
+      ],
+      "rights": "Existing third-party atmosphere inputs and derived integration caches: obtain under provider terms; no new redistribution or MIT grant in this repository"
+    }
+  ],
+  "note": "Raw atmosphere tables and their integration caches remain external. Numerical GYRE/WDEC structure/results and licensing are retained in Git."
+}

@@ -1,0 +1,23 @@
+{
+  "base_config_sha256": "8a1d1ec98f3a92d06b9efbc0c0fd1f946b26111e137274de2ffdd69516c79f15",
+  "scope": "Only camera response in8\u201310s and14\u201316s; all other native chunks reused without re-encoding; all physical snapshots/budgets must remain bit-exact",
+  "additional_sources": [
+    {
+      "path": "production/CAMERA-CONTINUITY.json",
+      "sha256": "05d9e0b96c81293df9ce2ae25f6c09f1fa855ad47bc4241e80d242142c813475"
+    },
+    {
+      "path": "src/production_camera_fix.py",
+      "sha256": "c6240c0fbd36bb3fe0bb0722730b9bfa3aef7256c1fcdca6fbbf2240c731198c"
+    },
+    {
+      "path": "scripts/render_camera_continuity.py",
+      "sha256": "4bfedd75ce500589c3cee2eb1159a53a8bfea0708cddef6ad496e89aeb049995"
+    }
+  ],
+  "changed_chunks": [
+    4,
+    7
+  ],
+  "frozen": true
+}

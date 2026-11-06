@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-06T15:52:19.361478+00:00",
+  "baseline_file": "output/production/SiderAtlas-No006-The-Planetary-Nebula-SURFACE-FINAL-1080x1920.mp4",
+  "baseline_sha256": "d89b2a6f493a8ae0d245d671909876d9b61fb046968a979cb71f15027d78305e",
+  "sources": [
+    {
+      "path": "src/giant_convection.py",
+      "sha256": "b7e7c83396aa9a350cb98599f69a8809380226a4cd61ce9846f535e7c4dd4440"
+    },
+    {
+      "path": "src/production_giant_cells.py",
+      "sha256": "19a6cd5014a8c9f66c2c0ce5cbae9e8c57a90227f9c6175edfa0c4dad968d47a"
+    },
+    {
+      "path": "scripts/render_giant_cells.py",
+      "sha256": "3e94a90f5ff1da389514088d23c3fdaf72c9ba997c6ca63b6f2cf7df57178407"
+    }
+  ],
+  "scope": "New statistical evolved-star surface only; persistent spherical cells; preserve physical evolution, radius repair, camera, gas, ionization, opacity and optical pipeline",
+  "native_diagnostics_before_selection": true,
+  "spatial_sampling": [
+    769,
+    1536
+  ],
+  "random_seed": 6006,
+  "surface_populations": [
+    "main cells",
+    "weak larger cells",
+    "short-lived fine cells"
+  ],
+  "rejected_first_trial": "archive/giant-cell-prototype-v1/"
+}
