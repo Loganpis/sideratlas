@@ -95,5 +95,15 @@
       "960 frames",
       "32 seconds"
     ]
+  },
+  "clean_checkout": {
+    "passed": true,
+    "source_link_audit": true,
+    "relative_links_checked": 142,
+    "tracked_files": 412,
+    "pulsar_tests": 63,
+    "white_dwarf_external_inputs_restored_and_hash_checked": true,
+    "environment": "Existing Python 3.12 numerical environment; fresh Git checkout, not six newly built dependency environments",
+    "full_six_movies_rerendered": false
   }
 }

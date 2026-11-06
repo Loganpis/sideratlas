@@ -35,6 +35,8 @@ cd sideratlas
 python3 tools/check_release.py
 ```
 
+A fresh local Git clone passed the complete static audit and all 63 pulsar tests. Its external white-dwarf input restoration also passed individual-file hashes. These checks used the existing Python 3.12 environment; six fresh dependency environments and six full native rerenders were not performed.
+
 Each episode README provides its own rendering procedure. The input restorer never launches a physical solver. It refuses changed existing inputs, validates archive and individual-file hashes, and extracts only listed members. No.006 also refuses automatic replacement of a missing selected ionization history.
 
 Original donor/SPH experiments and rejected visual candidates remain in local development storage, outside this repository. Existing public repositories and release URLs remain intact pending an approved migration; a normal deletion commit would not remove historical blobs.
