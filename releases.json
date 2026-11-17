@@ -130,5 +130,24 @@
     "title": "THE PLANETARY NEBULA",
     "tag": "no006-v1.0.0",
     "url": "https://github.com/Loganpis/sideratlas/releases/download/no006-v1.0.0/SiderAtlas-No006-The-Planetary-Nebula-GIANT-CELLS-1080x1920.mp4"
+  },
+  {
+    "number": "007",
+    "repo": null,
+    "original_filename": "SiderAtlas-No007-The-Spiral-Galaxy-32s-1080x1920.mp4",
+    "sha256": "28b3432886d3c5f22d8a5d1756a876e7ae5a17ba676eb4d97c134eecd6a5578e",
+    "bytes": 91959727,
+    "validated_format": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 960,
+      "seconds": 32
+    },
+    "complete_decode_passed": true,
+    "path": "episodes/007-spiral-galaxy",
+    "title": "THE SPIRAL GALAXY",
+    "tag": "no007-v1.0.0",
+    "url": "https://github.com/Loganpis/sideratlas/releases/download/no007-v1.0.0/SiderAtlas-No007-The-Spiral-Galaxy-32s-1080x1920.mp4"
   }
 ]

@@ -10,6 +10,7 @@ The exact accepted movies are authoritative artifacts. Consolidation preserves t
 | 004 | Source/configuration preserved; large external MHD inputs must be reconstructed; full transfer and native film not repeated here |
 | 005 | Cached gas workflow tested originally; two Bifrost-derived surface inputs remain unredistributed; public clone alone cannot render the complete scene |
 | 006 | Frozen radial/photon histories are separate assets; external MIST/rate/No.004 inputs required; rebuilt Metal projector passed a bounded CPU comparison; full movie not rerendered here |
+| 007 | Selected source/configuration and small optical inputs included; large numerical histories remain local; regenerating the calculation is possible but full clean-checkout film reproduction was not performed |
 
 Consolidation measurements: [validation.json](validation.json).
 
@@ -44,3 +45,11 @@ Original donor/SPH experiments and rejected visual candidates remain in local de
 ## Permanent-cleanup qualification
 
 The exact selected pulsar field, original calculated white-dwarf integration caches and permitted stellar-merger input asset are hosted by the corresponding unified releases. No active input URL depends on an individual SiderAtlas repository. Original provider attributions and unresolved external surface-data limits remain explicit. Scientific callable bodies are preserved; the white-dwarf fixed-atmosphere data interface is checked against original pixels without access to raw model tables.
+
+## No.007 release checks
+
+The accepted trailing22 movie is unchanged: 1080 × 1920, 30 fps, 960 frames and 32 seconds. The original complete-file decode checks timestamps, source budgets, foreground labels, section joins and exact reuse of the 120-frame native test. The new publication check independently read all 960 frames and verified the accepted SHA-256. The cover is frame 480 from this exact export.
+
+The original strict central any-channel ceiling check remains false (1.352% versus 1%). The user explicitly accepted the diagnosed cream-colored gamut normalization; no other failed check was waived. Numerical controls are internal tests of an externally forced model, not a live self-gravitating galaxy or agreement with observations.
+
+The portable source preserves 40 numerical callable bodies, the physical source stage and the complete integration loop. Bounded force, lookup, native initialization, camera and original cached-history comparisons pass. No new physical run, image or movie was generated, and no full clean-checkout regeneration is claimed. Large numerical histories are not tracked. Details and practical commands are in the [episode README](episodes/007-spiral-galaxy/README.md); compact measurements are under `spiral_galaxy` in [validation.json](validation.json). Earlier episode data and source are unchanged.

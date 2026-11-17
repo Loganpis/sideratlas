@@ -1,0 +1,211 @@
+{
+  "sha256": "28b3432886d3c5f22d8a5d1756a876e7ae5a17ba676eb4d97c134eecd6a5578e",
+  "bytes": 91959727,
+  "selected_model": "trailing22",
+  "release_tag": "no007-v1.0.0",
+  "source_identification": "Original production identified by source-file SHA-256, not a separate Git revision. This release commits the selected portable dependency closure.",
+  "original_production_input_manifest_sha256": "4b0036b7e04652a3356622fc84d1034441155df49c3cdd2d6d65befc5b535409",
+  "original_source_files": {
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/dynamics.py": "4d68dcd7186a5d780415113a62f51e0c06a343b0ca17bb58bb87ce9bea415f30",
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/gas.py": "b8c5c800bcd01273d6bce301ca70e8b711190cdb1ca59bc3f2aebcdd1ff07c4e",
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/iteration2/cohorts.py": "0b60866cecf8b5ee0d3b703a2318c4d87ffd3739e7fdd01d779a0733116879c3",
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/iteration2/gravity.py": "7004b84e619ef7861818ce565e1eb8e416ff04ebfcc40d06bbffc4f60009479b",
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/iteration5/models.py": "9ee0f8bcbf361cc8ccf686d32ee12ebce88e7d47c196918bc395bec958aa4a90",
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/iteration5/run.py": "5a77d15a9ce69f12f7d86857cdc098d4bce601933f531bbf02702627b6f457d1",
+    "calculations/iteration5/response-trailing22-100000-512/source-at-run/src/starformation.py": "708e91d66117bbbb80e8baa12f199db5d2651bdad0d840a1422bc051931a4dd2",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/audit.py": "b75b5ad4b22f368edff5778776faaad3f3bfa2cf44e1428030a37c052bdcf13f",
+    "src/dynamics.py": "4d68dcd7186a5d780415113a62f51e0c06a343b0ca17bb58bb87ce9bea415f30",
+    "src/gas.py": "b8c5c800bcd01273d6bce301ca70e8b711190cdb1ca59bc3f2aebcdd1ff07c4e",
+    "src/iteration2/__init__.py": "fa39947bc004bc9147d9b4785f09119c3f89ecb9c5f3151942f0e52bfaee48f3",
+    "src/iteration2/audit.py": "b0f37415761684920eda665492d60cb5b3a8d648bece9e8a3a0008350ead94a5",
+    "src/iteration2/cohorts.py": "0b60866cecf8b5ee0d3b703a2318c4d87ffd3739e7fdd01d779a0733116879c3",
+    "src/iteration2/diagnose.py": "8d17787e6a06d4e576b1290e93b4399be4460bd14c5c5537a7efe9392db79bb6",
+    "src/iteration2/gas_controls.py": "d378a27039d7f429da8d39c766fab7208dd691d529e93b4da2f0f88c8178c900",
+    "src/iteration2/gravity.py": "7004b84e619ef7861818ce565e1eb8e416ff04ebfcc40d06bbffc4f60009479b",
+    "src/iteration2/pilot.py": "c7c1912d561dfb2be80f44bffdac39672ef05648595a7413fb4632eb55285d78",
+    "src/iteration2/populations.py": "415e427a012ebad5297dec0562887b4f41adfd4a400fbbe07b2eb0f61caabef6",
+    "src/iteration2/preview_qa.py": "10bcf8f7834cb4ae137e8c3f2494c09dcd8a4ba862a3696c08306a1b033e5bc4",
+    "src/iteration2/render.py": "724def948e2785eacc7a2d16466b9be83d7639b297b43afb7b30b6648cc67987",
+    "src/iteration2/render_controls.py": "4c67920aacffed823fe78e0cdd7323600def11dc1f9a1129b83ff380363e2996",
+    "src/iteration2/run.py": "80831e75d12d33f72dd5452accec445ed720f35fc1685c9a9bd85c9c7f994dfc",
+    "src/iteration2/stellar_controls.py": "c28b754071b68937b51022bf13fe6d800b70662d477109dadacb5297e51efff5",
+    "src/iteration2/transfer_controls.py": "31a4df12423e18981f885f9f9c7b2c88f3ee6a34cc64e235adccf0624d7b4520",
+    "src/iteration2/visual_probe.py": "c8858fe26ff4f8620f13063db002a84f008fc9df5bb6ac8abca451fc830a7158",
+    "src/iteration3/__init__.py": "59eb9ca7fee1cd2a486c233d7fd148188983091c306fda3e732516b1ad2d67c6",
+    "src/iteration3/controls.py": "8dafeaa31282be5167ebf23b7aaab2c2a5a94ae364eb6b0e11930a7e04f52ffe",
+    "src/iteration3/diagnose.py": "5c6d15eb7127d8b38e42275a1b79c38a1925a86b4c656383a13b7c6594318627",
+    "src/iteration3/preview_qa.py": "eb13c54e17640ab5c00b14363a2ad04c999bee71226fd829d7645e5b9451e95b",
+    "src/iteration3/render.py": "386b485631a69bd375e5f85839b09ee8c6adb37e279b167f930d02044d18d4ad",
+    "src/iteration4/__init__.py": "4dab37f34e115ef03916557e399b9c74ca792de224a7290972bffada1aefc4d6",
+    "src/iteration4/components.py": "0729f1a0b93ab53e1fcee58ea974fc9a53889e07e06bc150ce0d76853092e252",
+    "src/iteration4/controls.py": "2a770726b705f0741457a766b626e46c825fdd15caa58496767763e7f4e48466",
+    "src/iteration4/frozen.py": "15ccde657f6bddcdbd6328d540afd618b413dd5c7bf7a2ce2c887df0e55972e6",
+    "src/iteration4/render.py": "4585f1596da10146326fdab3a42d8583e8038dae8469ac7f11118fc6f63e6d4d",
+    "src/iteration4/review.py": "11515bcfb8c474dfe12f5fa88f5b6316482c3f9248f55bc3cf9ce88d47cd0174",
+    "src/iteration5/__init__.py": "8500e8eb501f805587e8eec9a416e794ad26d1de771acd0f81074cf5a506c61f",
+    "src/iteration5/amplitude_probe.py": "544482f865fb96f86267320c317e6e63de80ae9b583340846d7e7c59c98091d9",
+    "src/iteration5/audit.py": "50f62b7e7eac52239a11984e9d901c6391c2372b09d7d2d1fcf2ca570526cf8d",
+    "src/iteration5/controls.py": "e11a6cd4262c53af6d294d0fc0588ec815bf149d32f44065919fd84b80dd402e",
+    "src/iteration5/diagnose.py": "c9e33b23cf727266b7e5c1f5fe9f325921587b74a4b9246a8e85c6b6bfb563bf",
+    "src/iteration5/figures.py": "a01b3076fcd8fb9b3e3adf5be5ba25c3c2bfc033340a949726932ccf772b4aae",
+    "src/iteration5/models.py": "9ee0f8bcbf361cc8ccf686d32ee12ebce88e7d47c196918bc395bec958aa4a90",
+    "src/iteration5/morphology.py": "fd8ccf5be7e6f8022fde7ff055b9febedd6914af96babdb36d940bc8dc138f45",
+    "src/iteration5/preview_qa.py": "692496f4a4d7caedba3217541181399cec1722bdce17ce89899f18104cbf94d9",
+    "src/iteration5/render.py": "04beeaf9c60899c306f256db45b26d50ba0a595bfccc1394043076aa0abe5a09",
+    "src/iteration5/run.py": "5a77d15a9ce69f12f7d86857cdc098d4bce601933f531bbf02702627b6f457d1",
+    "src/iteration5/stellar_screen.py": "862e81c435a0628472a8c75e5afd21fd0236a0c5a9b20df02a883bcbe598e02f",
+    "src/populations.py": "f0d10ea861d2cc661f4c89cb1e63c9d995c0711512970d2033335e6daeb09a01",
+    "src/production/render.py": "475e35548b01f4b2ceab5c6e75b5ab2b54486c9a7295e9904e0df5228c18ba95",
+    "src/render.py": "2ad227c7e684a4aaa0788c305a917b18d8fcafb3bb17a1d4ac3da09f8a369066",
+    "src/reuse/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/reuse/spectrum.py": "e143fa2cf00fad8a09b8daea4ebe95d6504f2ba97ce1612578d2c1fc70a5b8a7",
+    "src/reuse/video_export.py": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f",
+    "src/simulate.py": "8b3cf39a7ffc261501917170b1d0d267228d5291abf240a1afab8ef6251026cb",
+    "src/starformation.py": "708e91d66117bbbb80e8baa12f199db5d2651bdad0d840a1422bc051931a4dd2",
+    "src/validate.py": "9f2831bbf4ec7a1e26054e9d59ad4c74917548a038ff50baf993330dbca47c6c"
+  },
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "12a506be71757b5b90805fdc003599f2f02acf484c64053269a89c5da61e1b33"
+    },
+    {
+      "path": "config.json",
+      "sha256": "53d47c4a065a73bc7b2b55ef2fd098514973e0dab6f416cb951f895e0f878bb6"
+    },
+    {
+      "path": "data/atomic/pyneb-v3.json",
+      "sha256": "d95f359ee43ad610ce7620789e31e088b9dfb0d42cb642eec7250f8645539c7d"
+    },
+    {
+      "path": "data/atomic/pyneb-v3.npz",
+      "sha256": "7aca9af5fd87b2cad117f1d3474f0cc3cba4b716bb6bf7852a6049eb9a751e07"
+    },
+    {
+      "path": "data/optical.npz",
+      "sha256": "83ea80d3ab37130773584906611e6d5e72ab48da2d9cf4e3f0196b235df0a6dd"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv",
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+    },
+    {
+      "path": "data/spectral/CIE_xyz_1931_2deg.csv_metadata.json",
+      "sha256": "f08c934713c00ca3eb3bcb98ed006df9d88df36b87edcf8d5e85e10938029e69"
+    },
+    {
+      "path": "fonts/lmroman10-regular.otf",
+      "sha256": "1aa18cfefa58132c52ce5de70db1fd1154201c19cd2b2cdaffba4906a33e6852"
+    },
+    {
+      "path": "fonts/lmroman12-bold.otf",
+      "sha256": "28c8782ac2b6486958b5dc7610ada7800c53546ff7f36bc65909a876e1cd338e"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "fb1018f14e76adf4cb5dcb40174fb835e3c738dafd1bcc976a509cd3115a9259"
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "5dacd46d93c5ed48aa1640e2733a13186c373822b2ed5f5d0db8d4a48a758743"
+    },
+    {
+      "path": "src/camera.py",
+      "sha256": "b93878acf610ab2e892efa2066652f8a54dd7bb3a9dc21aeb76ed43fef17ed7b"
+    },
+    {
+      "path": "src/dynamics.py",
+      "sha256": "d6ab12247b8ec7e6c623ee49e06ea9a3721cf360dadffa991311adac054299ba"
+    },
+    {
+      "path": "src/gas.py",
+      "sha256": "b44d47fc41a348ec811d8ee8246cb6d1be2316322fe75e32a07286ac75b6075d"
+    },
+    {
+      "path": "src/history.py",
+      "sha256": "91e518b3e1c6e33519496dfefb65520ba85aab655a4470f75ae10e5986171a00"
+    },
+    {
+      "path": "src/optics.py",
+      "sha256": "5b44f043d495345786ad1f20793caf937a4ff4a155fa3ebd923390d739325d3c"
+    },
+    {
+      "path": "src/populations.py",
+      "sha256": "96fcdbf31a28b196d8c187d55e266a2d8dfaa049243dcb7e00785fa2dcb9406e"
+    },
+    {
+      "path": "src/render.py",
+      "sha256": "394a8178f0c8682e8c239158d3cf413ea4476dea3da2e94d0eb116de98380411"
+    },
+    {
+      "path": "src/simulate.py",
+      "sha256": "6c41c3293a5fa89f352f0aa26cb1f5c7c3daccb94afc2a1b6a15ab15fe203f4b"
+    },
+    {
+      "path": "src/spectrum.py",
+      "sha256": "d264578b4f861fa4dd25b15bfa8e0f0582d91f2e11a0acc77f18502ddb703c79"
+    },
+    {
+      "path": "src/spiral.py",
+      "sha256": "74b49c65f45fa74be037e5cf0109426c2b037b922a87ac9b2cd3570f3dbc22a2"
+    },
+    {
+      "path": "src/starformation.py",
+      "sha256": "44493c001735ab67cac5929b550ce515b31e49d98e9b2c9608bef6de0dc74a0e"
+    },
+    {
+      "path": "src/transfer.py",
+      "sha256": "7c95e4f74dc2e15a913a47c5706031da0974992ff4740cc205d5c6e6396afe21"
+    },
+    {
+      "path": "src/video_export.py",
+      "sha256": "21dae3c39be3bf61ecd1c4337e6341fe3862a9e4fbed4df5b6f00aacea69499f"
+    }
+  ],
+  "adaptations": [
+    "Portable relative paths and canonical shared encoder/font links",
+    "Only selected model and camera; removed unused candidate dispatch and discarded display passes",
+    "Linear-light source and shutter stages combined without changing active arithmetic",
+    "Simulation preflight paths use selected configuration; full original integration loop and its numerical thresholds retained",
+    "Hydrogen-only subset of the original calculated coefficient table; arrays unchanged"
+  ],
+  "qualification": {
+    "passed": true,
+    "unchanged_callable_count": 40,
+    "physical_source_prefix_AST_identical": true,
+    "full_integration_loop_AST_identical": true,
+    "force_samples": 32,
+    "force_max_absolute_difference": 0.0,
+    "native_initialization_arrays_identical": [
+      "xx",
+      "yy",
+      "vel_samples",
+      "pos_samples",
+      "mass",
+      "cohort",
+      "text_alpha",
+      "text_rgb",
+      "wb",
+      "rv",
+      "omega",
+      "kappa"
+    ],
+    "camera_states_compared": 7,
+    "stored_history_epochs_compared": 3,
+    "rebuilt_population_and_line_arrays_exact": true,
+    "no_physical_simulation_started": true,
+    "no_image_rendered": true,
+    "no_movie_regenerated": true,
+    "full_clean_checkout_regeneration_performed": false,
+    "scope": "Publication refactor qualification only: callable/loop preservation, small force evaluations, original cached source/clock state, and small lookup reconstruction. No claim of a rerendered film or new astrophysical validation.",
+    "native_shutter_and_display_AST_identical_after_unwrap": true
+  },
+  "original_numerical_evidence_sha256": "5f26d95a565d2cf7fb2253a084282217ff1b02b773d9c0dec7ff129ebf689c1a",
+  "original_encoded_evidence_sha256": "3b9fc82682cd035f9d123188ecb16a6880f347eee4cd088b694357553b251357",
+  "cover": {
+    "origin": "Actual accepted encoded MP4 frame480 at16seconds, saved as JPEG",
+    "source_frame_png_sha256": "0348b23252ccddfc7e4efe8b1fb6cf41da164c2dc737c67a6d10858960073bf6"
+  },
+  "cache_policy": "Large trajectory/gas caches remain local. Source regeneration is supplied but full clean-checkout movie regeneration was not performed for publication."
+}

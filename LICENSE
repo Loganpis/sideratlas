@@ -18,7 +18,8 @@ LICENSE, licenses/ and METHODS.md. Raw atmosphere tables remain external; select
 fixed-model optical inputs are supplied with attribution. This collection
 grants no new rights to the providers’ raw atmosphere libraries.
 
-004-main-sequence-star, 005-stellar-merger, 006-planetary-nebula:
+004-main-sequence-star, 005-stellar-merger, 006-planetary-nebula,
+007-spiral-galaxy:
 original code/documentation and author-generated numerical outputs retain
 their episode MIT notices. This does not license external datasets, fonts or
 rendered media. Dataset attribution and redistribution restrictions remain

@@ -84,8 +84,8 @@
   },
   "all_final_movies": {
     "passed": true,
-    "count": 6,
-    "total_bytes": 317698477,
+    "count": 7,
+    "total_bytes": 409658204,
     "checks": [
       "exact accepted SHA-256",
       "complete decode",
@@ -143,5 +143,54 @@
     "physical_implementations_unchanged": true,
     "no_new_full_movie_render": true,
     "no_repository_backups_created": true
+  },
+  "spiral_galaxy": {
+    "accepted_export_sha256": "28b3432886d3c5f22d8a5d1756a876e7ae5a17ba676eb4d97c134eecd6a5578e",
+    "complete_decode_passed": true,
+    "validated_format": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 960,
+      "seconds": 32
+    },
+    "all120_native_test_frames_reused_exactly": true,
+    "monotone_correct_timestamps": true,
+    "duplicate_frames": [],
+    "temporal_jump_flags": [],
+    "max_source_luminosity_relative_error": 1.8606227669693e-12,
+    "physical_and_camera_checks_passed_except_display_flag": true,
+    "original_strict_QA_passed": false,
+    "display_exception": {
+      "criterion": "Central R<1kpc any RGB channel at ceiling",
+      "limit": 0.01,
+      "observed_max": 0.013520408163265307,
+      "user_accepted": true,
+      "interpretation": "Existing gamut normalization, not all-white clipping; original threshold and failure retained"
+    },
+    "numerical_controls": {
+      "stellar_half_step_p95_pc": 0.5277818277575543,
+      "common_500pc_gas_resolution_L1": 0.02706827032404697,
+      "grid_orientation_L1": 0.008290458912645515,
+      "all_original_checks_passed": true
+    },
+    "publication_source_checks": {
+      "passed": true,
+      "unchanged_callable_count": 40,
+      "physical_source_prefix_AST_identical": true,
+      "full_integration_loop_AST_identical": true,
+      "force_samples": 32,
+      "force_max_absolute_difference": 0.0,
+      "camera_states_compared": 7,
+      "stored_history_epochs_compared": 3,
+      "rebuilt_population_and_line_arrays_exact": true,
+      "no_physical_simulation_started": true,
+      "no_image_rendered": true,
+      "no_movie_regenerated": true,
+      "full_clean_checkout_regeneration_performed": false,
+      "scope": "Publication refactor qualification only: callable/loop preservation, small force evaluations, original cached source/clock state, and small lookup reconstruction. No claim of a rerendered film or new astrophysical validation.",
+      "native_shutter_and_display_AST_identical_after_unwrap": true
+    },
+    "scope": "Internal numerical/encoding and bounded publication-source checks. No new physical simulation, image render or full clean-checkout film regeneration. Not observational or live-galaxy validation."
   }
 }

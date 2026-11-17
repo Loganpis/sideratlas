@@ -1,0 +1,24 @@
+{
+  "pyneb_version": "1.1.32",
+  "units": "erg cm^3 s^-1; multiply by ne*n(ion), then divide by4pi for emissivity per sr",
+  "hydrogen_input": "h_i_rec_SH95.hdf5",
+  "arrays": [
+    "T",
+    "ne",
+    "ha",
+    "hb"
+  ],
+  "checks": {
+    "ha": {
+      "max_relative_interpolation_error": 0.00010595677215841093,
+      "at_10000K_100cm3": 3.53524661559251e-25
+    },
+    "hb": {
+      "max_relative_interpolation_error": 0.00033629931436796046,
+      "at_10000K_100cm3": 1.2346256361806316e-25
+    }
+  },
+  "original_full_table_sha256": "1e7a00ca011c44d97e236358b00b5c718236d3ba7eb09696a78eb1fb26b43965",
+  "subset_sha256": "7aca9af5fd87b2cad117f1d3474f0cc3cba4b716bb6bf7852a6049eb9a751e07",
+  "scope": "Unchanged hydrogen axes/coefficients selected from the original calculated table. No oxygen/nitrogen data or PyNeb software is included. Case-B coefficients do not calculate ionization structure or temperature."
+}

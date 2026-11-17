@@ -36,3 +36,6 @@ episodes/006-planetary-nebula/data/atomic/ldr.txt
 
 *.log
 **/.build/
+
+# Reconstructed No.007 physical histories and native exports
+episodes/007-spiral-galaxy/work/

@@ -34,7 +34,8 @@ def main():
                 links+=1
                 if not (p.parent/urllib.parse.unquote(t)).exists():problems.append('Missing link: '+rel+' -> '+t)
     episodes=json.loads((ROOT/'releases.json').read_text())
-    assert [e['number'] for e in episodes]==['001','002','003','004','005','006']
+    expected=sorted(p.name.split('-')[0] for p in (ROOT/'episodes').iterdir() if p.is_dir())
+    assert [e['number'] for e in episodes]==expected
     for e in episodes:
         p=ROOT/e['path'];j=json.loads((p/'provenance.json').read_text())
         if e['sha256']!=j['sha256'] or e['bytes']!=j['bytes']:problems.append('Video registry mismatch: '+e['number'])
